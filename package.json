@@ -1,0 +1,11 @@
+{
+  "name": "bean",
+  "version": "1.0.0",
+  "description": "Bean : Your Guide to Coffee Culture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
