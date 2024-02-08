@@ -1,56 +1,5 @@
 [
   {
-    "_id": "6399f71f71c0238ae6f3bbea",
-    "BusinessName": "Abbey Good Coffee",
-    "AddressLine2": "New Road",
-    "AddressLine3": "London",
-    "PostCode": "SE2 0AX",
-    "RatingValue": "4",
-    "Geocode_Longitude": 0.12035199999809,
-    "Geocode_Latitude": 51.4794273376465
-  },
-  {
-    "_id": "6399f71f71c0238ae6f3bdcd",
-    "BusinessName": "Blossom Garden",
-    "AddressLine2": "Abbey Wood",
-    "AddressLine3": "London",
-    "PostCode": "SE2 9HA",
-    "RatingValue": "0",
-    "Geocode_Longitude": 0.121862,
-    "Geocode_Latitude": 51.48992
-  },
-
-  {
-    "_id": "6399f71f71c0238ae6f3c00d",
-    "BusinessName": "Darjeeling Take Away",
-    "AddressLine2": "Eltham",
-    "AddressLine3": "London",
-    "PostCode": "SE9 2RL",
-    "RatingValue": "4",
-    "Geocode_Longitude": 0.08122,
-    "Geocode_Latitude": 51.45912
-  },
-  {
-    "_id": "6399f72071c0238ae6f3c5d4",
-    "BusinessName": "Morley's",
-    "AddressLine2": "London",
-    "AddressLine3": "",
-    "PostCode": "SE9 2RL",
-    "RatingValue": "AwaitingInspection",
-    "Geocode_Longitude": 0.081118,
-    "Geocode_Latitude": 51.459121
-  },
-  {
-    "_id": "6399f72071c0238ae6f3c718",
-    "BusinessName": "Oyla Ltd",
-    "AddressLine2": "London",
-    "AddressLine3": "",
-    "PostCode": "SE28 8SL",
-    "RatingValue": "Exempt",
-    "Geocode_Longitude": 0.127315,
-    "Geocode_Latitude": 51.5121146
-  },
-  {
     "_id": "6399f72071c0238ae6f3cbdd",
     "BusinessName": "The Ness Cafe",
     "AddressLine2": "London",
@@ -59,26 +8,6 @@
     "RatingValue": "5",
     "Geocode_Longitude": 0.133478,
     "Geocode_Latitude": 51.506094
-  },
-  {
-    "_id": "6399f72071c0238ae6f3cd6f",
-    "BusinessName": "1 Life Cafe",
-    "AddressLine2": "Donnington Road",
-    "PostCode": "NW10 3QX",
-    "RatingValue": "5",
-    "Geocode_Longitude": -0.231938,
-    "Geocode_Latitude": 51.54048,
-    "AddressLine3": "London"
-  },
-  {
-    "_id": "6399f72071c0238ae6f3cd72",
-    "BusinessName": "244 Cafe",
-    "AddressLine2": "London",
-    "PostCode": "NW10 4TD",
-    "RatingValue": "3",
-    "Geocode_Longitude": -0.240915,
-    "Geocode_Latitude": 51.53317,
-    "AddressLine3": ""
   }, 
   {
     "_id": "6399f72071c0238ae6f3cfa9",
