@@ -1,5 +1,5 @@
 import React from 'react';
-import coffeeImage from "./../assets/Image/coffee-jumbotron-img.jpg";
+import coffeeImage from "./../assets/Images/coffee-jumbotron-img.jpg";
 import './Jumbotron.css';
 
 const Jumbotron = () => {
