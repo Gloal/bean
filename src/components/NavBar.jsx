@@ -13,7 +13,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Products', 'Pricing', 'Blog'];
+const pages = ['Cafe Corner', 'Search', 'Add Reviews'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function NavBar() {
@@ -55,7 +55,7 @@ function NavBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            BEAN
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
@@ -111,7 +111,7 @@ function NavBar() {
               textDecoration: 'none',
             }}
           >
-            LOGO
+            BEAN
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
