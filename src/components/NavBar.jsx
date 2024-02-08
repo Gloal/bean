@@ -1,4 +1,6 @@
 import * as React from 'react';
+
+
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -13,8 +15,8 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
-const pages = ['Cafe Corner', 'Search', 'Add Reviews'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+const pages = ['Home','Cafe Corner', 'Search', 'Add Reviews'];
+const settings = ['Phone', 'Email', 'Address', 'Instagram'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -38,7 +40,7 @@ function NavBar() {
   return (
     <AppBar position="static">
       <Container maxWidth="xl">
-        <Toolbar disableGutters>
+        <Toolbar className='toolbar' disableGutters>
           
           <Typography
             variant="h6"
@@ -67,8 +69,8 @@ function NavBar() {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
-              <Avatar alt="Remy Sharp" src="/assets/Images/logo1.jpg" />
-              <MenuIcon />
+             { /* <Avatar alt="Remy Sharp" src="./../assets/Images/logo1.png" /> */ }
+             <Avatar src='./../assets/Images/logo1.png'></Avatar>
             </IconButton>
             <Menu
               id="menu-appbar"
@@ -129,7 +131,7 @@ function NavBar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="Remy Sharp" src="/assets/Images/contact1.jpg" />
+                <Avatar src='./../assets/Images/contact1.png'></Avatar>
               </IconButton>
             </Tooltip>
             <Menu
