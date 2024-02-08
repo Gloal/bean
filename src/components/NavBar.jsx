@@ -39,7 +39,7 @@ function NavBar() {
     <AppBar position="static">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
-          <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} />
+          
           <Typography
             variant="h6"
             noWrap
@@ -67,6 +67,7 @@ function NavBar() {
               onClick={handleOpenNavMenu}
               color="inherit"
             >
+              <Avatar alt="Remy Sharp" src="/assets/Images/logo1.jpg" />
               <MenuIcon />
             </IconButton>
             <Menu
