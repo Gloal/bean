@@ -8,6 +8,7 @@ import Form from './components/Form'
 import NavBar from './components/NavBar'
 import Map from './components/Map'
 import Jumbotron from './components/Jumbotron'
+import Footer from './components/Footer'
 
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
     <Card />
     <Map />
     <Form />
+    <Footer />
     </>
   )
 }
