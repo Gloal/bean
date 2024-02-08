@@ -20,12 +20,7 @@ export default function CoffeeCard({ shopData }) {
 
   return (
     <Card sx={{ maxWidth: 345 }}>
-      <CardMedia
-        component="img"
-        height="194"
-        image=""
-        alt="" />
-        <CardContent>
+      <CardContent>
         <Typography gutterBottom variant="h5" component="div">
           {BusinessName}
         </Typography>
@@ -38,4 +33,4 @@ export default function CoffeeCard({ shopData }) {
       </CardContent>
     </Card>
   );
-} 
+}
