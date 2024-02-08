@@ -1,0 +1,23 @@
+.jumbotron {
+    position: relative;
+  }
+
+  .jumbotron-image {
+    width: 100%;
+    height: auto;
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+  }
+
