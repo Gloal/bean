@@ -30,16 +30,6 @@
     "AddressLine3": ""
   },
   {
-    "_id": "6399f72671c0238ae6f42c31",
-    "BusinessName": "Coffee Belt",
-    "AddressLine2": "South Norwood",
-    "PostCode": "SE25 6HA",
-    "RatingValue": "AwaitingInspection",
-    "Geocode_Longitude": -0.07421799749136,
-    "Geocode_Latitude": 51.3999862670898,
-    "AddressLine3": "London"
-  },
-  {
     "_id": "6399f72871c0238ae6f446a7",
     "BusinessName": "Black Sheep Coffee",
     "AddressLine2": "London",
