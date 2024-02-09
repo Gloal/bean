@@ -1,24 +1,23 @@
-import { useState, useEffect } from 'react'
-// import reactLogo from './assets/react.svg'
-// import viteLogo from '/vite.svg'
-//import './App.css'
-import Card from './components/Card'
-/*import CardContainer from './components/CardContainer' */
-import NavBar from './components/NavBar'
-import Form from './components/Form'
-import Map from './components/Map'
-import Jumbotron from './components/Jumbotron'
-import coffee_shops from './data/london_coffee_shops.json'
-import londonRestaurantData from './data/london_restaurants.json'
-import Footer from './components/Footer.jsx'
-
-import axios from 'axios'
-
+import React, { useState, useEffect } from 'react';
+// import reactLogo from './assets/react.svg';
+// import viteLogo from '/vite.svg';
+// //import './App.css';
+import Card from './components/Card';
+/*import CardContainer from './components/CardContainer'; */
+import NavBar from './components/NavBar';
+import Form from './components/Form';
+import Map from './components/Map';
+import Jumbotron from './components/Jumbotron';
+// import coffee_shops from './data/london_coffee_shops.json';
+import londonRestaurantData from './data/london_restaurants.json';
+import Footer from './components/Footer.jsx';
+// import axios from 'axios';
+import Style from './components/card.css'
 
 function App() {
 
   const [restaurantData, setRestaurantData] = useState([]);
-  const [reviews, setReview] = useState([])
+  // const [reviews, setReview] = useState([])
 
   useEffect(() => {
     setRestaurantData(londonRestaurantData);
@@ -118,20 +117,20 @@ useEffect(()=>{
  }, [])
 
 
-  return (
-    <>
-     <NavBar />
+return (
+  <>
+    <NavBar />
     <Jumbotron />
-    <div> {restaurantData.map((restaurant) => (
-      <Card key={restaurant._id} shopData={restaurant}/>
-    ))} 
+    <div className="coffee-card-grid">
+      {restaurantData.map((restaurant) => (
+        <Card key={restaurant._id} shopData={restaurant} />
+      ))}
     </div>
-    <Card />
     <Map />
     <Form />
     <Footer />
-    </>
-  );
+  </>
+);
 }
 
 export default App;
