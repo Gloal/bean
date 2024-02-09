@@ -1,5 +1,6 @@
 import * as React from 'react';
 import './Navbar.css'
+import logo from './../assets/Images/logo1.png';
 
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -14,6 +15,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import Link from '@mui/material/Link'
 
 const pages = ['Home','Cafe Corner', 'Search', 'Add Reviews'];
 const settings = ['Phone', 'Email', 'Address', 'Instagram'];
@@ -39,9 +41,9 @@ function NavBar() {
 
   return (
     <AppBar position="static">
-      <Container maxWidth="xl">
+      { /*<Container maxWidth="xl">*/ }
         <Toolbar className='toolbar' disableGutters>
-          
+        <Avatar alt="logo" src={logo}/>
           <Typography
             variant="h6"
             noWrap
@@ -59,19 +61,7 @@ function NavBar() {
           >
             BEAN
           </Typography>
-
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="inherit"
-            >
-             { /* <Avatar alt="Remy Sharp" src="./../assets/Images/logo1.png" /> */ }
-             <Avatar src='./../assets/Images/logo1.png'></Avatar>
-            </IconButton>
+           
             <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
@@ -96,7 +86,7 @@ function NavBar() {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
           <Typography
             variant="h5"
@@ -158,7 +148,7 @@ function NavBar() {
             </Menu>
           </Box>
         </Toolbar>
-      </Container>
+      { /*</Container> */ }
     </AppBar>
   );
 }
