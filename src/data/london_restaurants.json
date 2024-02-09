@@ -7,7 +7,8 @@
     "PostCode": "SE2 9AQ",
     "RatingValue": "5",
     "Geocode_Longitude": 0.133478,
-    "Geocode_Latitude": 51.506094
+    "Geocode_Latitude": 51.506094,
+    "imageUrl": "/assets/Images/black-sheep-coffee.jpg"
   }, 
   {
     "_id": "6399f72071c0238ae6f3cfa9",
