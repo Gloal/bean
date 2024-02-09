@@ -10,6 +10,7 @@ import Map from './components/Map'
 import Jumbotron from './components/Jumbotron'
 import coffee_shops from './data/london_coffee_shops.json'
 import londonRestaurantData from './data/london_restaurants.json'
+import Footer from './components/Footer.jsx'
 
 import axios from 'axios'
 
@@ -92,7 +93,8 @@ getCoffeeShops();
     </div>
     <Card />
     <Map />
-    <Form addReview={setReview}/>
+    <Form />
+    <Footer />
     </>
   );
 }
