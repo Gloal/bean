@@ -1,20 +1,18 @@
 import * as React from "react";
 import Button from "@mui/material/Button";
+import { styled } from '@mui/material/styles';
 import TextField from "@mui/material/TextField";
 import Dialog from "@mui/material/Dialog";
 import DialogActions from "@mui/material/DialogActions";
 import DialogContent from "@mui/material/DialogContent";
 import DialogContentText from "@mui/material/DialogContentText";
 import DialogTitle from "@mui/material/DialogTitle";
-import Avatar from "@mui/joy/Avatar";
-import ListItemDecorator from "@mui/joy/ListItemDecorator";
-import ListDivider from "@mui/joy/ListDivider";
-import Select from "@mui/joy/Select";
-import Option from "@mui/joy/Option";
-import { styled } from '@mui/material/styles';
+import Radio from '@mui/material/Radio';
+import RadioGroup from '@mui/material/RadioGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
 
+export default function AddReviewButton(addReview) {
 
-export default function FormDialog() {
   const [open, setOpen] = React.useState(false);
 
   //open dialg when button is clicked
@@ -24,145 +22,107 @@ export default function FormDialog() {
 
   //close the form modal 
   const handleClose = () => {
+    console.log("buttonClicked")
     setOpen(false);
   };
 
-  const ColorButton = styled(Button)(({ theme }) => ({
-    color: '#FFCBF1',
-    backgroundColor: '#210C02',
-    '&:hover': {
-      backgroundColor: '#170801',
-    },
-  }));
+  const onSubmit = (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    const formJson = Object.fromEntries(formData.entries());
+    const name = formJson.name;
+    const rating = formJson.rating;
+    const review = formJson.review;
+    console.log(email);
+    console.log(rating)
+    handleClose();
+  }
+
+
+const AddReviewButton = styled(Button)(({ theme }) => ({
+  color: '#FFCBF1',
+  backgroundColor: '#210C02',
+  '&:hover': {
+    backgroundColor: '#170801',
+  },
+}));
 
 
 
-  return (
-    <React.Fragment>
-      <ColorButton variant="contained" onClick={handleReviewOpen}>
-        Add Review
-      </ColorButton>
-      <Dialog
-        open={open}
-        onClose={handleClose}
-        PaperProps={{
-          component: "form",
-          onSubmit: (event) => {
-            event.preventDefault();
-            const formData = new FormData(event.currentTarget);
-            const formJson = Object.fromEntries(formData.entries());
-            const email = formJson.email;
-            console.log(email);
-            handleClose();
-          },
-        }}
-      >
-        <DialogTitle>Review</DialogTitle>
-        <DialogContent>
-          <DialogContentText>
-            To submit a review, start by searching for your cafe.
-          </DialogContentText>
-          <TextField
-            autoFocus
-            required
-            margin="dense"
-            id="name"
-            name="email"
-            label=""
-            type="email"
-            fullWidth
-            variant="standard"
-          />
+return (
+  <React.Fragment>
+    <AddReviewButton variant="contained" onClick={handleReviewOpen}>
+      Add Review
+    </AddReviewButton>
 
-          <TextField
-            autoFocus
-            required
-            margin="dense"
-            id="name"
-            name="name"
-            label="Cafe Name"
-            type="string"
-            fullWidth
-            variant="standard"
-          />
-          <Select
-            defaultValue="1"
-            componentsProps={{
-              listbox: {
-                sx: {
-                  "--List-decorator-size": "45px",
-                },
-              },
-            }}
-            sx={{
-              "--List-decorator-size": "45px",
-              minWidth: 240,
-            }}
-          >
-            <Option value="1">
-              <ListItemDecorator>
-                <Avatar size="sm" />
-              </ListItemDecorator>
-              Chevrolet
-            </Option>
-            <ListDivider role="none" inset="startContent" />
-            <Option value="2">
-              <ListItemDecorator>
-                <Avatar size="sm" />
-              </ListItemDecorator>
-              Honda
-            </Option>
-            <ListDivider role="none" inset="startContent" />
-            <Option value="3">
-              <ListItemDecorator>
-                <Avatar size="sm" />
-              </ListItemDecorator>
-              Nissan
-            </Option>
-            <ListDivider role="none" inset="startContent" />
-            <Option value="4">
-              <ListItemDecorator>
-                <Avatar size="sm" />
-              </ListItemDecorator>
-              Ford
-            </Option>
-            <ListDivider role="none" inset="startContent" />
-            <Option value="5">
-              <ListItemDecorator>
-                <Avatar size="sm" />
-              </ListItemDecorator>
-              Fiat
-            </Option>
-          </Select>
 
-          <TextField
-            autoFocus
-            required
-            margin="dense"
-            id="review"
-            name="review"
-            label="Review"
-            type="string"
-            fullWidth
-            variant="standard"
-          />
-          <TextField
-            autoFocus
-            margin="dense"
-            id="name"
-            name="name"
-            label="Your Name"
-            type="string"
-            fullWidth
-            requires
-            variant="standard"
-          />
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={handleClose}>Cancel</Button>
-          <Button type="submit">Submit Review</Button>
-        </DialogActions>
-      </Dialog>
-    </React.Fragment>
-  );
+
+    <Dialog open={open} component="form"> 
+      <DialogTitle>Review</DialogTitle>
+      <DialogContent>
+        <DialogContentText>
+          To submit a review, start by searching for your cafe.
+        </DialogContentText>
+        <TextField
+          autoFocus
+          required
+          margin="dense"
+          id="cafe-name"
+          name="cafe-name"
+          label="Cafe Name"
+          type="string"
+          fullWidth
+          variant="standard"
+        />
+
+        <RadioGroup
+          row
+          autoFocus
+          required
+          margin="dense"
+          id="rating"
+          name="rating"
+          type="string"
+          fullWidth
+          variant="standard"
+        > Rating
+          <FormControlLabel value="1" control={<Radio />} label="1" />
+          <FormControlLabel value="2" control={<Radio />} label="2" />
+          <FormControlLabel value="3" control={<Radio />} label="3" />
+          <FormControlLabel value="4" control={<Radio />} label="4" />
+          <FormControlLabel value="5" control={<Radio />} label="5" />
+        </RadioGroup>
+
+
+        <TextField
+          autoFocus
+          required
+          margin="dense"
+          id="review"
+          name="review"
+          label="Review"
+          type="string"
+          fullWidth
+          variant="standard"
+        />
+        <TextField
+          autoFocus
+          margin="dense"
+          id="reviewer-name"
+          name="reviewer-name"
+          label="Your Name"
+          type="string"
+          fullWidth
+          required
+          variant="standard"
+        />
+      </DialogContent>
+      <DialogActions>
+        <Button onClick={handleClose}>Cancel</Button>
+        <Button type="submit"  onSubmit={onSubmit}>Submit Review</Button>
+      </DialogActions>
+    </Dialog>
+
+  </React.Fragment>
+);
 }

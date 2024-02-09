@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react'
 import './App.css'
 import Card from './components/Card'
 /*import CardContainer from './components/CardContainer' */
-import Form from './components/Form'
 import NavBar from './components/NavBar'
+import Form from './components/Form'
 import Map from './components/Map'
 import Jumbotron from './components/Jumbotron'
 import coffee_shops from './data/london_coffee_shops.json'
@@ -23,7 +23,7 @@ function App() {
     setRestaurantData(londonRestaurantData);
   }, []); 
 
-  
+  /*
 async function getCoffeeShopsThroughWyre(){
 
   const options = {
@@ -77,8 +77,10 @@ const  getCoffeeShops = ()=>{
   console.log(cafes.length)
 }
 
+
 getCoffeeShops();
 
+*/
 
   return (
     <>
@@ -90,7 +92,7 @@ getCoffeeShops();
     </div>
     <Card />
     <Map />
-    <Form />
+    <Form addReview={setReview}/>
     </>
   );
 }
