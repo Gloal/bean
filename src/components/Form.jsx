@@ -79,7 +79,7 @@ return (
           row
           autoFocus
           required
-          margin="dense"
+          margin="1rem"
           id="rating"
           name="rating"
           type="string"

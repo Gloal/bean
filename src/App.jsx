@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 // import reactLogo from './assets/react.svg'
 // import viteLogo from '/vite.svg'
-import './App.css'
+//import './App.css'
 import Card from './components/Card'
 /*import CardContainer from './components/CardContainer' */
 import NavBar from './components/NavBar'
@@ -82,6 +82,41 @@ const  getCoffeeShops = ()=>{
 getCoffeeShops();
 
 */
+const options = {method: 'GET', headers: {accept: 'application/json'}};
+
+fetch('https://api.yelp.com/v3/businesses/search?sort_by=best_match&limit=20', options)
+  .then(response => response.json())
+  .then(response => console.log(response))
+  .catch(err => console.error(err));
+
+
+const options2 = {
+  method: 'GET',
+  url: 'https://yelp-com.p.rapidapi.com/search/nearby/51.5284576416016/-0.19754399359226',
+  params: {
+    radius: '5',
+    term: 'cafe',
+    offset: '0'
+  },
+  headers: {
+    'X-RapidAPI-Key': 'afe98ac037msh3ce3820dfc89dc5p153212jsn68ab7789434e',
+    'X-RapidAPI-Host': 'yelp-com.p.rapidapi.com'
+  }
+};
+
+useEffect(()=>{
+  async function getYelpCafes(){
+  try {
+    const response = await axios.request(options);
+    console.log(response.data);
+  } catch (error) {
+    console.error(error);
+  }
+}
+  
+  console.log(getYelpCafes());
+ }, [])
+
 
   return (
     <>
