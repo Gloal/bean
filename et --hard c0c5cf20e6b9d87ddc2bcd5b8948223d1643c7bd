@@ -1,0 +1,539 @@
+[33mcommit cc003fd08bcc152701184716f90ca9428de655e0[m[33m ([m[1;36mHEAD -> [m[1;32mstyleCards[m[33m)[m
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Fri Feb 9 20:25:47 2024 +0000
+
+    Add untracked files ImageCard.jsx and TitleCard.jsx
+
+[33mcommit c7cf93ed2a7623f66d949da41122cf1ccc24ad94[m
+Merge: ef64947 db7eff1
+Author: 2akia <148291163+2akia@users.noreply.github.com>
+Date:   Thu Feb 8 21:44:17 2024 +0000
+
+    Merge pull request #49 from Gloal/styleCards
+    
+    added image to display card
+
+[33mcommit db7eff1bd7fce40672661c2150fa05ce18bac461[m
+Merge: 3810143 ef64947
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 21:43:55 2024 +0000
+
+    Merge branch 'main' into styleCards
+
+[33mcommit ef64947d97a15cc6e8f1e6b547a0c4f817b3193a[m
+Merge: b9790dc c0c5cf2
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 21:42:39 2024 +0000
+
+    Merge pull request #48 from Gloal/footer-update-latest
+    
+    sorted out the colors for the website
+
+[33mcommit c0c5cf20e6b9d87ddc2bcd5b8948223d1643c7bd[m
+Merge: e7857df b9790dc
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 21:42:27 2024 +0000
+
+    Merge branch 'main' into footer-update-latest
+
+[33mcommit 3810143ec238c4f150d0b87cbc4d7036e92c2cf5[m
+Merge: fc0b474 b9790dc
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 21:41:51 2024 +0000
+
+    Merge branch 'main' into styleCards
+
+[33mcommit fc0b4744e1b78773e0d6d373de52354f28462f45[m[33m ([m[1;31morigin/styleCards[m[33m)[m
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Thu Feb 8 21:41:30 2024 +0000
+
+    added image to display card
+
+[33mcommit e7857dfcba3018fec3097fc7ea73a5abf22a5f03[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Thu Feb 8 21:40:16 2024 +0000
+
+    sorted out the colors for the website
+
+[33mcommit b9790dc404098f0f7cfeca103d3a55005b7941e4[m
+Merge: 1773e5a cd24aa7
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 21:36:06 2024 +0000
+
+    Merge pull request #47 from Gloal/jumbotron
+    
+    changed the title
+
+[33mcommit cd24aa70c42fa8ea7570219c8fa9b7e40e5c5af6[m
+Merge: 1c636b7 1773e5a
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 21:35:49 2024 +0000
+
+    Merge branch 'main' into jumbotron
+
+[33mcommit 1c636b77951efd50875b2f802741a71a2d9ba23a[m
+Author: 2akia <2akssultana@gmail.com>
+Date:   Thu Feb 8 21:33:46 2024 +0000
+
+    changed the title
+
+[33mcommit 1773e5a82f87f6b4abba13c7275daab46badd417[m
+Merge: dfe9132 92fcb72
+Author: 2akia <148291163+2akia@users.noreply.github.com>
+Date:   Thu Feb 8 21:31:33 2024 +0000
+
+    Merge pull request #46 from Gloal/footer-update-latest
+    
+    imported css file into main navbar file
+
+[33mcommit 92fcb72de8aae817007772e5d1e0f4b6c8ee3364[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Thu Feb 8 21:28:31 2024 +0000
+
+    imported css file into main navbar file
+
+[33mcommit dfe913280c5204f7382747a828c27d0116f5c32a[m[33m ([m[1;32mmain[m[33m)[m
+Merge: e4e4f18 918d54f
+Author: 2akia <148291163+2akia@users.noreply.github.com>
+Date:   Thu Feb 8 21:14:13 2024 +0000
+
+    Merge pull request #45 from Gloal/stylingCards
+    
+    altered card.jsx
+
+[33mcommit 918d54fb2e82fc9a7d60ec7c078fe9d6e15552e6[m
+Merge: 2edf5c0 e4e4f18
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 21:12:42 2024 +0000
+
+    Merge branch 'main' into stylingCards
+
+[33mcommit e4e4f188d2ba011d6a6b3c907ce40f82c73778e3[m
+Merge: 3cc09e3 6a321e8
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 21:12:27 2024 +0000
+
+    Merge pull request #44 from Gloal/footer-update
+    
+    added basic footer code
+
+[33mcommit 6a321e83e80fc1f1ce44bda94a2816ea9d32393c[m
+Merge: d1903a9 3cc09e3
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 21:12:03 2024 +0000
+
+    Merge branch 'main' into footer-update
+
+[33mcommit 2edf5c0bd16a69e32a3b2127b0163f185f29250f[m[33m ([m[1;31morigin/stylingCards[m[33m, [m[1;32mstylingCards[m[33m)[m
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Thu Feb 8 21:11:08 2024 +0000
+
+    altered card.jsx
+
+[33mcommit d1903a9a1f89bcb3e40cf0d9461af253e86b9f54[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Thu Feb 8 21:10:16 2024 +0000
+
+    added basic footer code
+
+[33mcommit 3cc09e38809e839a4a128e8212e8ba3cd14290ed[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Merge: be3be65 1c65186
+Author: 2akia <148291163+2akia@users.noreply.github.com>
+Date:   Thu Feb 8 20:55:26 2024 +0000
+
+    Merge pull request #43 from Gloal/navbar-update
+    
+    Navbar update
+
+[33mcommit be3be656e57fbebc699395e0b95967b609bc5f30[m
+Merge: 1cd781d bf5dfef
+Author: 2akia <148291163+2akia@users.noreply.github.com>
+Date:   Thu Feb 8 20:54:32 2024 +0000
+
+    Merge pull request #42 from Gloal/cafeData
+    
+    added cafe images to images folder
+
+[33mcommit 1c651862a1e032432fbb7a3c305bdee5cef6890f[m
+Merge: 9e2c91e 0ad440d
+Author: eram m juned <eskengg@gmail.com>
+Date:   Thu Feb 8 20:44:42 2024 +0000
+
+    Merge branch 'navbar-update' of https://github.com/Gloal/bean into navbar-update
+
+[33mcommit 9e2c91e807de5fc62a22c40e66abe94860eb2763[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Thu Feb 8 20:44:10 2024 +0000
+
+    added some styling to navbar
+
+[33mcommit bf5dfef368c17a53790faa9b670044597e175f3f[m
+Merge: ed62d7c 1cd781d
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 20:41:11 2024 +0000
+
+    Merge branch 'main' into cafeData
+
+[33mcommit ed62d7c3e33013913e32e1ba8caa847314243dd0[m[33m ([m[1;31morigin/cafeData[m[33m)[m
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Thu Feb 8 20:37:50 2024 +0000
+
+    added cafe images to images folder
+
+[33mcommit 1cd781d1ebe66ad8ec2a478f8e3c108665b80e47[m
+Merge: 9583561 537305a
+Author: 2akia <148291163+2akia@users.noreply.github.com>
+Date:   Thu Feb 8 20:31:53 2024 +0000
+
+    Merge pull request #41 from Gloal/cafeData
+    
+    removed irrelevant data from json data file
+
+[33mcommit 537305a05a034ac84d2be2cf3310f5961e1f6f5b[m
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Thu Feb 8 20:30:38 2024 +0000
+
+    removed further data after checking out cafes
+
+[33mcommit 5dfa0ef0aa6e9ab8dbb8eecb937e38e61961c5d3[m
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Thu Feb 8 20:20:08 2024 +0000
+
+    removed irrelevant data from json data file
+
+[33mcommit 9583561081c28d1c7db295594db7230d6008ef55[m[33m ([m[1;32mformattingCards[m[33m)[m
+Merge: dad5f30 09d6ea1
+Author: 2akia <148291163+2akia@users.noreply.github.com>
+Date:   Thu Feb 8 20:07:26 2024 +0000
+
+    Merge pull request #40 from Gloal/cards1
+    
+    Cards1
+
+[33mcommit 09d6ea116ec7cdb799e20fc94bbaa476798c4721[m
+Merge: 2898965 dad5f30
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 19:58:39 2024 +0000
+
+    Merge branch 'main' into cards1
+
+[33mcommit 28989652d6d54ba24881e920a0ab839ed14f1c40[m[33m ([m[1;31morigin/cards1[m[33m, [m[1;32mcards1[m[33m)[m
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Thu Feb 8 19:57:12 2024 +0000
+
+    dynamically displaying data from json file into cards, changes to card.jsx and app.jsx made
+
+[33mcommit dad5f304a379f5ed5f98b46bea29d74ea8373e42[m
+Merge: c55b216 0ad440d
+Author: Gloal <53401314+Gloal@users.noreply.github.com>
+Date:   Thu Feb 8 19:52:22 2024 +0000
+
+    Merge pull request #39 from Gloal/navbar-update
+    
+    made changes to navbar
+
+[33mcommit 0ad440d8b9caa6bbeb7e7c71de0395173402e4e6[m
+Merge: 70e1bef c55b216
+Author: Gloal <53401314+Gloal@users.noreply.github.com>
+Date:   Thu Feb 8 19:52:12 2024 +0000
+
+    Merge branch 'main' into navbar-update
+
+[33mcommit 70e1bef72b96ce8a72d1964b31a156375674d86e[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Thu Feb 8 19:50:33 2024 +0000
+
+    made changes to navbar
+
+[33mcommit c55b2168294397e8b041d8b0f3e5a2a0ce188bbd[m
+Merge: 0475a56 6b6004a
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 19:40:05 2024 +0000
+
+    Merge pull request #38 from Gloal/jumbotron
+    
+    tweaked the file fath to images
+
+[33mcommit 6b6004a279b68954c9e54c78b989a20d53e1623a[m
+Author: 2akia <2akssultana@gmail.com>
+Date:   Thu Feb 8 19:37:12 2024 +0000
+
+    tweaked the file fath to images
+
+[33mcommit 0475a564506a6c24e1c1cca2af44ff6d4e059bbb[m
+Merge: b7361c5 3dcb711
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 19:34:08 2024 +0000
+
+    Merge pull request #37 from Gloal/navbar-update
+    
+    added contact logo filepath and renamed image folder to images
+
+[33mcommit 3dcb711e9f5539c1c0eb5dda86aa7388ae45f75d[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Thu Feb 8 19:31:19 2024 +0000
+
+    added contact logo filepath and renamed image folder to images
+
+[33mcommit b7361c5be4fd80e319d15db579234b1be0c45091[m
+Merge: 34cf5a8 195c10f
+Author: Eram M Juned <147946427+eramsk@users.noreply.github.com>
+Date:   Thu Feb 8 19:27:20 2024 +0000
+
+    Merge pull request #36 from Gloal/jumbotron
+    
+    added the css for the jumbotron
+
+[33mcommit 195c10f9fe7275c4befc2b9c291c067f680116ab[m
+Author: 2akia <2akssultana@gmail.com>
+Date:   Thu Feb 8 19:24:21 2024 +0000
+
+    added the css for the jumbotron
+
+[33mcommit 34cf5a8cfa021a6815453662cc2ab7103166c9c6[m
+Merge: 8b3642e 1164374
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 19:20:53 2024 +0000
+
+    Merge pull request #35 from Gloal/navbar-update
+    
+    designed and added navbar logo and contact logo to images
+
+[33mcommit 1164374886ef668227621c95ccbd7dcb6294a97b[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Thu Feb 8 19:16:46 2024 +0000
+
+    designed and added navbar logo and contact logo to images
+
+[33mcommit 8b3642ef7a125679e6cbc96969b0f45dd999aa8b[m
+Merge: 3514609 a9aa672
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 19:06:24 2024 +0000
+
+    Merge pull request #34 from Gloal/navbar-update
+    
+    added navbar elements
+
+[33mcommit a9aa6725f62395ff13c80f89a7a42ea0c99b624b[m
+Merge: d259b43 3514609
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 19:06:16 2024 +0000
+
+    Merge branch 'main' into navbar-update
+
+[33mcommit 3514609cc24c4c1b3101745408728af17bf22777[m
+Merge: 71160b0 65175be
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 19:04:30 2024 +0000
+
+    Merge pull request #33 from Gloal/images
+    
+    added the images folder/ added jumbotron css folder
+
+[33mcommit d259b4336b49b85217ffb319e2f1750b7f95fdcb[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Thu Feb 8 19:03:17 2024 +0000
+
+    added navbar elements
+
+[33mcommit 65175be5ad57e88cf5434a193f3596cf7ca2ebad[m
+Author: 2akia <2akssultana@gmail.com>
+Date:   Thu Feb 8 18:59:02 2024 +0000
+
+    added the images folder/ added jumbotron css folder
+
+[33mcommit 1c517514b6c975beb5e9e78b9b1cb3aa5f680d8e[m
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Thu Feb 8 18:48:36 2024 +0000
+
+    adapated card using api info
+
+[33mcommit 71160b01582a25c061a15955fe077114c6bf310c[m[33m ([m[1;32mcards[m[33m)[m
+Merge: 6fcc380 9bcbaed
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Thu Feb 8 18:24:56 2024 +0000
+
+    Merge pull request #32 from Gloal/website-outline
+    
+    added the initial code for website outline
+
+[33mcommit 9bcbaed7fa525845fe28454a31a84b66a9196c1a[m[33m ([m[1;31morigin/website-outline[m[33m)[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Thu Feb 8 18:22:12 2024 +0000
+
+    added the initial code for website outline
+
+[33mcommit 6fcc380c0b15f379616e90fe60004f0ab783fd89[m
+Merge: 1a02903 110f4fd
+Author: Gloal <53401314+Gloal@users.noreply.github.com>
+Date:   Wed Feb 7 21:08:38 2024 +0000
+
+    Merge pull request #31 from Gloal/fileStructure
+    
+    File structure
+
+[33mcommit 110f4fdaf1c9a3f0cc8b6d6ff360c77eb64421d6[m[33m ([m[1;31morigin/fileStructure[m[33m)[m
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Wed Feb 7 21:05:15 2024 +0000
+
+    moved code into main file structure
+
+[33mcommit acb8fd4dbbb9ca7ba9bca623f30213ee80f98571[m
+Merge: 54f56b2 1a02903
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Wed Feb 7 20:58:19 2024 +0000
+
+    Merge branch 'main' of github.com:Gloal/bean
+
+[33mcommit 54f56b2366ad05f40a241e3fd61317ab590506ad[m
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Wed Feb 7 20:57:55 2024 +0000
+
+    moved code into main file structure
+
+[33mcommit 1a029030978f033010177e7c43266d4ce805be94[m
+Merge: f75bc41 67a8ae4
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Wed Feb 7 20:45:49 2024 +0000
+
+    Merge pull request #30 from Gloal/navbar
+    
+    added basic navbar code
+
+[33mcommit 67a8ae490cbf01b261e813a953906c52b04f3d09[m[33m ([m[1;31morigin/navbar[m[33m)[m
+Merge: ea1141d f75bc41
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Wed Feb 7 20:45:13 2024 +0000
+
+    Merge branch 'main' into navbar
+
+[33mcommit ea1141da90fbc3ecb42710c511f1e4c931c8e1f1[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Wed Feb 7 20:42:45 2024 +0000
+
+    added basic navbar code
+
+[33mcommit f75bc417c4ea95e244d21b0e9c38a2d58ca2f399[m
+Merge: 07b925a 61e19f9
+Author: Gloal <53401314+Gloal@users.noreply.github.com>
+Date:   Wed Feb 7 20:40:07 2024 +0000
+
+    Merge pull request #29 from Gloal/reset-files
+    
+    rreorganising files
+
+[33mcommit 61e19f9cf3e6a133242d9d2c1fdf50df2ecd1caf[m[33m ([m[1;31morigin/reset-files[m[33m)[m
+Merge: 5678c02 07b925a
+Author: Gloal <alori.glo@gmail.com>
+Date:   Wed Feb 7 20:39:42 2024 +0000
+
+    reorganising files
+
+[33mcommit 07b925a5299e0d70e70590adfdc565f8c97e13cb[m
+Merge: 390bfda d30ff2e
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Wed Feb 7 20:29:29 2024 +0000
+
+    Merge pull request #28 from Gloal/navbar
+    
+    initial commit
+
+[33mcommit d30ff2ef0c5ed2540ac3878b28e2212fd91ef2a9[m
+Merge: 4a0e33b 390bfda
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Wed Feb 7 20:29:14 2024 +0000
+
+    Merge branch 'main' into navbar
+
+[33mcommit 4a0e33b60ade9da0a81429b0598d4bca9e7ac183[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Wed Feb 7 20:25:59 2024 +0000
+
+    initial commit
+
+[33mcommit 5678c02fb5ff705d084f629260a3c15cbf7ec440[m
+Author: Gloal <alori.glo@gmail.com>
+Date:   Wed Feb 7 20:23:38 2024 +0000
+
+    rreorganising files
+
+[33mcommit 390bfda0857f12887d5935df3d40688cf1f3e35f[m
+Merge: 9c897f7 885fbac
+Author: Eram M Juned <147946427+eramsk@users.noreply.github.com>
+Date:   Wed Feb 7 20:20:39 2024 +0000
+
+    Merge pull request #27 from Gloal/cards
+    
+    added imports to app.jsx
+
+[33mcommit 885fbac4094570308082b0d3a36c5a414d861826[m[33m ([m[1;31morigin/cards[m[33m)[m
+Author: celiahouston <celia.houston99@gmail.com>
+Date:   Wed Feb 7 20:15:27 2024 +0000
+
+    added imports to app.jsx
+
+[33mcommit 9c897f79a660d41dc698c9d612cad2580bbba213[m
+Merge: a93a21c a8e626d
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Wed Feb 7 19:37:23 2024 +0000
+
+    Merge pull request #26 from Gloal/adding-libraries
+    
+    added required libraries
+
+[33mcommit a8e626d53dfea9a81a095fe62af0cfb51d1282df[m[33m ([m[1;31morigin/adding-libraries[m[33m)[m
+Author: eram m juned <eskengg@gmail.com>
+Date:   Wed Feb 7 19:35:53 2024 +0000
+
+    added required libraries
+
+[33mcommit a93a21c25f9316c7beaf941a81cb06bdb21d7e39[m
+Merge: 4c0807f 7476b33
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Wed Feb 7 19:15:14 2024 +0000
+
+    Merge pull request #25 from Gloal/file-structure
+    
+    added file structer to components file
+
+[33mcommit 7476b33cdc60d554a25cb2eac68f4b87b2653080[m[33m ([m[1;31morigin/file-structure[m[33m)[m
+Author: 2akia <2akssultana@gmail.com>
+Date:   Wed Feb 7 19:09:02 2024 +0000
+
+    added file structer to components file
+
+[33mcommit 4c0807f938751174ae90e8afa688100f46ba401c[m
+Merge: a1140f2 4f7bfd0
+Author: celiahouston <147068406+celiahouston@users.noreply.github.com>
+Date:   Wed Feb 7 18:59:42 2024 +0000
+
+    Merge pull request #24 from Gloal/initial-file-setup
+    
+    added wyre api data for london restaurants to json file
+
+[33mcommit 4f7bfd08230aec53cc5c4a2f2c6beb065ca9ef92[m[33m ([m[1;31morigin/initial-file-setup[m[33m)[m
+Author: Gloal <alori.glo@gmail.com>
+Date:   Wed Feb 7 18:55:18 2024 +0000
+
+    added wyre api data for london restaurants to json file
+
+[33mcommit a1140f2e2b91580cac9a7132009827c66fbd6bf4[m
+Merge: b52f7b8 650bf19
+Author: Eram M Juned <147946427+eramsk@users.noreply.github.com>
+Date:   Tue Feb 6 21:30:44 2024 +0000
+
+    Merge pull request #23 from Gloal/initial-file-setup
+    
+    initial project and file setup
+
+[33mcommit 650bf1945af38c5cabd3e043681b2eaac1926306[m
+Author: Gloal <alori.glo@gmail.com>
+Date:   Tue Feb 6 21:28:07 2024 +0000
+
+    initial project and file setup
+
+[33mcommit b52f7b8eb40e89180e65c7bd6194cefe1d03044a[m
+Author: Gloal <53401314+Gloal@users.noreply.github.com>
+Date:   Tue Feb 6 20:33:54 2024 +0000
+
+    Initial commit
