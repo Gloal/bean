@@ -8,10 +8,70 @@ import Form from './components/Form'
 import NavBar from './components/NavBar'
 import Map from './components/Map'
 import Jumbotron from './components/Jumbotron'
+import coffe_shops from './data/london_coffee_shops.json'
+import all_restaurants from './data/london_restaurants.json'
+import axios from 'axios'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
+
+
+  
+async function getCoffeeShopsThroughWyre(){
+
+  const options = {
+    method: 'GET',
+    url: 'https://wyre-data.p.rapidapi.com/coffee&shops/town/london',
+    headers: {
+      'X-RapidAPI-Key': 'afe98ac037msh3ce3820dfc89dc5p153212jsn68ab7789434e',
+      'X-RapidAPI-Host': 'wyre-data.p.rapidapi.com'
+    }
+  };
+  try {
+    const response = await axios.request(options);
+    console.log(response.data);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+
+async function getCoffeeShopsThroughYelp(){
+  const options = {
+    method: 'GET',
+    url: 'https://yelp-com.p.rapidapi.com/search/nearby/37.788719679657554/-122.40057774847898',
+    params: {
+      radius: '',
+      term: 'Coffee Shops',
+      offset: '0'
+    },
+    headers: {
+      'X-RapidAPI-Key': 'afe98ac037msh3ce3820dfc89dc5p153212jsn68ab7789434e',
+      'X-RapidAPI-Host': 'yelp-com.p.rapidapi.com'
+    }
+  };
+  
+  try {
+    const response = await axios.request(options);
+    console.log(response.data);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
+//getCoffeeShopsThroughWyre(options);
+
+const  getCoffeeShops = ()=>{
+  const londonCoffeeShops = all_restaurants.filter((rest) => (rest.BusinessName.toLowerCase().includes('coffee')) && rest.RatingValue.length==1 && rest.Geocode_Latitude!=null);
+  const cafeRegex = /cafe/i;
+  const cafes = all_restaurants.filter((rest) => (cafeRegex.test(rest.BusinessName) && rest.RatingValue.length==1 && rest.Geocode_Latitude!=null));
+
+  console.log(JSON.stringify(cafes, null, 2));
+  console.log(cafes.length)
+}
+
+getCoffeeShops();
 
   return (
     <>
