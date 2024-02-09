@@ -9,6 +9,7 @@ import NavBar from './components/NavBar'
 import Map from './components/Map'
 import Jumbotron from './components/Jumbotron'
 import londonRestaurantData from './data/london_restaurants.json'
+import Footer from './components/Footer.jsx'
 
 function App() {
   const [restaurantData, setRestaurantData] = useState([]);
@@ -28,6 +29,7 @@ function App() {
     <Card />
     <Map />
     <Form />
+    <Footer />
     </>
   );
 }
