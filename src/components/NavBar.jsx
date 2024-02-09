@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './Navbar.css'
 import logo from './../assets/Images/logo1.png';
-
+import contactIcon from './../assets/Images/contact1.png';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -121,7 +121,7 @@ function NavBar() {
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar src='./../assets/Images/contact1.png'></Avatar>
+                <Avatar alt="contact-icon" src={contactIcon}></Avatar>
               </IconButton>
             </Tooltip>
             <Menu
