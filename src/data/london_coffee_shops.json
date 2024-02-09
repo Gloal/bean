@@ -1,0 +1,4541 @@
+[
+    {
+      "_id": "6399f71f71c0238ae6f3bbea",
+      "BusinessName": "Abbey Good Coffee",
+      "AddressLine2": "New Road",
+      "AddressLine3": "London",
+      "PostCode": "SE2 0AX",
+      "RatingValue": "4",
+      "Geocode_Longitude": 0.12035199999809,
+      "Geocode_Latitude": 51.4794273376465
+    },
+    {
+      "_id": "6399f72071c0238ae6f3ce08",
+      "BusinessName": "Alhambra Palace (Community Coffee Shop)",
+      "AddressLine2": "London",
+      "PostCode": "NW10 4TS",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.244582,
+      "Geocode_Latitude": 51.536066,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cfa9",
+      "BusinessName": "Big Coffee",
+      "AddressLine2": "London",
+      "PostCode": "NW6 5PS",
+      "RatingValue": "1",
+      "Geocode_Longitude": -0.19754399359226,
+      "Geocode_Latitude": 51.5284576416016,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cfcd",
+      "BusinessName": "Blakes Coffee House",
+      "AddressLine2": "London",
+      "PostCode": "NW10 4NJ",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.247232,
+      "Geocode_Latitude": 51.536133,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d13e",
+      "BusinessName": "Casbah Coffee",
+      "AddressLine2": "London",
+      "PostCode": "NW2 3JG",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.213703,
+      "Geocode_Latitude": 51.555033,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d20d",
+      "BusinessName": "Coffee Romana",
+      "AddressLine2": "London",
+      "PostCode": "NW10 4UX",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.24655,
+      "Geocode_Latitude": 51.533254,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d27f",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "NW10 3NS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.219617,
+      "Geocode_Latitude": 51.535087,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d282",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Kingsbury",
+      "PostCode": "NW9 6LP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.251592,
+      "Geocode_Latitude": 51.587148,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d285",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "NW10 1QR",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.252673,
+      "Geocode_Latitude": 51.560079,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d288",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "NW10 2QD",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.226743,
+      "Geocode_Latitude": 51.547613,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d291",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "NW9 9HN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.279958,
+      "Geocode_Latitude": 51.585212,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d294",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "NW6 5HY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.190649,
+      "Geocode_Latitude": 51.53655,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d297",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "NW6 6NH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.205253,
+      "Geocode_Latitude": 51.535885,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d2ee",
+      "BusinessName": "CUORE (ITALIAN DELI& COFFEE SHOP)",
+      "AddressLine2": "London",
+      "PostCode": "NW2 5HH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.22380100190639,
+      "Geocode_Latitude": 51.5431632995605,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d8a6",
+      "BusinessName": "La Cabana Coffee Shop",
+      "AddressLine2": "Cumberland Avenue",
+      "PostCode": "NW10 7RT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.277859,
+      "Geocode_Latitude": 51.529626,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72271c0238ae6f3e59c",
+      "BusinessName": "XOXO Coffee and Patisserie",
+      "AddressLine2": "London",
+      "PostCode": "NW2 4RA",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.222133,
+      "Geocode_Latitude": 51.548237,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72371c0238ae6f3f7f0",
+      "BusinessName": "Rule19 Coffee SE20 Cycles",
+      "AddressLine2": "Penge",
+      "PostCode": "SE20 7HB",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.0548273,
+      "Geocode_Latitude": 51.4159427,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72371c0238ae6f3fd48",
+      "BusinessName": "True Heart Coffee - Cadence Cycling Performance",
+      "AddressLine2": "Anerley",
+      "PostCode": "SE19 2AA",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.077195,
+      "Geocode_Latitude": 51.419488,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72671c0238ae6f42988",
+      "BusinessName": "Blend Coffee Shop",
+      "AddressLine2": "Norbury",
+      "PostCode": "SW16 4BT",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.12342300266028,
+      "Geocode_Latitude": 51.412052154541,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72671c0238ae6f42c31",
+      "BusinessName": "Coffee Belt",
+      "AddressLine2": "South Norwood",
+      "PostCode": "SE25 6HA",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.07421799749136,
+      "Geocode_Latitude": 51.3999862670898,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72671c0238ae6f42c9a",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Norbury",
+      "PostCode": "SW16 4AH",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.1223103,
+      "Geocode_Latitude": 51.4087977,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f444c1",
+      "BusinessName": "Association Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC4M 7AW",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f4469e",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC4M 9AL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.093851,
+      "Geocode_Latitude": 51.512743,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f446a1",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC2N 1AR",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.086232,
+      "Geocode_Latitude": 51.514706,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f446a4",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC2V 7AN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.094704,
+      "Geocode_Latitude": 51.51648,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f446a7",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC2M 4TP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.079322,
+      "Geocode_Latitude": 51.517245,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f446aa",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC3R 8DR",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.084405,
+      "Geocode_Latitude": 51.510161,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f446ad",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC4A 1BG",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f446b0",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "London",
+      "PostCode": "WC2A 1AN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.112169,
+      "Geocode_Latitude": 51.517986,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f446b3",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC3M 1DT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.083852,
+      "Geocode_Latitude": 51.510738,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f446b6",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC2R 5EH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.09044300019741,
+      "Geocode_Latitude": 51.5153312683105,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f446b9",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "115 Houndsditch",
+      "PostCode": "EC3A 7BR",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.0785010010004,
+      "Geocode_Latitude": 51.5158576965332,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f446bc",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "122 Leadenhall Street",
+      "PostCode": "EC3V 4AB",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.082306,
+      "Geocode_Latitude": 51.5137662,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f446bf",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "1 Cheapside",
+      "PostCode": "EC2V 6AA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.097376,
+      "Geocode_Latitude": 51.514626,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f44794",
+      "BusinessName": "Cafe Below,Crypt & Coffee Bar",
+      "AddressLine2": "Cheapside",
+      "PostCode": "EC2V 6AU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.093552,
+      "Geocode_Latitude": 51.51371,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f44818",
+      "BusinessName": "Caravan Coffee Roasters",
+      "AddressLine2": "29 Throgmorton Street",
+      "PostCode": "EC2N 2AT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.086824,
+      "Geocode_Latitude": 51.51503,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f44824",
+      "BusinessName": "Carter Lane Coffee House",
+      "AddressLine2": "London",
+      "PostCode": "EC4V 5EA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.10161,
+      "Geocode_Latitude": 51.513319,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f4490e",
+      "BusinessName": "Clever Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC1A 9PT",
+      "RatingValue": "Exempt",
+      "Geocode_Longitude": -0.1026433,
+      "Geocode_Latitude": 51.5190921,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f44980",
+      "BusinessName": "Copper Coffee",
+      "AddressLine2": "London",
+      "PostCode": "E1 8AX",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.07253400236368,
+      "Geocode_Latitude": 51.5112075805664,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f449aa",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC3N 1RE",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.077073,
+      "Geocode_Latitude": 51.5132618,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f449ad",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC4N 6AS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.087256,
+      "Geocode_Latitude": 51.5109,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f449b0",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC4V 6AF",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.104646,
+      "Geocode_Latitude": 51.513098,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f449b3",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC3A 8AH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.08129,
+      "Geocode_Latitude": 51.514328,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f449b6",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC2M 7PD",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.082334,
+      "Geocode_Latitude": 51.517268,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f449b9",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC2R 7DA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.087767,
+      "Geocode_Latitude": 51.5159,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f449bc",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC2M 6SE",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.088209,
+      "Geocode_Latitude": 51.517732,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f449bf",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC2M 7LS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.085557,
+      "Geocode_Latitude": 51.518777,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f449c2",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC2V 7NG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.090442,
+      "Geocode_Latitude": 51.515331,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f449c5",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Queen Victoria Street",
+      "PostCode": "EC4V 4DY",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.103007,
+      "Geocode_Latitude": 51.511596,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f449c8",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Cannon Street",
+      "PostCode": "EC4N 6AP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.09051000326872,
+      "Geocode_Latitude": 51.5109786987305,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f449cb",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "1 Ropemaker Street",
+      "PostCode": "EC2Y 9AW",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.089608,
+      "Geocode_Latitude": 51.519437,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f449ce",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "138 Cheapside",
+      "PostCode": "EC2V 6BJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.0962806,
+      "Geocode_Latitude": 51.5147444,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f449d7",
+      "BusinessName": "Costa Coffee, City Point",
+      "AddressLine2": "1 Ropemaker Street",
+      "PostCode": "EC2Y 9AW",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.089608,
+      "Geocode_Latitude": 51.519437,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f44a0a",
+      "BusinessName": "Curators Coffee Studio",
+      "AddressLine2": "London",
+      "PostCode": "EC3M 7JJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.082593,
+      "Geocode_Latitude": 51.512119,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f44a19",
+      "BusinessName": "Dartbrooke Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC2M 7PD",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.0819375,
+      "Geocode_Latitude": 51.5171994,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f44a37",
+      "BusinessName": "Department of Coffee &Social Affairs",
+      "AddressLine2": "London",
+      "PostCode": "E1 6DB",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.078407,
+      "Geocode_Latitude": 51.52116,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f44a3a",
+      "BusinessName": "Departmet of Coffee & Social Affairs",
+      "AddressLine2": "London",
+      "PostCode": "EC4A 1EP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.10933899879456,
+      "Geocode_Latitude": 51.5166893005371,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f44b09",
+      "BusinessName": "Established Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC4A 4AS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.105018,
+      "Geocode_Latitude": 51.514552,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f44bdb",
+      "BusinessName": "Giddy Up Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC1A 4HD",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.097774,
+      "Geocode_Latitude": 51.517528,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f44e1e",
+      "BusinessName": "Lazy Coffee",
+      "AddressLine2": "Abchurch Yard",
+      "PostCode": "EC4N 7BA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.0886280015111,
+      "Geocode_Latitude": 51.5115165710449,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f44e8d",
+      "BusinessName": "L'express Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC4N 5AX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.088628,
+      "Geocode_Latitude": 51.511516,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f45082",
+      "BusinessName": "Notes Coffee Roasters & Wine Bar",
+      "AddressLine2": "London",
+      "PostCode": "EC2R 7HJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.087414,
+      "Geocode_Latitude": 51.515039,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f45088",
+      "BusinessName": "Notes, Music & Coffee Ltd",
+      "AddressLine2": "1 Ropemaker Street",
+      "PostCode": "EC2Y 9AW",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.089608,
+      "Geocode_Latitude": 51.519437,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f45142",
+      "BusinessName": "Peabodys Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC1A 2FD",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.103662,
+      "Geocode_Latitude": 51.516994,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f452ce",
+      "BusinessName": "Reformation Coffee",
+      "AddressLine2": "Upper Thames Street",
+      "PostCode": "EC4V 3BJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.09392,
+      "Geocode_Latitude": 51.510406,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f4536d",
+      "BusinessName": "Romo Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC4M 7RB",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.103674,
+      "Geocode_Latitude": 51.51497,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f45373",
+      "BusinessName": "Rosslyn Coffee",
+      "AddressLine2": "London",
+      "PostCode": "EC4N 4SJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.093627,
+      "Geocode_Latitude": 51.512596,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f453ee",
+      "BusinessName": "Secret Frog Coffee Co",
+      "AddressLine2": "28-30 Houndsditch",
+      "PostCode": "EC3A 7DB",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.078522,
+      "Geocode_Latitude": 51.515029,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f45484",
+      "BusinessName": "Soho Coffee",
+      "AddressLine2": "50 Gresham Street",
+      "PostCode": "EC2V 7AY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.091729,
+      "Geocode_Latitude": 51.514912,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f45487",
+      "BusinessName": "Soho Coffee Co.",
+      "AddressLine2": "London",
+      "PostCode": "EC2R 8HP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.087133,
+      "Geocode_Latitude": 51.514172,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72871c0238ae6f4548a",
+      "BusinessName": "Soho Coffee Shop",
+      "AddressLine2": "14 Austin Friars",
+      "PostCode": "EC2N 2HE",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.085648,
+      "Geocode_Latitude": 51.515919,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72871c0238ae6f4548d",
+      "BusinessName": "Soho Coffee Shops Ltd",
+      "AddressLine2": "10 St Paul's Churchyard",
+      "PostCode": "EC4M 8AL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.100059,
+      "Geocode_Latitude": 51.513195,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72971c0238ae6f455f2",
+      "BusinessName": "The Coffee Cup",
+      "AddressLine2": "20 Primrose Street",
+      "PostCode": "EC2A 2EW",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.07995,
+      "Geocode_Latitude": 51.521176,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72971c0238ae6f455f5",
+      "BusinessName": "The Coffee Works Project",
+      "AddressLine2": "1 Whittington Avenue",
+      "PostCode": "EC3V 1LE",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.083222,
+      "Geocode_Latitude": 51.512921,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72971c0238ae6f457ba",
+      "BusinessName": "V69 Coffee Ltd",
+      "AddressLine2": "London",
+      "PostCode": "EC2V 7PG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.093002,
+      "Geocode_Latitude": 51.51514,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72971c0238ae6f45d4b",
+      "BusinessName": "Cafesa Coffee Shop",
+      "AddressLine2": "Hanwell",
+      "AddressLine3": "London",
+      "PostCode": "W7 1LL",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.3370073,
+      "Geocode_Latitude": 51.514141
+    },
+    {
+      "_id": "6399f72971c0238ae6f45f0a",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Acton",
+      "AddressLine3": "London",
+      "PostCode": "W3 6QX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.2693542,
+      "Geocode_Latitude": 51.5069759
+    },
+    {
+      "_id": "6399f72971c0238ae6f45f0d",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Ealing",
+      "AddressLine3": "London",
+      "PostCode": "W5 3NT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.28473,
+      "Geocode_Latitude": 51.50928
+    },
+    {
+      "_id": "6399f72971c0238ae6f45f13",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "West Ealing",
+      "AddressLine3": "London",
+      "PostCode": "W13 0SY",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.32524099946022,
+      "Geocode_Latitude": 51.5105476379395
+    },
+    {
+      "_id": "6399f72971c0238ae6f45f16",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Ealing",
+      "AddressLine3": "London",
+      "PostCode": "W5 4QG",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f72971c0238ae6f45f76",
+      "BusinessName": "Crown Coffee",
+      "AddressLine2": "Acton",
+      "AddressLine3": "London",
+      "PostCode": "W3 8SB",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.27366000413895,
+      "Geocode_Latitude": 51.5070648193359
+    },
+    {
+      "_id": "6399f72971c0238ae6f46180",
+      "BusinessName": "Element Coffee",
+      "AddressLine2": "West Ealing",
+      "AddressLine3": "London",
+      "PostCode": "W13 9SJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.3150827,
+      "Geocode_Latitude": 51.4994043
+    },
+    {
+      "_id": "6399f72a71c0238ae6f46447",
+      "BusinessName": "Happy Coffee And Tea House",
+      "AddressLine2": "West Ealing",
+      "AddressLine3": "London",
+      "PostCode": "W13 9SB",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.31598898768425,
+      "Geocode_Latitude": 51.5015563964844
+    },
+    {
+      "_id": "6399f72a71c0238ae6f46735",
+      "BusinessName": "Kasima Coffee",
+      "AddressLine2": "West Ealing",
+      "AddressLine3": "London",
+      "PostCode": "W13 0TL",
+      "RatingValue": "Exempt",
+      "Geocode_Longitude": -0.32780200242996,
+      "Geocode_Latitude": 51.5098571777344
+    },
+    {
+      "_id": "6399f72b71c0238ae6f479ad",
+      "BusinessName": "Alhas Turkish Coffee House",
+      "AddressLine2": "LONDON",
+      "PostCode": "N9 7HB",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.052587,
+      "Geocode_Latitude": 51.634373,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72b71c0238ae6f479bc",
+      "BusinessName": "Al's Coffee Bar Ltd",
+      "AddressLine2": "Bramley Road",
+      "PostCode": "N14 4HY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.133656,
+      "Geocode_Latitude": 51.647712,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47a1f",
+      "BusinessName": "Aroma Tea & Coffee House",
+      "AddressLine2": "LONDON",
+      "PostCode": "N21 1AY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.102367,
+      "Geocode_Latitude": 51.6341829,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47b9c",
+      "BusinessName": "Brews Coffee Ltd",
+      "AddressLine2": "LONDON",
+      "PostCode": "N9 0HW",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.056298,
+      "Geocode_Latitude": 51.62563,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47bdb",
+      "BusinessName": "Broomfield Coffee Bar",
+      "AddressLine2": "LONDON",
+      "PostCode": "N13 4PP",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.113282,
+      "Geocode_Latitude": 51.619321,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47d4f",
+      "BusinessName": "Chi Chi's Coffee & Waffle House",
+      "AddressLine2": "LONDON",
+      "PostCode": "N13 5RY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.0986216,
+      "Geocode_Latitude": 51.6266585,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47da6",
+      "BusinessName": "Claud W. Dennis-Coffee",
+      "AddressLine2": "3 Chase Side",
+      "PostCode": "N14 5BP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.129621,
+      "Geocode_Latitude": 51.632658,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47db5",
+      "BusinessName": "Cobblers Coffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "N18 2TY",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.064032,
+      "Geocode_Latitude": 51.6168484,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47dd0",
+      "BusinessName": "Coffee Break",
+      "AddressLine2": "LONDON",
+      "PostCode": "N21 2SH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.094502,
+      "Geocode_Latitude": 51.631751,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47dd3",
+      "BusinessName": "Coffee Point",
+      "AddressLine2": "LONDON",
+      "PostCode": "N18 2XZ",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.065962,
+      "Geocode_Latitude": 51.614459,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47e3f",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "N13 4JG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.10756099969149,
+      "Geocode_Latitude": 51.6193389892578,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47e42",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "N11 1AN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.134282,
+      "Geocode_Latitude": 51.61624,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47eed",
+      "BusinessName": "Denj Coffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "N18 1RG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.074902,
+      "Geocode_Latitude": 51.616189,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72b71c0238ae6f48415",
+      "BusinessName": "Kalkaal Coffee",
+      "AddressLine2": "Angel Road",
+      "PostCode": "N18 2QH",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.063774,
+      "Geocode_Latitude": 51.614972,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f72c71c0238ae6f4848d",
+      "BusinessName": "Kiva Coffee House",
+      "AddressLine2": "LONDON",
+      "PostCode": "N13 5TW",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.10676,
+      "Geocode_Latitude": 51.619486,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72c71c0238ae6f48d6f",
+      "BusinessName": "Starfish & Coffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "N13 4PP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.113282,
+      "Geocode_Latitude": 51.619321,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72c71c0238ae6f48e86",
+      "BusinessName": "The Brothers Coffee Shop",
+      "AddressLine2": "LONDON",
+      "PostCode": "N14 5AB",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.128584,
+      "Geocode_Latitude": 51.631517,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72c71c0238ae6f48ea7",
+      "BusinessName": "The Coffee Spot",
+      "AddressLine2": "Bowes Road",
+      "PostCode": "N11 1AN",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.1335033,
+      "Geocode_Latitude": 51.6163468,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f72c71c0238ae6f48ef2",
+      "BusinessName": "The Heritage Coffee & Tea Co.",
+      "AddressLine2": "Southgate Circus",
+      "PostCode": "N14 6PH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.126629,
+      "Geocode_Latitude": 51.632322,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f72c71c0238ae6f490bd",
+      "BusinessName": "Victoria Coffee Shop Limited",
+      "AddressLine2": "LONDON",
+      "PostCode": "N9 9BA",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.066023,
+      "Geocode_Latitude": 51.622887,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72a71c0238ae6f46db6",
+      "BusinessName": "Patri Chai Coffee Chaat",
+      "AddressLine2": "West Ealing",
+      "AddressLine3": "London",
+      "PostCode": "W13 9RR",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.3186104,
+      "Geocode_Latitude": 51.5041579
+    },
+    {
+      "_id": "6399f72a71c0238ae6f46e25",
+      "BusinessName": "Pharo Coffee Shop",
+      "AddressLine2": "West Ealing",
+      "AddressLine3": "London",
+      "PostCode": "W13 9AA",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.31778600811958,
+      "Geocode_Latitude": 51.511043548584
+    },
+    {
+      "_id": "6399f72a71c0238ae6f47317",
+      "BusinessName": "Starbucks Coffee",
+      "AddressLine2": "Ealing",
+      "AddressLine3": "London",
+      "PostCode": "W5 5DA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.30522200465202,
+      "Geocode_Latitude": 51.510986328125
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47542",
+      "BusinessName": "The Electric Coffee Company",
+      "AddressLine2": "Ealing",
+      "AddressLine3": "London",
+      "PostCode": "W5 2NX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.302056,
+      "Geocode_Latitude": 51.515519
+    },
+    {
+      "_id": "6399f72b71c0238ae6f47548",
+      "BusinessName": "The Fields Coffee Shop",
+      "AddressLine2": "Ealing",
+      "AddressLine3": "London",
+      "PostCode": "W5 4XB",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.312743,
+      "Geocode_Latitude": 51.497365
+    },
+    {
+      "_id": "6399f72f71c0238ae6f4b48d",
+      "BusinessName": "Lion Coffee and Records",
+      "AddressLine2": "118 Lower Clapton Road",
+      "AddressLine3": "London",
+      "PostCode": "E5 0QR",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.053336,
+      "Geocode_Latitude": 51.553723
+    },
+    {
+      "_id": "6399f72f71c0238ae6f4b81a",
+      "BusinessName": "Pearl Coffee House & Bar",
+      "AddressLine2": "11 Prince Edward Road",
+      "AddressLine3": "London",
+      "PostCode": "E9 5EU",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.026182,
+      "Geocode_Latitude": 51.544195
+    },
+    {
+      "_id": "6399f72f71c0238ae6f4c207",
+      "BusinessName": "Amoret Speciality Coffee",
+      "RatingValue": "5",
+      "AddressLine2": "London",
+      "PostCode": "W6 0EA",
+      "Geocode_Longitude": -0.225524,
+      "Geocode_Latitude": 51.493299
+    },
+    {
+      "_id": "6399f72f71c0238ae6f4c25e",
+      "BusinessName": "ARRO COFFEE",
+      "RatingValue": "AwaitingInspection",
+      "AddressLine2": "London",
+      "PostCode": "SW6 4RD",
+      "Geocode_Longitude": -0.202151,
+      "Geocode_Latitude": 51.472234
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c522",
+      "BusinessName": "Camden Coffee House",
+      "RatingValue": "4",
+      "AddressLine2": "London",
+      "PostCode": "W12 8EG",
+      "Geocode_Longitude": -0.227416,
+      "Geocode_Latitude": 51.502086
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c576",
+      "BusinessName": "Chairs & Coffee",
+      "RatingValue": "5",
+      "AddressLine2": "London",
+      "PostCode": "SW6 5NJ",
+      "Geocode_Longitude": -0.19922,
+      "Geocode_Latitude": 51.479751
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c57c",
+      "BusinessName": "Chapter Coffee",
+      "RatingValue": "5",
+      "AddressLine2": "London",
+      "PostCode": "W14 8XU",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c60f",
+      "BusinessName": "Coffee Station",
+      "RatingValue": "4",
+      "AddressLine2": "London",
+      "PostCode": "W6 9JT",
+      "Geocode_Longitude": -0.233318,
+      "Geocode_Latitude": 51.492535
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c612",
+      "BusinessName": "Coffee Underground",
+      "RatingValue": "3",
+      "AddressLine2": "London",
+      "PostCode": "W14 9NL",
+      "Geocode_Longitude": -0.206219,
+      "Geocode_Latitude": 51.490038
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c615",
+      "BusinessName": "Coffeeology",
+      "RatingValue": "5",
+      "AddressLine2": "London",
+      "PostCode": "W6 0RR",
+      "Geocode_Longitude": -0.241735,
+      "Geocode_Latitude": 51.4937508
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c660",
+      "BusinessName": "Costa Coffee",
+      "RatingValue": "5",
+      "AddressLine2": "London",
+      "PostCode": "W12 9BL",
+      "Geocode_Longitude": -0.243448,
+      "Geocode_Latitude": 51.502939
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c663",
+      "BusinessName": "Costa Coffee",
+      "RatingValue": "5",
+      "AddressLine2": "London",
+      "PostCode": "W6 7PB",
+      "Geocode_Longitude": -0.222855,
+      "Geocode_Latitude": 51.497827
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c669",
+      "BusinessName": "Costa Coffee",
+      "RatingValue": "4",
+      "AddressLine2": "London",
+      "PostCode": "W12 8QP",
+      "Geocode_Longitude": -0.225661,
+      "Geocode_Latitude": 51.502393
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c66c",
+      "BusinessName": "Costa Coffee",
+      "RatingValue": "5",
+      "AddressLine2": "London",
+      "PostCode": "W12 8LP",
+      "Geocode_Longitude": -0.219696,
+      "Geocode_Latitude": 51.504596
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c66f",
+      "BusinessName": "Costa Coffee",
+      "RatingValue": "5",
+      "AddressLine2": "London",
+      "PostCode": "W14 9EX",
+      "Geocode_Longitude": -0.206575,
+      "Geocode_Latitude": 51.489765
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c7c2",
+      "BusinessName": "Escondidinho Coffee Shop",
+      "RatingValue": "4",
+      "AddressLine2": "London",
+      "PostCode": "W14 9NX",
+      "Geocode_Longitude": -0.203566,
+      "Geocode_Latitude": 51.486814
+    },
+    {
+      "_id": "6399f73071c0238ae6f4c7dd",
+      "BusinessName": "Eyeconn Coffee Shop",
+      "RatingValue": "3",
+      "AddressLine2": "London",
+      "PostCode": "W12 8DH",
+      "Geocode_Longitude": -0.225283,
+      "Geocode_Latitude": 51.502855
+    },
+    {
+      "_id": "6399f73071c0238ae6f4cea0",
+      "BusinessName": "Over Under Coffee",
+      "RatingValue": "5",
+      "AddressLine2": "London",
+      "PostCode": "SW6 1TU",
+      "Geocode_Longitude": -0.19698399305344,
+      "Geocode_Latitude": 51.4871444702148
+    },
+    {
+      "_id": "6399f73071c0238ae6f4cff3",
+      "BusinessName": "Press Coffee & Co.",
+      "RatingValue": "5",
+      "AddressLine2": "London",
+      "PostCode": "SW6 1BY",
+      "Geocode_Longitude": -0.19027502043219,
+      "Geocode_Latitude": 51.4801756909287
+    },
+    {
+      "_id": "6399f73071c0238ae6f4d2b4",
+      "BusinessName": "Swallow Coffee Shop",
+      "RatingValue": "4",
+      "AddressLine2": "London",
+      "PostCode": "W12 8EG",
+      "Geocode_Longitude": -0.2274159938097,
+      "Geocode_Latitude": 51.5020866394043
+    },
+    {
+      "_id": "6399f73171c0238ae6f4d4e9",
+      "BusinessName": "Tinto Coffee",
+      "RatingValue": "3",
+      "AddressLine2": "London",
+      "PostCode": "SW6 6SX",
+      "Geocode_Longitude": -0.212734,
+      "Geocode_Latitude": 51.473726
+    },
+    {
+      "_id": "6399f73171c0238ae6f4d53d",
+      "BusinessName": "V V Coffee Bar",
+      "RatingValue": "5",
+      "AddressLine2": "London",
+      "PostCode": "SW6 4NZ",
+      "Geocode_Longitude": -0.209166,
+      "Geocode_Latitude": 51.469589
+    },
+    {
+      "_id": "6399f73171c0238ae6f4d5a3",
+      "BusinessName": "Westside Coffee",
+      "RatingValue": "4",
+      "AddressLine2": "London",
+      "PostCode": "W12 8NR",
+      "Geocode_Longitude": -0.2319804,
+      "Geocode_Latitude": 51.506077
+    },
+    {
+      "_id": "6399f73171c0238ae6f4d64b",
+      "BusinessName": "1 to 3 Coffee",
+      "AddressLine2": "Hornsey",
+      "AddressLine3": "London",
+      "PostCode": "N8 9DJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.112155,
+      "Geocode_Latitude": 51.585887
+    },
+    {
+      "_id": "6399f73171c0238ae6f4e40f",
+      "BusinessName": "Pause Coffee",
+      "AddressLine2": "Tottenham",
+      "AddressLine3": "London",
+      "PostCode": "N15 5JT",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.073282,
+      "Geocode_Latitude": 51.582828
+    },
+    {
+      "_id": "6399f73171c0238ae6f4d7cb",
+      "BusinessName": "Benita Bakery Coffee & Co",
+      "AddressLine2": "Wood Green",
+      "AddressLine3": "London",
+      "PostCode": "N22 6BX",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.104362,
+      "Geocode_Latitude": 51.591732
+    },
+    {
+      "_id": "6399f73171c0238ae6f4da56",
+      "BusinessName": "Coffee Break",
+      "AddressLine2": "Wood Green",
+      "AddressLine3": "London",
+      "PostCode": "N22 6UX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.111515,
+      "Geocode_Latitude": 51.596812
+    },
+    {
+      "_id": "6399f73171c0238ae6f4da68",
+      "BusinessName": "Coffee Republic",
+      "AddressLine2": "Hornsey",
+      "AddressLine3": "London",
+      "PostCode": "N10 3RT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.144502,
+      "Geocode_Latitude": 51.589487
+    },
+    {
+      "_id": "6399f73171c0238ae6f4dab3",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Hornsey",
+      "AddressLine3": "London",
+      "PostCode": "N8 8DU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.124135,
+      "Geocode_Latitude": 51.578931
+    },
+    {
+      "_id": "6399f73171c0238ae6f4dab6",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Hornsey",
+      "AddressLine3": "London",
+      "PostCode": "N4 3EA",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.107439,
+      "Geocode_Latitude": 51.566685
+    },
+    {
+      "_id": "6399f73171c0238ae6f4dab9",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Hornsey",
+      "AddressLine3": "London",
+      "PostCode": "N10 1DJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.142438,
+      "Geocode_Latitude": 51.591604
+    },
+    {
+      "_id": "6399f73171c0238ae6f4dabc",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Hornsey",
+      "AddressLine3": "London",
+      "PostCode": "N4 1EY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.099257,
+      "Geocode_Latitude": 51.578485
+    },
+    {
+      "_id": "6399f73171c0238ae6f4dabf",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Hornsey",
+      "AddressLine3": "London",
+      "PostCode": "N6 5HX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.148056,
+      "Geocode_Latitude": 51.570966
+    },
+    {
+      "_id": "6399f73171c0238ae6f4dac2",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Hornsey",
+      "AddressLine3": "London",
+      "PostCode": "N8 0QY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.10105,
+      "Geocode_Latitude": 51.586347
+    },
+    {
+      "_id": "6399f73271c0238ae6f4e6ee",
+      "BusinessName": "Starbucks Coffee Co",
+      "AddressLine2": "Hornsey",
+      "AddressLine3": "London",
+      "PostCode": "N10 3RU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.14361,
+      "Geocode_Latitude": 51.59013
+    },
+    {
+      "_id": "6399f73a71c0238ae6f56356",
+      "BusinessName": "Notting Hill Coffee Shop",
+      "AddressLine2": "LONDON",
+      "PostCode": "W11 3JS",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.196546,
+      "Geocode_Latitude": 51.508837,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73a71c0238ae6f563bf",
+      "BusinessName": "Orange Coffee (Van)",
+      "AddressLine2": "Acklam Road",
+      "PostCode": "W10 5TE",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.20740400254726,
+      "Geocode_Latitude": 51.5193176269531,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f73a71c0238ae6f563f2",
+      "BusinessName": "Over Under Coffee",
+      "AddressLine2": "181 Earl's Court Road",
+      "PostCode": "SW5 9RD",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.19296,
+      "Geocode_Latitude": 51.492388,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567c7",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "LONDON",
+      "PostCode": "W8 5NP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.188299,
+      "Geocode_Latitude": 51.502055,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567ca",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "76 Holland Park Avenue",
+      "PostCode": "W11 3RB",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.206392,
+      "Geocode_Latitude": 51.50727,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567cd",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "123A King's Road",
+      "PostCode": "SW3 4PL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.166127,
+      "Geocode_Latitude": 51.48833,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567d0",
+      "BusinessName": "Starbucks Coffee Company (UK) Limited",
+      "AddressLine2": "LONDON",
+      "PostCode": "SW7 3HZ",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.17413499951363,
+      "Geocode_Latitude": 51.4934005737305,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567d3",
+      "BusinessName": "Starbucks Coffee Company (UK) Limited",
+      "AddressLine2": "LONDON",
+      "PostCode": "W8 6BA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.196104,
+      "Geocode_Latitude": 51.499604,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567d6",
+      "BusinessName": "Starbucks Coffee Company (UK) Limited",
+      "AddressLine2": "LONDON",
+      "PostCode": "W11 1LT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.206193,
+      "Geocode_Latitude": 51.517114,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567d9",
+      "BusinessName": "Starbucks Coffee Company (UK) Limited",
+      "AddressLine2": "LONDON",
+      "PostCode": "SW5 9HP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.190697,
+      "Geocode_Latitude": 51.489143,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567dc",
+      "BusinessName": "Starbucks Coffee Company (UK) Limited",
+      "AddressLine2": "LONDON",
+      "PostCode": "SW3 3DH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.165434,
+      "Geocode_Latitude": 51.491979,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567df",
+      "BusinessName": "Starbucks Coffee Company (UK) Limited",
+      "AddressLine2": "LONDON",
+      "PostCode": "SW7 4SS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.182126,
+      "Geocode_Latitude": 51.494244,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567e2",
+      "BusinessName": "Starbucks Coffee Company (UK) Limited",
+      "AddressLine2": "26 Pembridge Road",
+      "PostCode": "W11 3HL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.196993,
+      "Geocode_Latitude": 51.509554,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567e5",
+      "BusinessName": "Starbucks Coffee Company (UK) Limited",
+      "AddressLine2": "17-35 Gloucester Road",
+      "PostCode": "SW7 4PL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.183599,
+      "Geocode_Latitude": 51.498116,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f73a71c0238ae6f567e8",
+      "BusinessName": "Starbucks Coffee Company (UK) Limited",
+      "AddressLine2": "369 Fulham Road",
+      "PostCode": "SW10 9TH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.182981,
+      "Geocode_Latitude": 51.483059,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f73a71c0238ae6f56905",
+      "BusinessName": "The Coffee Cup Cafe",
+      "AddressLine2": "LONDON",
+      "PostCode": "W10 6QL",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.227606,
+      "Geocode_Latitude": 51.51985,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73a71c0238ae6f56a34",
+      "BusinessName": "The Tea and Coffee Plant",
+      "AddressLine2": "LONDON",
+      "PostCode": "W11 2EB",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.204611,
+      "Geocode_Latitude": 51.515552,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73a71c0238ae6f56b2d",
+      "BusinessName": "Wayne's Coffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "W8 6SA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.19778099656105,
+      "Geocode_Latitude": 51.499080657959,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73971c0238ae6f5577a",
+      "BusinessName": "Amoret Speciality Coffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "W11 3HG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.1976437,
+      "Geocode_Latitude": 51.5107701,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73971c0238ae6f55792",
+      "BusinessName": "Angels Coffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "W8 4BA",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.193459,
+      "Geocode_Latitude": 51.504176,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73971c0238ae6f55861",
+      "BusinessName": "Better Coffee Corner",
+      "AddressLine2": "1 Silchester Road",
+      "PostCode": "W10 6EX",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f73971c0238ae6f558a0",
+      "BusinessName": "Blend Juice & Coffee Bar",
+      "AddressLine2": "LONDON",
+      "PostCode": "W8 7LN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.1946557,
+      "Geocode_Latitude": 51.5061559,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73971c0238ae6f559c3",
+      "BusinessName": "Camden Coffee House",
+      "AddressLine2": "LONDON",
+      "PostCode": "W10 6HJ",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.210309,
+      "Geocode_Latitude": 51.517266,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73971c0238ae6f559c6",
+      "BusinessName": "Campden Coffee House",
+      "AddressLine2": "LONDON",
+      "PostCode": "W10 6HJ",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.210309,
+      "Geocode_Latitude": 51.517266,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73971c0238ae6f55ae3",
+      "BusinessName": "Coffeebello",
+      "AddressLine2": "LONDON",
+      "PostCode": "W11 1LA",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.205224,
+      "Geocode_Latitude": 51.51647,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73971c0238ae6f55b25",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "SW5 9QF",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.194219,
+      "Geocode_Latitude": 51.492624,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73971c0238ae6f55b28",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "SW5 9HR",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.192257,
+      "Geocode_Latitude": 51.489023,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73971c0238ae6f55b2b",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "W14 8NP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.211236,
+      "Geocode_Latitude": 51.495067,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73971c0238ae6f55bf7",
+      "BusinessName": "EasyCoffee",
+      "AddressLine2": "LONDON",
+      "PostCode": "SW10 9PR",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.1800721,
+      "Geocode_Latitude": 51.4866503,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f73971c0238ae6f560dd",
+      "BusinessName": "Lift Coffee",
+      "AddressLine2": "133 Kensington Church Street",
+      "PostCode": "W8 7LP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.1950386,
+      "Geocode_Latitude": 51.5074028,
+      "AddressLine3": "LONDON"
+    },
+    {
+      "_id": "6399f73b71c0238ae6f57c9e",
+      "BusinessName": "7OZ Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW4 7SH",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.1291157,
+      "Geocode_Latitude": 51.4650574
+    },
+    {
+      "_id": "6399f73b71c0238ae6f57d52",
+      "BusinessName": "AMT Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE1 7EH",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.11968299746513,
+      "Geocode_Latitude": 51.497917175293
+    },
+    {
+      "_id": "6399f73b71c0238ae6f57d58",
+      "BusinessName": "AMT Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE1 7EH",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.11968299746513,
+      "Geocode_Latitude": 51.497917175293
+    },
+    {
+      "_id": "6399f73b71c0238ae6f57d5b",
+      "BusinessName": "AMT Coffee",
+      "AddressLine2": "Estreham Road",
+      "AddressLine3": "London",
+      "PostCode": "SW16 5NT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.13555599749088,
+      "Geocode_Latitude": 51.4192352294922
+    },
+    {
+      "_id": "6399f73b71c0238ae6f57d5e",
+      "BusinessName": "AMT Coffee Naturally",
+      "AddressLine2": "249 Westminster Bridge Road",
+      "AddressLine3": "London",
+      "PostCode": "SE1 7EH",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.119683,
+      "Geocode_Latitude": 51.497918
+    },
+    {
+      "_id": "6399f73b71c0238ae6f57f32",
+      "BusinessName": "Brickwood Coffee \\& Bread",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW16 6HG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.13142900168896,
+      "Geocode_Latitude": 51.4276657104492
+    },
+    {
+      "_id": "6399f73b71c0238ae6f57f35",
+      "BusinessName": "Brickwood Coffee And Bread",
+      "AddressLine2": "16 Clapham Common South Side",
+      "AddressLine3": "London",
+      "PostCode": "SW4 7AB",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.138667,
+      "Geocode_Latitude": 51.460883
+    },
+    {
+      "_id": "6399f73b71c0238ae6f57fbf",
+      "BusinessName": "Buzz Coffee",
+      "AddressLine2": "Kennington Park Road",
+      "AddressLine3": "London",
+      "PostCode": "SE11 4PW",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.112222,
+      "Geocode_Latitude": 51.481468
+    },
+    {
+      "_id": "6399f73b71c0238ae6f5807e",
+      "BusinessName": "Cathedral Coffee Shop",
+      "AddressLine2": "42 - 44 Norwood High Street",
+      "AddressLine3": "London",
+      "PostCode": "SE27 9NR",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.10209599882364,
+      "Geocode_Latitude": 51.4304962158203
+    },
+    {
+      "_id": "6399f73b71c0238ae6f580a8",
+      "BusinessName": "Chaplins Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW9 6BH",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.1124183,
+      "Geocode_Latitude": 51.4782428
+    },
+    {
+      "_id": "6399f73b71c0238ae6f58150",
+      "BusinessName": "Coffee Bay Cafe",
+      "AddressLine2": "Railton Road",
+      "AddressLine3": "London",
+      "PostCode": "SE24 0JW",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.102575,
+      "Geocode_Latitude": 51.454001
+    },
+    {
+      "_id": "6399f73b71c0238ae6f58153",
+      "BusinessName": "Coffee Culture",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE1 7NJ",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.115225,
+      "Geocode_Latitude": 51.503296
+    },
+    {
+      "_id": "6399f73b71c0238ae6f58156",
+      "BusinessName": "Coffee House",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW4 7TS",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.129922,
+      "Geocode_Latitude": 51.464926
+    },
+    {
+      "_id": "6399f73b71c0238ae6f58159",
+      "BusinessName": "Coffee Republic",
+      "AddressLine2": "Streatham High Road",
+      "AddressLine3": "London",
+      "PostCode": "SW16 1EX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.12788,
+      "Geocode_Latitude": 51.434615
+    },
+    {
+      "_id": "6399f73b71c0238ae6f5815c",
+      "BusinessName": "Coffee Wake Cup",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW4 7BB",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.136672,
+      "Geocode_Latitude": 51.461086
+    },
+    {
+      "_id": "6399f73b71c0238ae6f5815f",
+      "BusinessName": "Coffeestudio Clapham",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW9 0HP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.11777,
+      "Geocode_Latitude": 51.476143
+    },
+    {
+      "_id": "6399f73b71c0238ae6f58165",
+      "BusinessName": "Coleman Coffee Roasters",
+      "AddressLine2": "20 Lower Marsh",
+      "AddressLine3": "London",
+      "PostCode": "SE1 7RJ",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.11313600093126,
+      "Geocode_Latitude": 51.5005111694336
+    },
+    {
+      "_id": "6399f73b71c0238ae6f581c2",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE1 7XE",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f73b71c0238ae6f581c5",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW12 9DY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.147199,
+      "Geocode_Latitude": 51.452458
+    },
+    {
+      "_id": "6399f73b71c0238ae6f581cb",
+      "BusinessName": "Costa Coffee ( Imax Cinema)",
+      "AddressLine2": "1 Charlie Chaplin Walk",
+      "AddressLine3": "London",
+      "PostCode": "SE1 8XR",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.113936,
+      "Geocode_Latitude": 51.504849
+    },
+    {
+      "_id": "6399f73c71c0238ae6f58210",
+      "BusinessName": "Creamery And Coffee",
+      "AddressLine2": "Streatham High Road",
+      "AddressLine3": "London",
+      "PostCode": "SW16 1HT",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.1305764,
+      "Geocode_Latitude": 51.4299999
+    },
+    {
+      "_id": "6399f73c71c0238ae6f583de",
+      "BusinessName": "Estate Office Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW16 1LY",
+      "RatingValue": "1",
+      "Geocode_Longitude": -0.128934,
+      "Geocode_Latitude": 51.438022
+    },
+    {
+      "_id": "6399f73c71c0238ae6f58435",
+      "BusinessName": "Federation Coffee",
+      "AddressLine2": "Coldharbour Lane",
+      "AddressLine3": "London",
+      "PostCode": "SW9 8PS",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.111819,
+      "Geocode_Latitude": 51.462631
+    },
+    {
+      "_id": "6399f73c71c0238ae6f5906b",
+      "BusinessName": "Sainsburys Coffee Shop",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW16 3PY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.129293,
+      "Geocode_Latitude": 51.419737
+    },
+    {
+      "_id": "6399f73c71c0238ae6f590c8",
+      "BusinessName": "Sendero Specialty Coffee",
+      "AddressLine2": "201 Victoria Rise",
+      "AddressLine3": "London",
+      "PostCode": "SW4 0PF",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.14905899763107,
+      "Geocode_Latitude": 51.4655456542969
+    },
+    {
+      "_id": "6399f73c71c0238ae6f59257",
+      "BusinessName": "Stir Coffee",
+      "AddressLine2": "111 Brixton Hill",
+      "AddressLine3": "London",
+      "PostCode": "SW2 1AA",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.119343,
+      "Geocode_Latitude": 51.454703
+    },
+    {
+      "_id": "6399f73d71c0238ae6f5941c",
+      "BusinessName": "The Black Lab Coffee House",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW4 7AB",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.138667,
+      "Geocode_Latitude": 51.460884
+    },
+    {
+      "_id": "6399f73d71c0238ae6f5945b",
+      "BusinessName": "The Coffee Lovers Fl",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW8 2JR",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.13316,
+      "Geocode_Latitude": 51.474114
+    },
+    {
+      "_id": "6399f73d71c0238ae6f59719",
+      "BusinessName": "Vanilla Black Coffee \\& Books",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE11 4LD",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.1115745,
+      "Geocode_Latitude": 51.4875187
+    },
+    {
+      "_id": "6399f73d71c0238ae6f59c44",
+      "BusinessName": "Caravello Coffee Shop",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE6 1RG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.001674,
+      "Geocode_Latitude": 51.440859
+    },
+    {
+      "_id": "6399f73d71c0238ae6f59e0f",
+      "BusinessName": "Compound Coffee",
+      "AddressLine2": "32 Winslade Way",
+      "AddressLine3": "London",
+      "PostCode": "SE6 4JU",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.020477,
+      "Geocode_Latitude": 51.446277
+    },
+    {
+      "_id": "6399f73d71c0238ae6f59e5d",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE6 4AF",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.017571,
+      "Geocode_Latitude": 51.447585
+    },
+    {
+      "_id": "6399f73d71c0238ae6f59e60",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE14 6PP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.03532,
+      "Geocode_Latitude": 51.475312
+    },
+    {
+      "_id": "6399f73d71c0238ae6f59e63",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "1 Giffin Street",
+      "AddressLine3": "London",
+      "PostCode": "SE8 4RJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.0253926,
+      "Geocode_Latitude": 51.4778881
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5a442",
+      "BusinessName": "Kente Coffee Shop",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE26 5QW",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.053938,
+      "Geocode_Latitude": 51.426271
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5a607",
+      "BusinessName": "Lomond Coffee",
+      "AddressLine2": "Deptford",
+      "AddressLine3": "London",
+      "PostCode": "SE8 4BX",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5a6ee",
+      "BusinessName": "Matchbox Coffee Co Ltd",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE4 2RW",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.036966,
+      "Geocode_Latitude": 51.464477
+    },
+    {
+      "_id": "6399f73c71c0238ae6f586bd",
+      "BusinessName": "I Love Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW16 1BW",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.128704,
+      "Geocode_Latitude": 51.43417
+    },
+    {
+      "_id": "6399f73c71c0238ae6f5872c",
+      "BusinessName": "Jack's Coffee & Gelato",
+      "AddressLine2": "350 South Lambeth Road",
+      "AddressLine3": "London",
+      "PostCode": "SW8 1UQ",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.12283200025558,
+      "Geocode_Latitude": 51.4738693237305
+    },
+    {
+      "_id": "6399f73c71c0238ae6f58783",
+      "BusinessName": "Jolie Vue Coffee Shop",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW16 6HG",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.131428,
+      "Geocode_Latitude": 51.427675
+    },
+    {
+      "_id": "6399f73c71c0238ae6f587f5",
+      "BusinessName": "Kennington Coffee",
+      "AddressLine2": "Kennington Road",
+      "AddressLine3": "London",
+      "PostCode": "SE11 6SR",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.110631,
+      "Geocode_Latitude": 51.4928
+    },
+    {
+      "_id": "6399f73c71c0238ae6f58fc9",
+      "BusinessName": "Rosca Coffee Shop",
+      "AddressLine2": "Streatham High Road",
+      "AddressLine3": "London",
+      "PostCode": "SW16 1BU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.128398,
+      "Geocode_Latitude": 51.436009
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5a808",
+      "BusinessName": "Mughead Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE14 6AT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.035477,
+      "Geocode_Latitude": 51.476016
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5a868",
+      "BusinessName": "New X Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE14 5UL",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.04202,
+      "Geocode_Latitude": 51.4746689
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5a892",
+      "BusinessName": "NUMBER 41 COFFEE AND KITCHEN",
+      "AddressLine2": "Crofton Park",
+      "AddressLine3": "London",
+      "PostCode": "SE23 1JG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.042987,
+      "Geocode_Latitude": 51.443876
+    },
+    {
+      "_id": "6399f74071c0238ae6f5c233",
+      "BusinessName": "BD Coffee House",
+      "AddressLine2": "East Ham",
+      "AddressLine3": "London",
+      "PostCode": "E6 1AE",
+      "RatingValue": "1",
+      "Geocode_Longitude": 0.0356333,
+      "Geocode_Latitude": 51.5371387
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5aaea",
+      "BusinessName": "RESTA COFFEE BAR",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE12 0DZ",
+      "RatingValue": "5",
+      "Geocode_Longitude": 0.021525,
+      "Geocode_Latitude": 51.430191
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5ab05",
+      "BusinessName": "Rising Sun Coffee Bar",
+      "AddressLine2": "275 New Cross Road",
+      "AddressLine3": "London",
+      "PostCode": "SE14 6AS",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.03820199891925,
+      "Geocode_Latitude": 51.4756126403809
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5aca9",
+      "BusinessName": "St David Coffee House",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE23 3EP",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.054605,
+      "Geocode_Latitude": 51.440374
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5ae20",
+      "BusinessName": "The Coffee Room",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE8 4PA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.0239421,
+      "Geocode_Latitude": 51.4751298
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5ae23",
+      "BusinessName": "The Coffee Shop",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE4 2HH",
+      "RatingValue": "Exempt",
+      "Geocode_Longitude": -0.0432146,
+      "Geocode_Latitude": 51.4598775
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5af2b",
+      "BusinessName": "The Teapot Coffee Shop & Deli",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE23 3HF",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.055549,
+      "Geocode_Latitude": 51.439823
+    },
+    {
+      "_id": "6399f74071c0238ae6f5c4df",
+      "BusinessName": "Coffee & Cream",
+      "AddressLine2": "Manor Park",
+      "AddressLine3": "London",
+      "PostCode": "E12 6BU",
+      "RatingValue": "2",
+      "Geocode_Longitude": 0.054692,
+      "Geocode_Latitude": 51.553031
+    },
+    {
+      "_id": "6399f74071c0238ae6f5c4e2",
+      "BusinessName": "Coffee Express",
+      "AddressLine2": "East Ham",
+      "AddressLine3": "London",
+      "PostCode": "E6 1LA",
+      "RatingValue": "1",
+      "Geocode_Longitude": 0.052724,
+      "Geocode_Latitude": 51.53303
+    },
+    {
+      "_id": "6399f74071c0238ae6f5c4e5",
+      "BusinessName": "Coffee Junction",
+      "AddressLine2": "Forest Gate",
+      "AddressLine3": "London",
+      "PostCode": "E7 8AB",
+      "RatingValue": "5",
+      "Geocode_Longitude": 0.033586,
+      "Geocode_Latitude": 51.5475
+    },
+    {
+      "_id": "6399f74071c0238ae6f5c524",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "East Ham",
+      "AddressLine3": "London",
+      "PostCode": "E6 2HJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": 0.053672,
+      "Geocode_Latitude": 51.534236
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5b00c",
+      "BusinessName": "Vanilla's Coffee",
+      "AddressLine2": "Ladywell",
+      "AddressLine3": "London",
+      "PostCode": "SE13 7DA",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.022801,
+      "Geocode_Latitude": 51.463115
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5b087",
+      "BusinessName": "Whitestone Coffee Bar Restaurant",
+      "AddressLine2": "Crofton Park",
+      "AddressLine3": "London",
+      "PostCode": "SE23 1DX",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.041031,
+      "Geocode_Latitude": 51.448565
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5b195",
+      "BusinessName": "AMT Coffee Unit 1",
+      "AddressLine2": "Wimbledon",
+      "AddressLine3": "London",
+      "PostCode": "SW19",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.21002,
+      "Geocode_Latitude": 51.427003
+    },
+    {
+      "_id": "6399f73e71c0238ae6f5b24c",
+      "BusinessName": "Bliss Coffee Ltd",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW19 1SB",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.194546,
+      "Geocode_Latitude": 51.419735
+    },
+    {
+      "_id": "6399f74071c0238ae6f5c85a",
+      "BusinessName": "Friends Coffee House",
+      "AddressLine2": "Plaistow",
+      "AddressLine3": "London",
+      "PostCode": "E13 9ER",
+      "RatingValue": "2",
+      "Geocode_Longitude": 0.037264,
+      "Geocode_Latitude": 51.530386
+    },
+    {
+      "_id": "6399f74071c0238ae6f5c8de",
+      "BusinessName": "Gold Bee Coffee",
+      "AddressLine2": "Beckton",
+      "AddressLine3": "London",
+      "PostCode": "E6 5QL",
+      "RatingValue": "5",
+      "Geocode_Longitude": 0.052305,
+      "Geocode_Latitude": 51.510591
+    },
+    {
+      "_id": "6399f73f71c0238ae6f5b435",
+      "BusinessName": "Coffee in the Wood",
+      "AddressLine2": "Colliers Wood",
+      "AddressLine3": "London",
+      "PostCode": "",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.17703734225288,
+      "Geocode_Latitude": 51.4191886333845
+    },
+    {
+      "_id": "6399f73f71c0238ae6f5b438",
+      "BusinessName": "Coffee Republic",
+      "AddressLine2": "Colliers Wood",
+      "AddressLine3": "London",
+      "PostCode": "SW19 2BH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.17961899936199,
+      "Geocode_Latitude": 51.4175338745117
+    },
+    {
+      "_id": "6399f73f71c0238ae6f5b47d",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "South Wimbledon",
+      "AddressLine3": "London",
+      "PostCode": "SW19 3BH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.192771,
+      "Geocode_Latitude": 51.415544
+    },
+    {
+      "_id": "6399f73f71c0238ae6f5b480",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Raynes Park",
+      "AddressLine3": "London",
+      "PostCode": "SW20 8JX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.212239,
+      "Geocode_Latitude": 51.410096
+    },
+    {
+      "_id": "6399f73f71c0238ae6f5b489",
+      "BusinessName": "Costa Coffee [Unit RU3, Lower Concourse]",
+      "AddressLine2": "Wimbledon",
+      "AddressLine3": "London",
+      "PostCode": "SW19 7NL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.206675,
+      "Geocode_Latitude": 51.421118
+    },
+    {
+      "_id": "6399f73f71c0238ae6f5b59a",
+      "BusinessName": "Etna Coffee",
+      "AddressLine2": "The Broadway",
+      "AddressLine3": "London",
+      "PostCode": "",
+      "RatingValue": "4",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f73f71c0238ae6f5b825",
+      "BusinessName": "La Finca Coffee",
+      "AddressLine2": "Streatham",
+      "AddressLine3": "London",
+      "PostCode": "SW16 5QQ",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.1396709,
+      "Geocode_Latitude": 51.406907
+    },
+    {
+      "_id": "6399f74071c0238ae6f5cab8",
+      "BusinessName": "Italian Coffee",
+      "AddressLine2": "Manor Park",
+      "AddressLine3": "London",
+      "PostCode": "E12 5AN",
+      "RatingValue": "2",
+      "Geocode_Longitude": 0.05096000060439,
+      "Geocode_Latitude": 51.5521697998047
+    },
+    {
+      "_id": "6399f74071c0238ae6f5cabb",
+      "BusinessName": "Italian Coffee & Spice",
+      "AddressLine2": "Manor Park",
+      "AddressLine3": "London",
+      "PostCode": "E12 6PQ",
+      "RatingValue": "3",
+      "Geocode_Longitude": 0.049562,
+      "Geocode_Latitude": 51.543867
+    },
+    {
+      "_id": "6399f74071c0238ae6f5cb27",
+      "BusinessName": "Jollys Coffee And Sandwich Bar",
+      "AddressLine2": "Manor Park",
+      "AddressLine3": "London",
+      "PostCode": "E12 5AW",
+      "RatingValue": "3",
+      "Geocode_Longitude": 0.048778,
+      "Geocode_Latitude": 51.551444
+    },
+    {
+      "_id": "6399f74171c0238ae6f5d48a",
+      "BusinessName": "Smart Coffee",
+      "AddressLine2": "East Ham",
+      "AddressLine3": "London",
+      "PostCode": "E6 6JB",
+      "RatingValue": "5",
+      "Geocode_Longitude": 0.058832,
+      "Geocode_Latitude": 51.52429
+    },
+    {
+      "_id": "6399f74171c0238ae6f5d553",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "Stratford",
+      "AddressLine3": "London",
+      "PostCode": "E15 1NG",
+      "RatingValue": "5",
+      "Geocode_Longitude": 0.001901,
+      "Geocode_Latitude": 51.541651
+    },
+    {
+      "_id": "6399f74171c0238ae6f5d574",
+      "BusinessName": "Steam & Bean Coffee Lounge",
+      "AddressLine2": "East Ham",
+      "AddressLine3": "London",
+      "PostCode": "E6 2JT",
+      "RatingValue": "5",
+      "Geocode_Longitude": 0.0547942,
+      "Geocode_Latitude": 51.5333
+    },
+    {
+      "_id": "6399f74171c0238ae6f5d583",
+      "BusinessName": "Stratford Best Coffee / Meze & Grill",
+      "AddressLine2": "Stratford",
+      "AddressLine3": "London",
+      "PostCode": "E15 4BQ",
+      "RatingValue": "4",
+      "Geocode_Longitude": 0.0011629,
+      "Geocode_Latitude": 51.5403341
+    },
+    {
+      "_id": "6399f74171c0238ae6f5d86b",
+      "BusinessName": "Triple Two Coffee",
+      "AddressLine2": "Silvertown",
+      "AddressLine3": "London",
+      "PostCode": "E16 2TF",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f74671c0238ae6f63094",
+      "BusinessName": "Aldgate Coffee House",
+      "AddressLine2": "68 Whitechapel High Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 7PL",
+      "RatingValue": "1",
+      "Geocode_Longitude": -0.069636,
+      "Geocode_Latitude": 51.515881
+    },
+    {
+      "_id": "6399f74771c0238ae6f632d1",
+      "BusinessName": "Better Coffee Corner",
+      "AddressLine2": "East India Dock Road",
+      "AddressLine3": "London",
+      "PostCode": "E14 0ED",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.011961,
+      "Geocode_Latitude": 51.511428
+    },
+    {
+      "_id": "6399f74771c0238ae6f63334",
+      "BusinessName": "Black Box Coffee",
+      "AddressLine2": "74 Commercial Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 6LY",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.074131,
+      "Geocode_Latitude": 51.5184292
+    },
+    {
+      "_id": "6399f74771c0238ae6f6333d",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "8 South Colonnade",
+      "AddressLine3": "London",
+      "PostCode": "E14 4PZ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.02209,
+      "Geocode_Latitude": 51.504523
+    },
+    {
+      "_id": "6399f74771c0238ae6f63340",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "2 Leman Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 8FA",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f74771c0238ae6f63343",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "45 Bank Street",
+      "AddressLine3": "London",
+      "PostCode": "E14 5NY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.01860699988902,
+      "Geocode_Latitude": 51.5030899047852
+    },
+    {
+      "_id": "6399f74771c0238ae6f63400",
+      "BusinessName": "Bulsho Coffee",
+      "AddressLine2": "120 Mile End Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 4UN",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.051988,
+      "Geocode_Latitude": 51.520446
+    },
+    {
+      "_id": "6399f74771c0238ae6f6350e",
+      "BusinessName": "Caravan Coffee Roasters",
+      "AddressLine2": "133 Whitechapel High Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 7QA",
+      "RatingValue": "1",
+      "Geocode_Longitude": -0.073488,
+      "Geocode_Latitude": 51.515108
+    },
+    {
+      "_id": "6399f74771c0238ae6f635e9",
+      "BusinessName": "Cinnamon Coffee Shop",
+      "AddressLine2": "103 Wapping Lane",
+      "AddressLine3": "London",
+      "PostCode": "E1W 2RW",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.057918,
+      "Geocode_Latitude": 51.505391
+    },
+    {
+      "_id": "6399f74771c0238ae6f63628",
+      "BusinessName": "Clean Hearts Coffee & Organics",
+      "AddressLine2": "52 Commercial Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 1LP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.067529,
+      "Geocode_Latitude": 51.5146825
+    },
+    {
+      "_id": "6399f74771c0238ae6f63649",
+      "BusinessName": "Coffee & Patisserie",
+      "AddressLine2": "5-7 Court Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 1DG",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.06125,
+      "Geocode_Latitude": 51.519214
+    },
+    {
+      "_id": "6399f74771c0238ae6f6364c",
+      "BusinessName": "Coffee Matters",
+      "AddressLine2": "157 Bethnal Green Road",
+      "AddressLine3": "London",
+      "PostCode": "E2 7DG",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.071136,
+      "Geocode_Latitude": 51.525402
+    },
+    {
+      "_id": "6399f74771c0238ae6f6364f",
+      "BusinessName": "Coffee Republic",
+      "AddressLine2": "208 Whitechapel Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 1BJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.05734,
+      "Geocode_Latitude": 51.519329
+    },
+    {
+      "_id": "6399f74771c0238ae6f63655",
+      "BusinessName": "Coffee Space",
+      "AddressLine2": "10 Prestons Road",
+      "AddressLine3": "London",
+      "PostCode": "E14 9RL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.01046499982476,
+      "Geocode_Latitude": 51.5080680847168
+    },
+    {
+      "_id": "6399f74771c0238ae6f636b8",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "38 New Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 2AX",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.061961,
+      "Geocode_Latitude": 51.515719
+    },
+    {
+      "_id": "6399f74771c0238ae6f636bb",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "554-556 Roman Road",
+      "AddressLine3": "London",
+      "PostCode": "E3 5ES",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.030357,
+      "Geocode_Latitude": 51.532665
+    },
+    {
+      "_id": "6399f74771c0238ae6f636be",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "275 Bancroft Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 4DG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.04266,
+      "Geocode_Latitude": 51.524517
+    },
+    {
+      "_id": "6399f74771c0238ae6f636c1",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "112 Poplar High Street",
+      "AddressLine3": "London",
+      "PostCode": "E14 0AF",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.016793,
+      "Geocode_Latitude": 51.508696
+    },
+    {
+      "_id": "6399f74771c0238ae6f636c4",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "64-66 Bethnal Green Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 6GQ",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f74771c0238ae6f636c7",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Cross Rail Link",
+      "AddressLine3": "London",
+      "PostCode": "E14 5HX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.016307,
+      "Geocode_Latitude": 51.504632
+    },
+    {
+      "_id": "6399f74771c0238ae6f636ca",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "250 Bishopsgate",
+      "AddressLine3": "London",
+      "PostCode": "EC2M 4AA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.078702,
+      "Geocode_Latitude": 51.519313
+    },
+    {
+      "_id": "6399f74771c0238ae6f636cd",
+      "BusinessName": "Costa Coffee Canary Wharf",
+      "AddressLine2": "Cabot Square",
+      "AddressLine3": "London",
+      "PostCode": "E14 4QS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.021671,
+      "Geocode_Latitude": 51.50519
+    },
+    {
+      "_id": "6399f74771c0238ae6f636d0",
+      "BusinessName": "Costa Coffee Tower Vaults",
+      "AddressLine2": "126 Whitechapel High Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 7PU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.073014,
+      "Geocode_Latitude": 51.515092
+    },
+    {
+      "_id": "6399f74771c0238ae6f636d9",
+      "BusinessName": "Cosy Coffee Cafe",
+      "AddressLine2": "34 New Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 2AX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.061961,
+      "Geocode_Latitude": 51.515719
+    },
+    {
+      "_id": "6399f74771c0238ae6f63727",
+      "BusinessName": "Curators Coffee",
+      "AddressLine2": "1 Canada Square",
+      "AddressLine3": "London",
+      "PostCode": "E14 5AB",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.019462,
+      "Geocode_Latitude": 51.504964
+    },
+    {
+      "_id": "6399f74771c0238ae6f6378d",
+      "BusinessName": "Department of Coffee & Social Affairs",
+      "AddressLine2": "6 Lamb Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 6EA",
+      "RatingValue": "1",
+      "Geocode_Longitude": -0.075224,
+      "Geocode_Latitude": 51.520083
+    },
+    {
+      "_id": "6399f74771c0238ae6f63790",
+      "BusinessName": "Department of Coffee & Social Affairs Ltd",
+      "AddressLine2": "40 Bank Street",
+      "AddressLine3": "London",
+      "PostCode": "E14 5NR",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.019379,
+      "Geocode_Latitude": 51.502561
+    },
+    {
+      "_id": "6399f74771c0238ae6f63793",
+      "BusinessName": "Department of Coffee & Social Affairs Ltd",
+      "AddressLine2": "7 Westferry Circus",
+      "AddressLine3": "London",
+      "PostCode": "E14 4HD",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.026107,
+      "Geocode_Latitude": 51.506587
+    },
+    {
+      "_id": "6399f74771c0238ae6f637c0",
+      "BusinessName": "Di Stefano Coffee Shop",
+      "AddressLine2": "28 Hackney Road",
+      "AddressLine3": "London",
+      "PostCode": "E2 7NS",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.076803997159,
+      "Geocode_Latitude": 51.5274200439453
+    },
+    {
+      "_id": "6399f74771c0238ae6f63820",
+      "BusinessName": "Doppio Coffee Ltd",
+      "AddressLine2": "90 Hanbury Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 5JL",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.071025,
+      "Geocode_Latitude": 51.520194
+    },
+    {
+      "_id": "6399f74771c0238ae6f63850",
+      "BusinessName": "E5 Roasthouse (Coffee)",
+      "AddressLine2": "2 Cotall Street",
+      "AddressLine3": "London",
+      "PostCode": "E14 6TL",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f74771c0238ae6f638e3",
+      "BusinessName": "Exmouth Coffee Co.",
+      "AddressLine2": "83 Whitechapel High Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 7QX",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.070496,
+      "Geocode_Latitude": 51.515994
+    },
+    {
+      "_id": "6399f74771c0238ae6f63a84",
+      "BusinessName": "Gusta Coffee",
+      "AddressLine2": "91 Fieldgate Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 1JU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.065995,
+      "Geocode_Latitude": 51.517107
+    },
+    {
+      "_id": "6399f74771c0238ae6f63a90",
+      "BusinessName": "Hackney Coffee Company",
+      "AddressLine2": "503 Hackney Road",
+      "AddressLine3": "London",
+      "PostCode": "E2 9ED",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.05881299823523,
+      "Geocode_Latitude": 51.5324821472168
+    },
+    {
+      "_id": "6399f74771c0238ae6f63af6",
+      "BusinessName": "Hermanos Coffee Roasters",
+      "AddressLine2": "101 Back Church Lane",
+      "AddressLine3": "London",
+      "PostCode": "E1 1LU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.067548,
+      "Geocode_Latitude": 51.512772
+    },
+    {
+      "_id": "6399f74771c0238ae6f63b02",
+      "BusinessName": "Hiland Coffee",
+      "AddressLine2": "467 Roman Road",
+      "AddressLine3": "London",
+      "PostCode": "E3 5LX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.034677,
+      "Geocode_Latitude": 51.532135
+    },
+    {
+      "_id": "6399f74771c0238ae6f63b6e",
+      "BusinessName": "Husk Coffee & Creative Space",
+      "AddressLine2": "649-651 Commercial Road",
+      "AddressLine3": "London",
+      "PostCode": "E14 7LW",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.038158,
+      "Geocode_Latitude": 51.512868
+    },
+    {
+      "_id": "6399f74771c0238ae6f63c7f",
+      "BusinessName": "Jonestown Coffee",
+      "AddressLine2": "213-215 Bethnal Green Road",
+      "AddressLine3": "London",
+      "PostCode": "E2 6AB",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.067595,
+      "Geocode_Latitude": 51.526297
+    },
+    {
+      "_id": "6399f74771c0238ae6f63d9f",
+      "BusinessName": "Lanark Coffee",
+      "AddressLine2": "262 Hackney Road",
+      "AddressLine3": "London",
+      "PostCode": "E2 7SJ",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.068652,
+      "Geocode_Latitude": 51.530972
+    },
+    {
+      "_id": "6399f74771c0238ae6f63de1",
+      "BusinessName": "Leman's Coffee Shop",
+      "AddressLine2": "121 Leman Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 8EY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.068816,
+      "Geocode_Latitude": 51.511767
+    },
+    {
+      "_id": "6399f74771c0238ae6f63e74",
+      "BusinessName": "Long Shot Coffee",
+      "AddressLine2": "127 Leman Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 8EY",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.068789,
+      "Geocode_Latitude": 51.511721
+    },
+    {
+      "_id": "6399f74871c0238ae6f64c33",
+      "BusinessName": "UG Restaurant, Deli, Coffee",
+      "AddressLine2": "33 Canada Square",
+      "AddressLine3": "London",
+      "PostCode": "E14 5LB",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.018272,
+      "Geocode_Latitude": 51.504152
+    },
+    {
+      "_id": "6399f74771c0238ae6f64036",
+      "BusinessName": "Mouse Tail Coffee Stories",
+      "AddressLine2": "Hertsmere Road",
+      "AddressLine3": "London",
+      "PostCode": "E14 4AL",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.023856,
+      "Geocode_Latitude": 51.507655
+    },
+    {
+      "_id": "6399f74771c0238ae6f64039",
+      "BusinessName": "Mouse Tail Coffee Stories",
+      "AddressLine2": "307 Whitechapel Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 1BY",
+      "RatingValue": "1",
+      "Geocode_Longitude": -0.059433,
+      "Geocode_Latitude": 51.519598
+    },
+    {
+      "_id": "6399f74771c0238ae6f64057",
+      "BusinessName": "Mr Coffee",
+      "AddressLine2": "Brushfield Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 6AA",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.07594,
+      "Geocode_Latitude": 51.519186
+    },
+    {
+      "_id": "6399f74871c0238ae6f64c78",
+      "BusinessName": "Vape & Coffee Lounge",
+      "AddressLine2": "118 Mile End Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 4UN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.051988,
+      "Geocode_Latitude": 51.520446
+    },
+    {
+      "_id": "6399f74771c0238ae6f641a7",
+      "BusinessName": "Notes Music & Coffee Ltd",
+      "AddressLine2": "20 Canada Square",
+      "AddressLine3": "London",
+      "PostCode": "E14 5NN",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.0165461,
+      "Geocode_Latitude": 51.5038755
+    },
+    {
+      "_id": "6399f74771c0238ae6f641b3",
+      "BusinessName": "Nude Coffee Roasters",
+      "AddressLine2": "4 Market Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 6DT",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.07688,
+      "Geocode_Latitude": 51.519795
+    },
+    {
+      "_id": "6399f74771c0238ae6f64213",
+      "BusinessName": "Origin Coffee",
+      "AddressLine2": "68-80 Hanbury Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 5JL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.071025,
+      "Geocode_Latitude": 51.520193
+    },
+    {
+      "_id": "6399f74771c0238ae6f64240",
+      "BusinessName": "Ozone Coffee Roasters",
+      "AddressLine2": "8 Pritchards Road",
+      "AddressLine3": "London",
+      "PostCode": "E2 9AP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.0611792,
+      "Geocode_Latitude": 51.5326133
+    },
+    {
+      "_id": "6399f74871c0238ae6f64e28",
+      "BusinessName": "Zealand Road Coffee",
+      "AddressLine2": "391 Roman Road",
+      "AddressLine3": "London",
+      "PostCode": "E3 5QS",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.036812,
+      "Geocode_Latitude": 51.531766
+    },
+    {
+      "_id": "6399f74871c0238ae6f64438",
+      "BusinessName": "Quaker Street Coffee & Bubble Tea",
+      "AddressLine2": "10 Quaker Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 6SZ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.07520300149918,
+      "Geocode_Latitude": 51.5223045349121
+    },
+    {
+      "_id": "6399f74871c0238ae6f64453",
+      "BusinessName": "Rabbit's Coffee Ltd",
+      "AddressLine2": "29-32 The Oval",
+      "AddressLine3": "London",
+      "PostCode": "E2 9DT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.0593896,
+      "Geocode_Latitude": 51.5332396
+    },
+    {
+      "_id": "6399f74871c0238ae6f644c5",
+      "BusinessName": "Restaurant Associates Coffee Shops",
+      "AddressLine2": "8 Canada Square",
+      "AddressLine3": "London",
+      "PostCode": "E14 5HQ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.018012,
+      "Geocode_Latitude": 51.505515
+    },
+    {
+      "_id": "6399f74871c0238ae6f644c8",
+      "BusinessName": "Restaurant Associates Deli Bars, Coffee Shops & Retail",
+      "AddressLine2": "8 Canada Square",
+      "AddressLine3": "London",
+      "PostCode": "E14 5HQ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.018012,
+      "Geocode_Latitude": 51.505515
+    },
+    {
+      "_id": "6399f74871c0238ae6f6462d",
+      "BusinessName": "Second Shot Coffee",
+      "AddressLine2": "475 Bethnal Green Road",
+      "AddressLine3": "London",
+      "PostCode": "E2 9QH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.057235,
+      "Geocode_Latitude": 51.527528
+    },
+    {
+      "_id": "6399f74871c0238ae6f6463c",
+      "BusinessName": "Senior Common Room Coffee Lounge",
+      "AddressLine2": "327 Mile End Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 4NS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.040544,
+      "Geocode_Latitude": 51.52342
+    },
+    {
+      "_id": "6399f74871c0238ae6f64669",
+      "BusinessName": "Shaman Coffee",
+      "AddressLine2": "15 Leman Street",
+      "AddressLine3": "London",
+      "PostCode": "E1 8EN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.070703,
+      "Geocode_Latitude": 51.514163
+    },
+    {
+      "_id": "6399f74871c0238ae6f647c5",
+      "BusinessName": "Starbucks Coffee",
+      "AddressLine2": "45 Bank Street",
+      "AddressLine3": "London",
+      "PostCode": "E14 5NY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.018607,
+      "Geocode_Latitude": 51.503088
+    },
+    {
+      "_id": "6399f74871c0238ae6f647c8",
+      "BusinessName": "Starbucks Coffee Company (UK) Ltd",
+      "AddressLine2": "2 Churchill Place",
+      "AddressLine3": "London",
+      "PostCode": "E14 5RB",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.0146,
+      "Geocode_Latitude": 51.504441
+    },
+    {
+      "_id": "6399f74871c0238ae6f647cb",
+      "BusinessName": "Starbucks Coffee Company (UK) Ltd",
+      "AddressLine2": "45 Whitechapel Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 1DU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.068393,
+      "Geocode_Latitude": 51.517003
+    },
+    {
+      "_id": "6399f74871c0238ae6f648af",
+      "BusinessName": "Tad's Coffee Offie",
+      "AddressLine2": "113 Globe Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 4LB",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.049564,
+      "Geocode_Latitude": 51.525207
+    },
+    {
+      "_id": "6399f74871c0238ae6f64996",
+      "BusinessName": "The Bridge Coffee House",
+      "AddressLine2": "82 Cambridge Heath Road",
+      "AddressLine3": "London",
+      "PostCode": "E1 5QJ",
+      "RatingValue": "0",
+      "Geocode_Longitude": -0.054642,
+      "Geocode_Latitude": 51.523421
+    },
+    {
+      "_id": "6399f74871c0238ae6f649c6",
+      "BusinessName": "The Coffee Corner",
+      "AddressLine2": "Market Square",
+      "AddressLine3": "London",
+      "PostCode": "E14 6AQ",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.014296,
+      "Geocode_Latitude": 51.512754
+    },
+    {
+      "_id": "6399f74871c0238ae6f649c9",
+      "BusinessName": "The Coffee Room",
+      "AddressLine2": "6a Grove Road",
+      "AddressLine3": "London",
+      "PostCode": "E3 5AX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.035512,
+      "Geocode_Latitude": 51.526475
+    },
+    {
+      "_id": "6399f74871c0238ae6f64a77",
+      "BusinessName": "The International Comrades Coffee Shop",
+      "AddressLine2": "7 Burdett Road",
+      "AddressLine3": "London",
+      "PostCode": "E3 4TU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.034218,
+      "Geocode_Latitude": 51.524042
+    },
+    {
+      "_id": "6399f74871c0238ae6f64abf",
+      "BusinessName": "The New Black Coffee",
+      "AddressLine2": "30 North Colonnade",
+      "AddressLine3": "London",
+      "PostCode": "E14 5GP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.0160274,
+      "Geocode_Latitude": 51.5053407
+    },
+    {
+      "_id": "6399f74b71c0238ae6f67af8",
+      "BusinessName": "The Olive Tree Coffee House",
+      "AddressLine2": "225 Garratt Lane",
+      "AddressLine3": "London",
+      "PostCode": "SW18 4DT",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.189533,
+      "Geocode_Latitude": 51.449414
+    },
+    {
+      "_id": "6399f74b71c0238ae6f67d02",
+      "BusinessName": "Walker Wyatt Coffee",
+      "AddressLine2": "3 Upper Tooting Road",
+      "AddressLine3": "London",
+      "PostCode": "SW17 7TS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.160213,
+      "Geocode_Latitude": 51.435217
+    },
+    {
+      "_id": "6399f74b71c0238ae6f67e28",
+      "BusinessName": "39 Steps Coffee Haus",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW3 1JD",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.1653908,
+      "Geocode_Latitude": 51.4989393
+    },
+    {
+      "_id": "6399f74b71c0238ae6f67e2b",
+      "BusinessName": "39 Steps Coffee Haus",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1F 8DP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.136069,
+      "Geocode_Latitude": 51.514735
+    },
+    {
+      "_id": "6399f74b71c0238ae6f67f42",
+      "BusinessName": "Algerian Coffee Stores",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1D 4PB",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.132307,
+      "Geocode_Latitude": 51.512993
+    },
+    {
+      "_id": "6399f74b71c0238ae6f68053",
+      "BusinessName": "Arro Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1U 6NJ",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.155761,
+      "Geocode_Latitude": 51.520343
+    },
+    {
+      "_id": "6399f74b71c0238ae6f680e6",
+      "BusinessName": "Back On Track Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1G 9ST",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.14771300554275,
+      "Geocode_Latitude": 51.5174102783203
+    },
+    {
+      "_id": "6399f74b71c0238ae6f68206",
+      "BusinessName": "Beatles Coffee Shop",
+      "AddressLine2": "Acacia Road",
+      "AddressLine3": "London",
+      "PostCode": "NW8 6DN",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.174077,
+      "Geocode_Latitude": 51.534864
+    },
+    {
+      "_id": "6399f74c71c0238ae6f68329",
+      "BusinessName": "Black Sheep Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1E 5NE",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.144175,
+      "Geocode_Latitude": 51.496501
+    },
+    {
+      "_id": "6399f74c71c0238ae6f6849a",
+      "BusinessName": "Bru Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1C 1JU",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.151311,
+      "Geocode_Latitude": 51.514526
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6630a",
+      "BusinessName": "2 Love Tea & Coffee",
+      "AddressLine2": "87-89 St Johns Road",
+      "AddressLine3": "London",
+      "PostCode": "SW11 1QY",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.16696,
+      "Geocode_Latitude": 51.461077
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6630d",
+      "BusinessName": "2 Love Tea &Coffee",
+      "AddressLine2": "291-293 Lavender Hill",
+      "AddressLine3": "London",
+      "PostCode": "SW11 1LP",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.1656914,
+      "Geocode_Latitude": 51.4638008
+    },
+    {
+      "_id": "6399f74a71c0238ae6f663dc",
+      "BusinessName": "AMT Coffee Limited",
+      "AddressLine2": "Balham Station Road",
+      "AddressLine3": "London",
+      "PostCode": "SW12 9SG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.151944,
+      "Geocode_Latitude": 51.443315
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6649f",
+      "BusinessName": "Banadir Coffee House",
+      "AddressLine2": "8 York Road",
+      "AddressLine3": "London",
+      "PostCode": "SW11 3QA",
+      "RatingValue": "0",
+      "Geocode_Longitude": -0.1724474,
+      "Geocode_Latitude": 51.4701921
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66628",
+      "BusinessName": "Brickwood Coffee & Bread",
+      "AddressLine2": "11 Hildreth Street",
+      "AddressLine3": "London",
+      "PostCode": "SW12 9RQ",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.151337,
+      "Geocode_Latitude": 51.444439
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6662b",
+      "BusinessName": "Brickwood coffee & bread (clapham leisure Ltd)",
+      "AddressLine2": "21-23 Tooting High Street",
+      "AddressLine3": "London",
+      "PostCode": "SW17 0SN",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.166095,
+      "Geocode_Latitude": 51.429158
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66712",
+      "BusinessName": "Cake and Coffee Lovers",
+      "AddressLine2": "1a St Johns Hill",
+      "AddressLine3": "London",
+      "PostCode": "SW11 1TN",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.1682553,
+      "Geocode_Latitude": 51.4634092
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66721",
+      "BusinessName": "Camden Coffee House",
+      "AddressLine2": "208 Balham High Road",
+      "AddressLine3": "London",
+      "PostCode": "SW12 9BS",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.15361,
+      "Geocode_Latitude": 51.443036
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6674b",
+      "BusinessName": "Casbah Coffee & Bakehouse",
+      "AddressLine2": "186 Garratt Lane",
+      "AddressLine3": "London",
+      "PostCode": "SW18 4ED",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.189881,
+      "Geocode_Latitude": 51.448269
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66829",
+      "BusinessName": "Coffee Affair",
+      "AddressLine2": "Queenstown Road",
+      "AddressLine3": "London",
+      "PostCode": "SW8 4LP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.14695,
+      "Geocode_Latitude": 51.475673
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6682c",
+      "BusinessName": "Coffee Bike London",
+      "AddressLine2": "20 Boundaries Road",
+      "AddressLine3": "London",
+      "PostCode": "SW12 8BY",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.1569537,
+      "Geocode_Latitude": 51.4433941
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6682f",
+      "BusinessName": "Coffee Max",
+      "AddressLine2": "242 Upper Tooting Road",
+      "AddressLine3": "London",
+      "PostCode": "SW17 7EX",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.165989,
+      "Geocode_Latitude": 51.430362
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66832",
+      "BusinessName": "Coffeeworks",
+      "AddressLine2": "Unit 20 Circus Road West",
+      "AddressLine3": "London",
+      "PostCode": "SW11 8EZ",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66886",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "328-334 Old York Road",
+      "AddressLine3": "London",
+      "PostCode": "SW18 1SS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.188861,
+      "Geocode_Latitude": 51.460222
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66889",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Wandsworth High Street",
+      "AddressLine3": "London",
+      "PostCode": "SW18 4TF",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.194205,
+      "Geocode_Latitude": 51.455413
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6688c",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "Putney High Street",
+      "AddressLine3": "London",
+      "PostCode": "SW15 1TW",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.216299,
+      "Geocode_Latitude": 51.463916
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6688f",
+      "BusinessName": "Costa Coffee Bar",
+      "AddressLine2": "St Johns Hill",
+      "AddressLine3": "London",
+      "PostCode": "SW11 2QP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.170127004385,
+      "Geocode_Latitude": 51.4645004272461
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66892",
+      "BusinessName": "Costa Coffee Ltd",
+      "AddressLine2": "St Johns Hill",
+      "AddressLine3": "London",
+      "PostCode": "SW11 2QP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.170127004385,
+      "Geocode_Latitude": 51.4645004272461
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6695b",
+      "BusinessName": "DeRosier Chocolate & Coffee",
+      "AddressLine2": "255-257 Wimbledon Park Road",
+      "AddressLine3": "London",
+      "PostCode": "SW19 6NW",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.2067764,
+      "Geocode_Latitude": 51.4444092
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6695e",
+      "BusinessName": "Derosier Chocolate & Coffee",
+      "AddressLine2": "380 Garratt Lane",
+      "AddressLine3": "London",
+      "PostCode": "SW18 4HP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.18721505038131,
+      "Geocode_Latitude": 51.4412137741269
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66976",
+      "BusinessName": "Devotion Coffee",
+      "AddressLine2": "St Johns Hill",
+      "AddressLine3": "London",
+      "PostCode": "SW11 1RZ",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.1701192,
+      "Geocode_Latitude": 51.4632405
+    },
+    {
+      "_id": "6399f74a71c0238ae6f669ca",
+      "BusinessName": "Doppio Coffee",
+      "AddressLine2": "336 Battersea Park Road",
+      "AddressLine3": "London",
+      "PostCode": "SW11 3BY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.17093,
+      "Geocode_Latitude": 51.470518
+    },
+    {
+      "_id": "6399f74a71c0238ae6f669dc",
+      "BusinessName": "DropShot Coffee",
+      "AddressLine2": "281 Wimbledon Park Road",
+      "AddressLine3": "London",
+      "PostCode": "SW19 6NW",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.206906,
+      "Geocode_Latitude": 51.444232
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66a5d",
+      "BusinessName": "Esquires Coffee Balham",
+      "AddressLine2": "75 Bedford Hill",
+      "AddressLine3": "London",
+      "PostCode": "SW12 9HA",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.149648,
+      "Geocode_Latitude": 51.443144
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66a60",
+      "BusinessName": "Esquires Coffee House",
+      "AddressLine2": "285-287 Putney Bridge Road",
+      "AddressLine3": "London",
+      "PostCode": "SW15 2PT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.211597,
+      "Geocode_Latitude": 51.463386
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66b59",
+      "BusinessName": "Fuel Deli & Coffee",
+      "AddressLine2": "10 Montfort Place",
+      "AddressLine3": "London",
+      "PostCode": "SW19 6QL",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.2179283,
+      "Geocode_Latitude": 51.4470162
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66c3a",
+      "BusinessName": "Ground Coffee Society",
+      "AddressLine2": "79 Lower Richmond Road",
+      "AddressLine3": "London",
+      "PostCode": "SW15 1ET",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.218623,
+      "Geocode_Latitude": 51.467062
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66d24",
+      "BusinessName": "Honeycake Coffee Shop",
+      "AddressLine2": "58 Fairfield Street",
+      "AddressLine3": "London",
+      "PostCode": "SW18 1DY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.190333,
+      "Geocode_Latitude": 51.45904
+    },
+    {
+      "_id": "6399f74a71c0238ae6f66fb8",
+      "BusinessName": "London Baby Swim Coffee Shop",
+      "AddressLine2": "18 Hardwicks Square",
+      "AddressLine3": "London",
+      "PostCode": "SW18 4JS",
+      "RatingValue": "Exempt",
+      "Geocode_Longitude": -0.195317,
+      "Geocode_Latitude": 51.45677
+    },
+    {
+      "_id": "6399f74a71c0238ae6f67204",
+      "BusinessName": "Natas Coffee Bar Ltd",
+      "AddressLine2": "19a Balham High Road",
+      "AddressLine3": "London",
+      "PostCode": "SW12 9AL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.148716,
+      "Geocode_Latitude": 51.44732
+    },
+    {
+      "_id": "6399f74a71c0238ae6f6735a",
+      "BusinessName": "Parish Coffee",
+      "AddressLine2": "23 Malwood Road",
+      "AddressLine3": "London",
+      "PostCode": "SW12 8EN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.1494991,
+      "Geocode_Latitude": 51.4505249
+    },
+    {
+      "_id": "6399f74b71c0238ae6f67399",
+      "BusinessName": "Peabody Coffee Ltd",
+      "AddressLine2": "Blackshaw Road",
+      "AddressLine3": "London",
+      "PostCode": "SW17 0QT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.175758,
+      "Geocode_Latitude": 51.426737
+    },
+    {
+      "_id": "6399f74b71c0238ae6f6739c",
+      "BusinessName": "Peabody Coffee Ltd",
+      "AddressLine2": "Blackshaw Road",
+      "AddressLine3": "London",
+      "PostCode": "SW17 0QT",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.175758,
+      "Geocode_Latitude": 51.426737
+    },
+    {
+      "_id": "6399f74b71c0238ae6f6739f",
+      "BusinessName": "Peabodys Coffee Ltd",
+      "AddressLine2": "Blackshaw Road",
+      "AddressLine3": "London",
+      "PostCode": "SW17 0QT",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.175758,
+      "Geocode_Latitude": 51.426737
+    },
+    {
+      "_id": "6399f74b71c0238ae6f673a2",
+      "BusinessName": "Peabodys Coffee Ltd",
+      "AddressLine2": "Blackshaw Road",
+      "AddressLine3": "London",
+      "PostCode": "SW17 0QT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.175758,
+      "Geocode_Latitude": 51.426737
+    },
+    {
+      "_id": "6399f74b71c0238ae6f6768a",
+      "BusinessName": "Sendero Speciality Coffee",
+      "AddressLine2": "37 Patcham Terrace",
+      "AddressLine3": "London",
+      "PostCode": "SW8 4EX",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.1473761,
+      "Geocode_Latitude": 51.4763184
+    },
+    {
+      "_id": "6399f74b71c0238ae6f6768d",
+      "BusinessName": "Sendero Specialty Coffee Ltd",
+      "AddressLine2": "2 Lavender Hill",
+      "AddressLine3": "London",
+      "PostCode": "SW11 5RW",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.151037,
+      "Geocode_Latitude": 51.466475
+    },
+    {
+      "_id": "6399f74b71c0238ae6f67732",
+      "BusinessName": "South River Coffee",
+      "AddressLine2": "84 Balham High Road",
+      "AddressLine3": "London",
+      "PostCode": "SW12 9AG",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.14981299638748,
+      "Geocode_Latitude": 51.4465446472168
+    },
+    {
+      "_id": "6399f74b71c0238ae6f677e3",
+      "BusinessName": "Starbucks Coffee",
+      "AddressLine2": "2 Mitcham Road",
+      "AddressLine3": "London",
+      "PostCode": "SW17 9NA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.166792,
+      "Geocode_Latitude": 51.42684
+    },
+    {
+      "_id": "6399f74b71c0238ae6f677e6",
+      "BusinessName": "Starbucks Coffee",
+      "AddressLine2": "11 Replingham Road",
+      "AddressLine3": "London",
+      "PostCode": "SW18 5LT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.205107,
+      "Geocode_Latitude": 51.444978
+    },
+    {
+      "_id": "6399f74b71c0238ae6f677e9",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "St Johns Hill",
+      "AddressLine3": "London",
+      "PostCode": "SW11 1RU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.16834799945355,
+      "Geocode_Latitude": 51.4638328552246
+    },
+    {
+      "_id": "6399f74b71c0238ae6f677ec",
+      "BusinessName": "Starbucks Coffee Company UK Ltd",
+      "AddressLine2": "515 Garratt Lane",
+      "AddressLine3": "London",
+      "PostCode": "SW18 4SW",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.188295,
+      "Geocode_Latitude": 51.442543
+    },
+    {
+      "_id": "6399f74b71c0238ae6f677ef",
+      "BusinessName": "Starbucks Coffee Company UK Ltd",
+      "AddressLine2": "Wandsworth High Street",
+      "AddressLine3": "London",
+      "PostCode": "SW18 2PR",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f74b71c0238ae6f67804",
+      "BusinessName": "Story Coffee",
+      "AddressLine2": "115 St Johns Hill",
+      "AddressLine3": "London",
+      "PostCode": "SW11 1SZ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.174611,
+      "Geocode_Latitude": 51.460918
+    },
+    {
+      "_id": "6399f74b71c0238ae6f6798d",
+      "BusinessName": "The Black Cab Coffee Shop",
+      "AddressLine2": "Nine Elms Lane",
+      "AddressLine3": "London",
+      "PostCode": "SW8 5AU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.13646200299263,
+      "Geocode_Latitude": 51.482494354248
+    },
+    {
+      "_id": "6399f74c71c0238ae6f686b0",
+      "BusinessName": "Caravan Coffee Roasters",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2R 0EX",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.1208694,
+      "Geocode_Latitude": 51.5105275
+    },
+    {
+      "_id": "6399f74c71c0238ae6f686b3",
+      "BusinessName": "Caravan Coffee Roasters",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1G 0EF",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.1475733,
+      "Geocode_Latitude": 51.516222
+    },
+    {
+      "_id": "6399f74c71c0238ae6f686ec",
+      "BusinessName": "Casa Coffee",
+      "AddressLine2": "Tachbrook Street",
+      "AddressLine3": "London",
+      "PostCode": "SW1V 2LL",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.138796,
+      "Geocode_Latitude": 51.492009
+    },
+    {
+      "_id": "6399f74c71c0238ae6f688c3",
+      "BusinessName": "Coffee Geek And Friends",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1E 5JH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.140081,
+      "Geocode_Latitude": 51.497263
+    },
+    {
+      "_id": "6399f74c71c0238ae6f688c6",
+      "BusinessName": "Coffee Island",
+      "AddressLine2": "5 Upper St Martin's Lane",
+      "AddressLine3": "London",
+      "PostCode": "WC2H 9EA",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.1274505,
+      "Geocode_Latitude": 51.5124044
+    },
+    {
+      "_id": "6399f74c71c0238ae6f6898c",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W2 2EA",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.163372,
+      "Geocode_Latitude": 51.515669
+    },
+    {
+      "_id": "6399f74c71c0238ae6f6898f",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1F 7TH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.140689,
+      "Geocode_Latitude": 51.514889
+    },
+    {
+      "_id": "6399f74c71c0238ae6f68992",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2B 6XE",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f74c71c0238ae6f68995",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1U 6TY",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.156955,
+      "Geocode_Latitude": 51.521467
+    },
+    {
+      "_id": "6399f74c71c0238ae6f68998",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2N 4LF",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.125715,
+      "Geocode_Latitude": 51.511027
+    },
+    {
+      "_id": "6399f74c71c0238ae6f6899b",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W2 1RL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.173878,
+      "Geocode_Latitude": 51.516427
+    },
+    {
+      "_id": "6399f74c71c0238ae6f6899e",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1F 7HP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.138649,
+      "Geocode_Latitude": 51.51474
+    },
+    {
+      "_id": "6399f74c71c0238ae6f689a1",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1Y 4LR",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.134162,
+      "Geocode_Latitude": 51.508499
+    },
+    {
+      "_id": "6399f74c71c0238ae6f689a4",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2N 6NN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.12315,
+      "Geocode_Latitude": 51.507497
+    },
+    {
+      "_id": "6399f74c71c0238ae6f689a7",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1J 9HU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.136279,
+      "Geocode_Latitude": 51.508893
+    },
+    {
+      "_id": "6399f74c71c0238ae6f689aa",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W2 1DS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.168546,
+      "Geocode_Latitude": 51.519266
+    },
+    {
+      "_id": "6399f74c71c0238ae6f689ad",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1E 5JE",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.141616,
+      "Geocode_Latitude": 51.497431
+    },
+    {
+      "_id": "6399f74c71c0238ae6f689b0",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "NW1 6AG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.159487,
+      "Geocode_Latitude": 51.522658
+    },
+    {
+      "_id": "6399f74c71c0238ae6f689b3",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2E 7HG",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.1220164,
+      "Geocode_Latitude": 51.5106718
+    },
+    {
+      "_id": "6399f74c71c0238ae6f689b6",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1U 1PZ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.150432,
+      "Geocode_Latitude": 51.515969
+    },
+    {
+      "_id": "6399f74c71c0238ae6f689bf",
+      "BusinessName": "Costa Coffee",
+      "AddressLine2": "4 Great Portland Street",
+      "AddressLine3": "London",
+      "PostCode": "W1W 8QJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.140603,
+      "Geocode_Latitude": 51.51594
+    },
+    {
+      "_id": "6399f74c71c0238ae6f689c8",
+      "BusinessName": "Costa Coffeee",
+      "AddressLine2": "334-348 Oxford Street",
+      "AddressLine3": "London",
+      "PostCode": "W1A 1EF",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.134255,
+      "Geocode_Latitude": 51.517142
+    },
+    {
+      "_id": "6399f74c71c0238ae6f68a0a",
+      "BusinessName": "Crave Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W2 6BL",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.18171499669552,
+      "Geocode_Latitude": 51.5190391540527
+    },
+    {
+      "_id": "6399f74c71c0238ae6f68aa0",
+      "BusinessName": "D1 Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "NW8 8JN",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.176197,
+      "Geocode_Latitude": 51.524754
+    },
+    {
+      "_id": "6399f74c71c0238ae6f68b2a",
+      "BusinessName": "Department Of Coffee",
+      "AddressLine2": "193 Wardour Street",
+      "AddressLine3": "London",
+      "PostCode": "W1F 8ZF",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.13582299649715,
+      "Geocode_Latitude": 51.5154685974121
+    },
+    {
+      "_id": "6399f74c71c0238ae6f68b2d",
+      "BusinessName": "Department Of Coffee And Social Affairs",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1B 5NH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.138781,
+      "Geocode_Latitude": 51.511486
+    },
+    {
+      "_id": "6399f74c71c0238ae6f68cc5",
+      "BusinessName": "Esquires Coffee Collective",
+      "AddressLine2": "123 Buckingham Palace Road",
+      "AddressLine3": "London",
+      "PostCode": "SW1W 9SH",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.14653100073338,
+      "Geocode_Latitude": 51.4931106567383
+    },
+    {
+      "_id": "6399f74c71c0238ae6f68cf2",
+      "BusinessName": "Etnacoffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1U 7DA",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.15572200715542,
+      "Geocode_Latitude": 51.5189476013184
+    },
+    {
+      "_id": "6399f74c71c0238ae6f68d25",
+      "BusinessName": "Express Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1P 2HR",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.133974,
+      "Geocode_Latitude": 51.496878
+    },
+    {
+      "_id": "6399f74d71c0238ae6f693b5",
+      "BusinessName": "Jacu Restaurant And Coffee Shop",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1P 4EJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.1292669,
+      "Geocode_Latitude": 51.4937554
+    },
+    {
+      "_id": "6399f74d71c0238ae6f69f4f",
+      "BusinessName": "Pimlico Village Coffee Shop",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1V 3AS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.134496,
+      "Geocode_Latitude": 51.488685
+    },
+    {
+      "_id": "6399f74d71c0238ae6f6959e",
+      "BusinessName": "L' Express Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1S 1PN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.142197,
+      "Geocode_Latitude": 51.513249
+    },
+    {
+      "_id": "6399f74d71c0238ae6f6a042",
+      "BusinessName": "Press Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1E 5NE",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.1443307,
+      "Geocode_Latitude": 51.4963598
+    },
+    {
+      "_id": "6399f74d71c0238ae6f6a21f",
+      "BusinessName": "Ralph's Coffee & Bar",
+      "AddressLine2": "173 Regent Street",
+      "AddressLine3": "London",
+      "PostCode": "W1B 4JQ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.14026500284672,
+      "Geocode_Latitude": 51.5122032165527
+    },
+    {
+      "_id": "6399f74d71c0238ae6f6a243",
+      "BusinessName": "Ravello Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1P 3ER",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.127459,
+      "Geocode_Latitude": 51.495173
+    },
+    {
+      "_id": "6399f74d71c0238ae6f6a246",
+      "BusinessName": "Ravello Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1H 0HW",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.1349,
+      "Geocode_Latitude": 51.497478
+    },
+    {
+      "_id": "6399f74d71c0238ae6f6a300",
+      "BusinessName": "Roasting Plant Coffee",
+      "AddressLine2": "190 Strand",
+      "AddressLine3": "London",
+      "PostCode": "WC2R 1DT",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.1146244,
+      "Geocode_Latitude": 51.5122192
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a516",
+      "BusinessName": "Second Shot Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "NW8 8ES",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.169568,
+      "Geocode_Latitude": 51.5237614
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a672",
+      "BusinessName": "Soho Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1K 4QB",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.145772,
+      "Geocode_Latitude": 51.512173
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a675",
+      "BusinessName": "Soho Coffee Co",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1U 3RF",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.151552,
+      "Geocode_Latitude": 51.516059
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a678",
+      "BusinessName": "Soho Coffee Co",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1U 8EQ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.15595,
+      "Geocode_Latitude": 51.517782
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a67b",
+      "BusinessName": "Soho Coffee Co",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2R 1AY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.11729,
+      "Geocode_Latitude": 51.511143
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a67e",
+      "BusinessName": "Soho Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2R 1HH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.11893584997459,
+      "Geocode_Latitude": 51.5113543949236
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7b3",
+      "BusinessName": "Stanfords Coffee House",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2E 9DP",
+      "RatingValue": "AwaitingInspection",
+      "Geocode_Longitude": -0.125441,
+      "Geocode_Latitude": 51.512056
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7c5",
+      "BusinessName": "Starbucks Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2B 5HZ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.121569,
+      "Geocode_Latitude": 51.512318
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7c8",
+      "BusinessName": "Starbucks Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW3 1BN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.166358,
+      "Geocode_Latitude": 51.491303
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7cb",
+      "BusinessName": "Starbucks Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1S 3HF",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.139128,
+      "Geocode_Latitude": 51.510395
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7d4",
+      "BusinessName": "Starbucks Coffee Co.",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W2 6NA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.178622,
+      "Geocode_Latitude": 51.519612
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7d7",
+      "BusinessName": "Starbucks Coffee Co.",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W9 1PE",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.186698,
+      "Geocode_Latitude": 51.530752
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7da",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1B 3DE",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.142713,
+      "Geocode_Latitude": 51.517583
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7dd",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1U 6UA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.157074,
+      "Geocode_Latitude": 51.521739
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7e0",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2H 0EA",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.130995,
+      "Geocode_Latitude": 51.515122
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7e3",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "Marylebone",
+      "AddressLine3": "London",
+      "PostCode": "W1U 1EF",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.150295,
+      "Geocode_Latitude": 51.514708
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7e6",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1N 5PA",
+      "RatingValue": "5",
+      "Geocode_Longitude": null,
+      "Geocode_Latitude": null
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7e9",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1H 0AD",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.135026,
+      "Geocode_Latitude": 51.498981
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7ec",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2N 6NQ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.124815,
+      "Geocode_Latitude": 51.508369
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7ef",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W2 1ES",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.169035,
+      "Geocode_Latitude": 51.518941
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7f2",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1B 2LU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.142505,
+      "Geocode_Latitude": 51.51418
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7f5",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1J 8DJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.1442287,
+      "Geocode_Latitude": 51.5087952
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7f8",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1H 0EX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.132626,
+      "Geocode_Latitude": 51.498143
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7fb",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1F 7JB",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.139316,
+      "Geocode_Latitude": 51.513923
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a7fe",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1F 7HH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.137633,
+      "Geocode_Latitude": 51.514912
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a801",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W2 4QH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.187914,
+      "Geocode_Latitude": 51.512121
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a804",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1J 8ET",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.142697,
+      "Geocode_Latitude": 51.507331
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a807",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2E 9JL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.123259,
+      "Geocode_Latitude": 51.513622
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a80a",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "NW8 7NL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.171244,
+      "Geocode_Latitude": 51.533606
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a810",
+      "BusinessName": "Starbucks Coffee Company",
+      "AddressLine2": "33 Cavendish Square",
+      "AddressLine3": "London",
+      "PostCode": "W1G 0LU",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.147155,
+      "Geocode_Latitude": 51.519049
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6a81c",
+      "BusinessName": "Starbucks Coffee Company  (UK) Limited",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2N 4AZ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.127557,
+      "Geocode_Latitude": 51.510382
+    },
+    {
+      "_id": "6399f74d71c0238ae6f69970",
+      "BusinessName": "Markus Coffee Co",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W2 2AY",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.165177,
+      "Geocode_Latitude": 51.514501
+    },
+    {
+      "_id": "6399f74d71c0238ae6f69c91",
+      "BusinessName": "Notes Coffee",
+      "AddressLine2": "City Of Westminster",
+      "AddressLine3": "London",
+      "PostCode": "SW1E 5DJ",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.1437525,
+      "Geocode_Latitude": 51.4974064
+    },
+    {
+      "_id": "6399f74d71c0238ae6f69c94",
+      "BusinessName": "Notes Music And Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2N 4ER",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.126721,
+      "Geocode_Latitude": 51.510027
+    },
+    {
+      "_id": "6399f74d71c0238ae6f69ceb",
+      "BusinessName": "Old Coffee House Public House",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1F 9SF",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.137481,
+      "Geocode_Latitude": 51.512635
+    },
+    {
+      "_id": "6399f74d71c0238ae6f69cee",
+      "BusinessName": "Old English Coffee House",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1X 7DU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.151765,
+      "Geocode_Latitude": 51.500478
+    },
+    {
+      "_id": "6399f74d71c0238ae6f69d3f",
+      "BusinessName": "One Dot Coffee",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1H 7AF",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.15726900100708,
+      "Geocode_Latitude": 51.5140533447266
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6ab10",
+      "BusinessName": "The Coffee Shop",
+      "AddressLine2": "Lupus Street",
+      "AddressLine3": "London",
+      "PostCode": "SW1V 3AT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.13721,
+      "Geocode_Latitude": 51.488189
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6ab13",
+      "BusinessName": "The Coffee Tree",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W9 3JP",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.197893,
+      "Geocode_Latitude": 51.528021
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6ab55",
+      "BusinessName": "The Department Of Coffee & Social Affairs",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1F 7HD",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.139085,
+      "Geocode_Latitude": 51.513596
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6ab67",
+      "BusinessName": "The Drury Tea & Coffee Co Limited",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2N 4LH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.12629,
+      "Geocode_Latitude": 51.511045
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6ade0",
+      "BusinessName": "The Theatre Coffee Shop",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "WC2R 0DE",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.122126,
+      "Geocode_Latitude": 51.509971
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6ae34",
+      "BusinessName": "The Young Project Coffee Shop",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1D 7DP",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.1352184,
+      "Geocode_Latitude": 51.5113501
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6aeaf",
+      "BusinessName": "Tom Tom Coffee House",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SW1W 9QD",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.149632,
+      "Geocode_Latitude": 51.494096
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6b1e8",
+      "BusinessName": "Workshop Coffee & Co.",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1W 7SD",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.14254,
+      "Geocode_Latitude": 51.517589
+    },
+    {
+      "_id": "6399f74e71c0238ae6f6b1eb",
+      "BusinessName": "Workshop Coffee Co Marylebone",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "W1U 1DN",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.150056,
+      "Geocode_Latitude": 51.51527
+    }
+  ]
