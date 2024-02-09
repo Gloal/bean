@@ -16,7 +16,7 @@ export default function Footer() {
 
   return (
     <Box sx={{ width: 500 }}>
-      <BottomNavigation
+      <BottomNavigation 
         showLabels
         value={value}
         onChange={(event, newValue) => {
