@@ -9,13 +9,18 @@ import NavBar from './components/NavBar'
 import Map from './components/Map'
 import Jumbotron from './components/Jumbotron'
 import coffe_shops from './data/london_coffee_shops.json'
-import all_restaurants from './data/london_restaurants.json'
+import londonRestaurantData from './data/london_restaurants.json'
+
 import axios from 'axios'
 
 
 function App() {
 
+  const [restaurantData, setRestaurantData] = useState([]);
 
+  useEffect(() => {
+    setRestaurantData(londonRestaurantData);
+  }, []); 
 
   
 async function getCoffeeShopsThroughWyre(){
@@ -63,23 +68,16 @@ async function getCoffeeShopsThroughYelp(){
 //getCoffeeShopsThroughWyre(options);
 
 const  getCoffeeShops = ()=>{
-  const londonCoffeeShops = all_restaurants.filter((rest) => (rest.BusinessName.toLowerCase().includes('coffee')) && rest.RatingValue.length==1 && rest.Geocode_Latitude!=null);
+  const londonCoffeeShops = londonRestaurantData.filter((rest) => (rest.BusinessName.toLowerCase().includes('coffee')) && rest.RatingValue.length==1 && rest.Geocode_Latitude!=null);
   const cafeRegex = /cafe/i;
-  const cafes = all_restaurants.filter((rest) => (cafeRegex.test(rest.BusinessName) && rest.RatingValue.length==1 && rest.Geocode_Latitude!=null));
+  const cafes = londonRestaurantData.filter((rest) => (cafeRegex.test(rest.BusinessName) && rest.RatingValue.length==1 && rest.Geocode_Latitude!=null));
 
   console.log(JSON.stringify(cafes, null, 2));
   console.log(cafes.length)
 }
 
 getCoffeeShops();
-import londonRestaurantData from './data/london_restaurants.json'
 
-function App() {
-  const [restaurantData, setRestaurantData] = useState([]);
-
-  useEffect(() => {
-    setRestaurantData(londonRestaurantData);
-  }, []); 
 
   return (
     <>
@@ -96,4 +94,4 @@ function App() {
   );
 }
 
-export default App
+export default App;
