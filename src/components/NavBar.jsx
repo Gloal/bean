@@ -17,8 +17,8 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 
 
-const pages = ['Home','Cafe Corner', 'Search', 'Add Reviews'];
-const settings = ['Phone', 'Email', 'Address', 'Instagram'];
+const pages = ['Home','Favourites', 'Add Reviews'];
+const settings = ['Phone', 'Email', 'Address'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -43,8 +43,8 @@ function NavBar() {
     <AppBar position="static">
       { /*<Container maxWidth="xl">*/ }
         <Toolbar className='toolbar' disableGutters>
-        <Avatar alt="logo" src={logo}/>
-          <Typography
+        <Avatar className="logo" alt="logo" src={logo}/>
+          <Typography className="header"
             variant="h6"
             noWrap
             component="a"
@@ -108,10 +108,10 @@ function NavBar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Button
+              <Button className="navbar-button"
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: 'white', display: 'block' }}
+                sx={{ my: 2, color: '#ffcbf1', display: 'block' }}
               >
                 {page}
               </Button>
@@ -119,12 +119,12 @@ function NavBar() {
           </Box>
 
           <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Open settings">
+            <Tooltip title="Contact-Details">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
                 <Avatar alt="contact-icon" src={contactIcon}></Avatar>
               </IconButton>
             </Tooltip>
-            <Menu
+            <Menu 
               sx={{ mt: '45px' }}
               id="menu-appbar"
               anchorEl={anchorElUser}
