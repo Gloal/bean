@@ -1,141 +1,128 @@
-import * as React from 'react';
-import Box from '@mui/material/Box';
-import TextField from '@mui/material/TextField';
-import MenuItem from '@mui/material/MenuItem';
-const currencies = [
-  {
-    value: 'USD',
-    label: '$',
+import * as React from "react";
+import Button from "@mui/material/Button";
+import { styled } from '@mui/material/styles';
+import TextField from "@mui/material/TextField";
+import Dialog from "@mui/material/Dialog";
+import DialogActions from "@mui/material/DialogActions";
+import DialogContent from "@mui/material/DialogContent";
+import DialogContentText from "@mui/material/DialogContentText";
+import DialogTitle from "@mui/material/DialogTitle";
+import Radio from '@mui/material/Radio';
+import RadioGroup from '@mui/material/RadioGroup';
+import FormControlLabel from '@mui/material/FormControlLabel';
+
+export default function AddReviewButton(addReview) {
+
+  const [open, setOpen] = React.useState(false);
+
+  //open dialg when button is clicked
+  const handleReviewOpen = () => {
+    setOpen(true);
+  };
+
+  //close the form modal 
+  const handleClose = () => {
+    console.log("buttonClicked")
+    setOpen(false);
+  };
+
+  const onSubmit = (event) => {
+    event.preventDefault();
+    const formData = new FormData(event.currentTarget);
+    const formJson = Object.fromEntries(formData.entries());
+    const name = formJson.name;
+    const rating = formJson.rating;
+    const review = formJson.review;
+    console.log(email);
+    console.log(rating)
+    handleClose();
+  }
+
+
+const AddReviewButton = styled(Button)(({ theme }) => ({
+  color: '#FFCBF1',
+  backgroundColor: '#210C02',
+  '&:hover': {
+    backgroundColor: '#170801',
   },
-  {
-    value: 'EUR',
-    label: '€',
-  },
-  {
-    value: 'BTC',
-    label: '฿',
-  },
-  {
-    value: 'JPY',
-    label: '¥',
-  },
-];
-export default function SelectTextFields() {
-  return (
-    <Box
-      component="form"
-      sx={{
-        '& .MuiTextField-root': { m: 1, width: '25ch' },
-      }}
-      noValidate
-      autoComplete="off"
-    >
-      <div>
+}));
+
+
+
+return (
+  <React.Fragment>
+    <AddReviewButton variant="contained" onClick={handleReviewOpen}>
+      Add Review
+    </AddReviewButton>
+
+
+
+    <Dialog open={open} component="form"> 
+      <DialogTitle>Review</DialogTitle>
+      <DialogContent>
+        <DialogContentText>
+          To submit a review, start by searching for your cafe.
+        </DialogContentText>
         <TextField
-          id="outlined-select-currency"
-          select
-          label="Select"
-          defaultValue="EUR"
-          helperText="Please select your currency"
-        >
-          {currencies.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </TextField>
-        <TextField
-          id="outlined-select-currency-native"
-          select
-          label="Native select"
-          defaultValue="EUR"
-          SelectProps={{
-            native: true,
-          }}
-          helperText="Please select your currency"
-        >
-          {currencies.map((option) => (
-            <option key={option.value} value={option.value}>
-              {option.label}
-            </option>
-          ))}
-        </TextField>
-      </div>
-      <div>
-        <TextField
-          id="filled-select-currency"
-          select
-          label="Select"
-          defaultValue="EUR"
-          helperText="Please select your currency"
-          variant="filled"
-        >
-          {currencies.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </TextField>
-        <TextField
-          id="filled-select-currency-native"
-          select
-          label="Native select"
-          defaultValue="EUR"
-          SelectProps={{
-            native: true,
-          }}
-          helperText="Please select your currency"
-          variant="filled"
-        >
-          {currencies.map((option) => (
-            <option key={option.value} value={option.value}>
-              {option.label}
-            </option>
-          ))}
-        </TextField>
-      </div>
-      <div>
-        <TextField
-          id="standard-select-currency"
-          select
-          label="Select"
-          defaultValue="EUR"
-          helperText="Please select your currency"
+          autoFocus
+          required
+          margin="dense"
+          id="cafe-name"
+          name="cafe-name"
+          label="Cafe Name"
+          type="string"
+          fullWidth
           variant="standard"
-        >
-          {currencies.map((option) => (
-            <MenuItem key={option.value} value={option.value}>
-              {option.label}
-            </MenuItem>
-          ))}
-        </TextField>
-        <TextField
-          id="standard-select-currency-native"
-          select
-          label="Native select"
-          defaultValue="EUR"
-          SelectProps={{
-            native: true,
-          }}
-          helperText="Please select your currency"
+        />
+
+        <RadioGroup
+          row
+          autoFocus
+          required
+          margin="dense"
+          id="rating"
+          name="rating"
+          type="string"
+          fullWidth
           variant="standard"
-        >
-          {currencies.map((option) => (
-            <option key={option.value} value={option.value}>
-              {option.label}
-            </option>
-          ))}
-        </TextField>
-      </div>
-    </Box>
-  );
+        > Rating
+          <FormControlLabel value="1" control={<Radio />} label="1" />
+          <FormControlLabel value="2" control={<Radio />} label="2" />
+          <FormControlLabel value="3" control={<Radio />} label="3" />
+          <FormControlLabel value="4" control={<Radio />} label="4" />
+          <FormControlLabel value="5" control={<Radio />} label="5" />
+        </RadioGroup>
+
+
+        <TextField
+          autoFocus
+          required
+          margin="dense"
+          id="review"
+          name="review"
+          label="Review"
+          type="string"
+          fullWidth
+          variant="standard"
+        />
+        <TextField
+          autoFocus
+          margin="dense"
+          id="reviewer-name"
+          name="reviewer-name"
+          label="Your Name"
+          type="string"
+          fullWidth
+          required
+          variant="standard"
+        />
+      </DialogContent>
+      <DialogActions>
+        <Button onClick={handleClose}>Cancel</Button>
+        <Button type="submit"  onSubmit={onSubmit}>Submit Review</Button>
+      </DialogActions>
+    </Dialog>
+
+  </React.Fragment>
+);
 }
-
-
-
-
-
-
-
-
-
