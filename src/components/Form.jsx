@@ -11,6 +11,8 @@ import ListItemDecorator from "@mui/joy/ListItemDecorator";
 import ListDivider from "@mui/joy/ListDivider";
 import Select from "@mui/joy/Select";
 import Option from "@mui/joy/Option";
+import { styled } from '@mui/material/styles';
+
 
 export default function FormDialog() {
   const [open, setOpen] = React.useState(false);
@@ -25,11 +27,21 @@ export default function FormDialog() {
     setOpen(false);
   };
 
+  const ColorButton = styled(Button)(({ theme }) => ({
+    color: '#FFCBF1',
+    backgroundColor: '#210C02',
+    '&:hover': {
+      backgroundColor: '#170801',
+    },
+  }));
+
+
+
   return (
     <React.Fragment>
-      <Button variant="outlined" onClick={handleReviewOpen}>
-        Open form dialog
-      </Button>
+      <ColorButton variant="contained" onClick={handleReviewOpen}>
+        Add Review
+      </ColorButton>
       <Dialog
         open={open}
         onClose={handleClose}

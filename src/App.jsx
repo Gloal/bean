@@ -8,7 +8,7 @@ import Form from './components/Form'
 import NavBar from './components/NavBar'
 import Map from './components/Map'
 import Jumbotron from './components/Jumbotron'
-import coffe_shops from './data/london_coffee_shops.json'
+import coffee_shops from './data/london_coffee_shops.json'
 import londonRestaurantData from './data/london_restaurants.json'
 
 import axios from 'axios'
@@ -17,6 +17,7 @@ import axios from 'axios'
 function App() {
 
   const [restaurantData, setRestaurantData] = useState([]);
+  const [reviews, setReview] = useState([])
 
   useEffect(() => {
     setRestaurantData(londonRestaurantData);
