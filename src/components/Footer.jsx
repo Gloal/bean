@@ -16,8 +16,8 @@ export default function Footer() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box className="footer" sx={{ width: 500 }}>
-      <BottomNavigation 
+    <Box sx={{ width: 500 }}>
+      <BottomNavigation className="footer"
         showLabels
         value={value}
         onChange={(event, newValue) => {
