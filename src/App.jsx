@@ -1,27 +1,38 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect } from "react";
 // import reactLogo from './assets/react.svg';
 // import viteLogo from '/vite.svg';
 // //import './App.css';
-import Card from './components/Card';
+import Card from "./components/Card";
 /*import CardContainer from './components/CardContainer'; */
-import NavBar from './components/NavBar';
-import Form from './components/Form';
-import Map from './components/Map';
-import Jumbotron from './components/Jumbotron';
+import NavBar from "./components/NavBar";
+import Form from "./components/Form";
+//import Map from './components/Map';
+import Jumbotron from "./components/Jumbotron";
 // import coffee_shops from './data/london_coffee_shops.json';
-import londonRestaurantData from './data/london_restaurants.json';
-import Footer from './components/Footer.jsx';
-// import axios from 'axios';
-import Style from './components/card.css'
+import londonRestaurantData from "./data/london_restaurants.json";
+import Footer from "./components/Footer.jsx";
+import axios from "axios";
+import Style from "./components/card.css";
+import Map, {Marker} from "react-map-gl";
+import "mapbox-gl/dist/mapbox-gl.css";
+import cafes from "./data/london_cafes.json"
+import { Button } from "@mui/base";
 
 function App() {
-
   const [restaurantData, setRestaurantData] = useState([]);
   // const [reviews, setReview] = useState([])
 
   useEffect(() => {
     setRestaurantData(londonRestaurantData);
-  }, []); 
+  }, []);
+
+  const [view, setView] = useState({
+    longitude: -0.1,
+    latitude: 40,
+    zoom: 3.5,
+    width: "100vw",
+    height: "200vh",
+  });
 
   /*
 async function getCoffeeShopsThroughWyre(){
@@ -80,7 +91,7 @@ const  getCoffeeShops = ()=>{
 
 getCoffeeShops();
 
-*/
+
 const options = {method: 'GET', headers: {accept: 'application/json'}};
 
 fetch('https://api.yelp.com/v3/businesses/search?sort_by=best_match&limit=20', options)
@@ -116,21 +127,43 @@ useEffect(()=>{
   console.log(getYelpCafes());
  }, [])
 
+*/
+  const token =
+    "pk.eyJ1IjoiZ2xvYWwiLCJhIjoiY2xzZWhta2F3MDN6MjJrb3VyYXhoOW9lZyJ9.2wbkCYCQgNFrl8EZj1NePA";
 
-return (
-  <>
-    <NavBar />
-    <Jumbotron />
-    <div className="coffee-card-grid">
-      {restaurantData.map((restaurant) => (
-        <Card key={restaurant._id} shopData={restaurant} />
-      ))}
-    </div>
-    <Map />
-    <Form />
-    <Footer />
-  </>
-);
+  return (
+    <>
+      <NavBar />
+      <Jumbotron />
+      <div className="coffee-card-grid">
+        {restaurantData.map((restaurant) => (
+          <Card key={restaurant._id} shopData={restaurant} />
+        ))}
+      </div>
+
+      <div>
+        <Map
+          initialViewState={{
+            longitude: -0.207,
+            latitude: 51.5,
+            zoom: 12
+          }}
+          mapboxAccessToken={token}
+          style={{width: 1000, height:800}}
+          mapStyle="mapbox://styles/gloal/clsfe7wn0008d01qxh5p67hdn"
+          {...cafes.map(cafe => (
+            <Marker key={cafe._id} latitude={cafe.Geocode_Latitude} longitude={cafe.Geocode_Longitude}>
+              <Button>
+                <img src="./assets/images/coffee-in.jpg" alt="cafe"/>
+              </Button>
+            </Marker>
+            ))}
+        />
+      </div>
+      <Form />
+      <Footer />
+    </>
+  );
 }
 
 export default App;
