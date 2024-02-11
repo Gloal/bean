@@ -109,6 +109,17 @@
     "imageUrl": "src/assets/Images/coffee-station-w6.jpg"
   },
   {
+    "_id": "6399f72271c0238ae6f3e59c",
+    "BusinessName": "XOXO Patisserie",
+    "AddressLine2": "London",
+    "PostCode": "NW2 4RA",
+    "RatingValue": "4",
+    "Geocode_Longitude": -0.222133,
+    "Geocode_Latitude": 51.548237,
+    "AddressLine3": "",
+    "imageUrl": "src/assets/Images/xoxo-coffee-nw2.jpg"
+  },
+  {
     "_id": "6399f73a71c0238ae6f56a34",
     "BusinessName": "The Tea and Coffee Plant",
     "AddressLine2": "LONDON",
