@@ -15,8 +15,9 @@ import axios from "axios";
 import Style from "./components/card.css";
 import Map, {Marker} from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import cafes from "./data/london_cafes.json"
+import cafes from "./data/london_cafes_reduced.json"
 import { Button } from "@mui/base";
+import pin from './assets/Images/pin.svg'
 
 function App() {
   const [restaurantData, setRestaurantData] = useState([]);
@@ -151,14 +152,13 @@ useEffect(()=>{
           mapboxAccessToken={token}
           style={{width: 1000, height:800}}
           mapStyle="mapbox://styles/gloal/clsfe7wn0008d01qxh5p67hdn"
+          >
           {...cafes.map(cafe => (
             <Marker key={cafe._id} latitude={cafe.Geocode_Latitude} longitude={cafe.Geocode_Longitude}>
-              <Button>
-                <img src="./assets/images/coffee-in.jpg" alt="cafe"/>
-              </Button>
+                <img src={pin} width="20px" height="20px" background="none" alt="cafe"/>
             </Marker>
             ))}
-        />
+        </Map>
       </div>
       <Form />
       <Footer />

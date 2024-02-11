@@ -1,0 +1,342 @@
+[
+    {
+      "_id": "6399f72071c0238ae6f3cbdd",
+      "BusinessName": "The Ness Cafe",
+      "AddressLine2": "London",
+      "AddressLine3": "",
+      "PostCode": "SE2 9AQ",
+      "RatingValue": "5",
+      "Geocode_Longitude": 0.133478,
+      "Geocode_Latitude": 51.506094
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cd6f",
+      "BusinessName": "1 Life Cafe",
+      "AddressLine2": "Donnington Road",
+      "PostCode": "NW10 3QX",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.231938,
+      "Geocode_Latitude": 51.54048,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cd72",
+      "BusinessName": "244 Cafe",
+      "AddressLine2": "London",
+      "PostCode": "NW10 4TD",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.240915,
+      "Geocode_Latitude": 51.53317,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cd9f",
+      "BusinessName": "Abbey Point Cafe & Hotel",
+      "AddressLine2": "London",
+      "PostCode": "NW10 7DD",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.275306,
+      "Geocode_Latitude": 51.534984,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cebf",
+      "BusinessName": "Arthurs Cafe",
+      "AddressLine2": "Station Terrace",
+      "PostCode": "NW10 5RU",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.219766,
+      "Geocode_Latitude": 51.534218,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cef5",
+      "BusinessName": "Ayan Cafetaria Limited",
+      "AddressLine2": "London",
+      "PostCode": "NW10 9NP",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.248437,
+      "Geocode_Latitude": 51.547921,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cefe",
+      "BusinessName": "Backyard Lebanese Cafe & Shisha Lounge",
+      "AddressLine2": "London",
+      "PostCode": "NW9 8SD",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.262658,
+      "Geocode_Latitude": 51.564229,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cf04",
+      "BusinessName": "Bacovia Supermarket & Cafe",
+      "AddressLine2": "London",
+      "PostCode": "NW10 0AD",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.251142,
+      "Geocode_Latitude": 51.560156,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cf9d",
+      "BusinessName": "Big Al's Cafe Grill",
+      "AddressLine2": "London",
+      "PostCode": "NW10 9EP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.248259,
+      "Geocode_Latitude": 51.54845,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cfb2",
+      "BusinessName": "Bijou Cafe Ltd",
+      "AddressLine2": "London",
+      "PostCode": "NW2 4RS",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.22013500332832,
+      "Geocode_Latitude": 51.5495300292969,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72071c0238ae6f3cfeb",
+      "BusinessName": "Bob's Cafe",
+      "AddressLine2": "Kilburn",
+      "PostCode": "NW6 6NH",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.205253,
+      "Geocode_Latitude": 51.535884,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d0bd",
+      "BusinessName": "Cafe - Carwa Banadir Business Centre",
+      "AddressLine2": "London",
+      "PostCode": "NW10 4SL",
+      "RatingValue": "2",
+      "Geocode_Longitude": -0.245355,
+      "Geocode_Latitude": 51.535826,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d0c3",
+      "BusinessName": "Cafe Du Coin",
+      "AddressLine2": "London",
+      "PostCode": "NW10 8TX",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.2552904,
+      "Geocode_Latitude": 51.5375041,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d0c6",
+      "BusinessName": "Cafe Express",
+      "AddressLine2": "London",
+      "PostCode": "NW10 2DS",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.24426,
+      "Geocode_Latitude": 51.549298,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d0c9",
+      "BusinessName": "Cafe Florya",
+      "AddressLine2": "London",
+      "PostCode": "NW9 8SL",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.261973,
+      "Geocode_Latitude": 51.574237,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d0d2",
+      "BusinessName": "Cafe Plus",
+      "AddressLine2": "Kilburn",
+      "PostCode": "NW6 7TA",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.202167,
+      "Geocode_Latitude": 51.541017,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d0d5",
+      "BusinessName": "Cafe Prego",
+      "AddressLine2": "London",
+      "PostCode": "NW2 3JG",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.213744,
+      "Geocode_Latitude": 51.555069,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d0d8",
+      "BusinessName": "Cafe Rossio",
+      "AddressLine2": "London",
+      "PostCode": "NW10 5NL",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.232454,
+      "Geocode_Latitude": 51.532008,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d2c7",
+      "BusinessName": "Crazy Bakery (Cafe and Bakery)",
+      "AddressLine2": "London",
+      "PostCode": "NW10 5NY",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.229126,
+      "Geocode_Latitude": 51.530457,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d2cd",
+      "BusinessName": "Cricklewood Boxing Club - Cafe",
+      "AddressLine2": "Cricklewood",
+      "PostCode": "NW2 6JP",
+      "RatingValue": "3",
+      "Geocode_Longitude": -0.222017,
+      "Geocode_Latitude": 51.562308,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d2dc",
+      "BusinessName": "Crown Cafe",
+      "AddressLine2": "Barretts Green Road",
+      "PostCode": "NW10 7AE",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.26340499520302,
+      "Geocode_Latitude": 51.5339889526367,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72171c0238ae6f3dea9",
+      "BusinessName": "Roses Bistro Cafe",
+      "AddressLine2": "London",
+      "PostCode": "NW6 7JN",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.199304,
+      "Geocode_Latitude": 51.542673,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3deb8",
+      "BusinessName": "Roundwood Park Cafe",
+      "AddressLine2": "Harlesden Road",
+      "PostCode": "NW10 3SH",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.2399699985981,
+      "Geocode_Latitude": 51.5408630371094,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d34b",
+      "BusinessName": "Dempsey's Cafe",
+      "AddressLine2": "London",
+      "PostCode": "NW10 2QG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.225238,
+      "Geocode_Latitude": 51.547753,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d3d5",
+      "BusinessName": "Early's Cafe",
+      "AddressLine2": "London",
+      "PostCode": "NW2 3HP",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.21728,
+      "Geocode_Latitude": 51.558001,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3df99",
+      "BusinessName": "Saucy Soca Cafe",
+      "AddressLine2": "140 Carlton Vale",
+      "PostCode": "NW6 5HE",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.19634400308132,
+      "Geocode_Latitude": 51.5325546264648,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d411",
+      "BusinessName": "Ellas Cafe",
+      "AddressLine2": "London",
+      "PostCode": "NW10 2PJ",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.233153,
+      "Geocode_Latitude": 51.547449,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d444",
+      "BusinessName": "Europe Cafe",
+      "AddressLine2": "London",
+      "PostCode": "NW10 9NP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.24835,
+      "Geocode_Latitude": 51.547948,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d462",
+      "BusinessName": "Family Cafe Restaurant",
+      "AddressLine2": "Kilburn",
+      "PostCode": "NW6 7TH",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.205493,
+      "Geocode_Latitude": 51.541527,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72171c0238ae6f3e008",
+      "BusinessName": "Sheila's Cafe",
+      "AddressLine2": "London",
+      "PostCode": "NW2 3HP",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.21728,
+      "Geocode_Latitude": 51.558001,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3e083",
+      "BusinessName": "Sonara Cafe & Kitchen",
+      "AddressLine2": "London",
+      "PostCode": "NW10 5ES",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.225977,
+      "Geocode_Latitude": 51.533565,
+      "AddressLine3": ""
+    },
+    {
+      "_id": "6399f72171c0238ae6f3d56a",
+      "BusinessName": "Gabriel's Cafe",
+      "AddressLine2": "Walm Lane",
+      "PostCode": "NW2 4RX",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.2179,
+      "Geocode_Latitude": 51.552102,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72171c0238ae6f3e10d",
+      "BusinessName": "Stables Cafe",
+      "AddressLine2": "Dollis Hill Lane",
+      "PostCode": "NW2 6HT",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.23688,
+      "Geocode_Latitude": 51.559987,
+      "AddressLine3": "London"
+    },
+    {
+      "_id": "6399f72171c0238ae6f3e119",
+      "BusinessName": "Star Cafe",
+      "AddressLine2": "Maida Hill",
+      "PostCode": "W9 3EG",
+      "RatingValue": "5",
+      "Geocode_Longitude": -0.205752,
+      "Geocode_Latitude": 51.533105,
+      "AddressLine3": "London"
+    }
+]
