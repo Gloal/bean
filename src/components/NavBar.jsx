@@ -16,8 +16,10 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { colors } from '@mui/material';
 
+
+
 const pages = ['HOME', 'TRENDING', 'ADD REVIEW'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout']; 
+{/*const settings = ['Profile', 'Account', 'Dashboard', 'Logout']; */}
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -42,13 +44,13 @@ function NavBar() {
     <AppBar position="static">
       {/*<Container maxWidth="xl"> */ }
         <Toolbar className="toolbar" sx={{ bgcolor:'#ffecb3' }}disableGutters>
-        <Avatar className="logo" alt="logo" src={logo}/>
+        <Avatar className="logo" alt="logo" src={logo} />
           {/*<AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */ }
           <Typography className="header"
             variant="h6"
             noWrap
             component=""
-            href="#app-bar-with-responsive-menu"
+            href=""
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -57,7 +59,6 @@ function NavBar() {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
-              color: 'inherit'
             }}
           >
             BEAN
@@ -89,7 +90,7 @@ function NavBar() {
               open={Boolean(anchorElNav)}
               onClose={handleCloseNavMenu}
               sx={{
-                display: { xs: 'block', md: 'none' },
+                display: { xs: 'block', md: 'none', bgcolor:'#ffecb3' },
               }}
             >
               {pages.map((page) => (
@@ -117,7 +118,7 @@ function NavBar() {
             }}
           >
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+          <Box sx={{  flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
               <Button
                 key={page}
