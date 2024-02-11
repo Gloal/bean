@@ -1,7 +1,6 @@
 import * as React from 'react';
 import './Navbar.css'
 import logo from './../assets/Images/logo3.png';
-import contactIcon from './../assets/Images/contact1.png';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -15,11 +14,10 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import { Modal } from '@mui/material';
+import { colors } from '@mui/material';
 
-
-const pages = ['Home','Favourites', 'Add Reviews'];
-const settings = ['Phone', 'Email', 'Address'];
+const pages = ['HOME', 'TRENDING', 'ADD REVIEW'];
+const settings = ['Profile', 'Account', 'Dashboard', 'Logout']; 
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -42,14 +40,15 @@ function NavBar() {
 
   return (
     <AppBar position="static">
-      { /*<Container maxWidth="xl">*/ }
-        <Toolbar className='toolbar' disableGutters>
+      {/*<Container maxWidth="xl"> */ }
+        <Toolbar className="toolbar" sx={{ bgcolor:'#ffecb3' }}disableGutters>
         <Avatar className="logo" alt="logo" src={logo}/>
+          {/*<AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */ }
           <Typography className="header"
             variant="h6"
             noWrap
             component=""
-            href=""
+            href="#app-bar-with-responsive-menu"
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -58,11 +57,23 @@ function NavBar() {
               letterSpacing: '.3rem',
               color: 'inherit',
               textDecoration: 'none',
+              color: 'inherit'
             }}
           >
             BEAN
           </Typography>
-           
+
+          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+            <IconButton
+              size="large"
+              aria-label="account of current user"
+              aria-controls="menu-appbar"
+              aria-haspopup="true"
+              onClick={handleOpenNavMenu}
+              color="inherit"
+            >
+              <MenuIcon />
+            </IconButton>
             <Menu
               id="menu-appbar"
               anchorEl={anchorElNav}
@@ -87,8 +98,8 @@ function NavBar() {
                 </MenuItem>
               ))}
             </Menu>
-          
-          <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
+          </Box>
+          {/*<AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
           <Typography
             variant="h5"
             noWrap
@@ -99,33 +110,32 @@ function NavBar() {
               display: { xs: 'flex', md: 'none' },
               flexGrow: 1,
               fontFamily: 'monospace',
-              fontWeight: 700,
+              fontWeight: 900,
               letterSpacing: '.3rem',
-              color: 'inherit',
               textDecoration: 'none',
+              color:'#3e2723' ,
             }}
           >
-            BEAN
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Button 
+              <Button
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: '#ffffff', display: 'block' }}
+                sx={{ my: 2, color:'#3e2723' , display: 'block' , fontWeight: 500 }}
               >
                 {page}
               </Button>
             ))}
           </Box>
 
-          { /* <Box sx={{ flexGrow: 0 }}>
-            <Tooltip title="Contact-Details">
+          {/*<Box sx={{ flexGrow: 0 }}>
+            <Tooltip title="Open settings">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="contact-icon" src={contactIcon} link=""></Avatar>
+                <Avatar alt="Remy Sharp" src="/static/images/avatar/2.jpg" />
               </IconButton>
             </Tooltip>
-            <Menu 
+            <Menu
               sx={{ mt: '45px' }}
               id="menu-appbar"
               anchorEl={anchorElUser}
@@ -142,15 +152,14 @@ function NavBar() {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem className="contact-menu" key={setting} onClick={handleCloseUserMenu}>
+                <MenuItem key={setting} onClick={handleCloseUserMenu}>
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
-              </Menu> 
-
+            </Menu> 
               </Box> */}
         </Toolbar>
-      { /*</Container> */ }
+      {/*</Container> */}
     </AppBar>
   );
 }
