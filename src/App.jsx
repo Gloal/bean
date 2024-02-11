@@ -12,7 +12,7 @@ import Jumbotron from './components/Jumbotron';
 import londonRestaurantData from './data/london_restaurants.json';
 import Footer from './components/Footer.jsx';
 // import axios from 'axios';
-// import Style from '../card.css';
+
 
 function App() {
 
