@@ -28,7 +28,7 @@ export default function CoffeeCard({ shopId }) {
     return null; 
   }
 
-  const { BusinessName, RatingValue, AddressLine1, AddressLine2, AddressLine3, PostCode, imageUrl, Wifi, Wine } = shopData;
+  const { BusinessName, RatingValue, AddressLine1, AddressLine2, AddressLine3, PostCode, imageUrl, Wifi, Wine, Review } = shopData;
 
   const wifiIcon = Wifi ? wifiOutline : null; 
   const wineIcon = Wine ? wineOutline : null; 
@@ -46,7 +46,7 @@ export default function CoffeeCard({ shopId }) {
             {BusinessName}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            Rating: {RatingValue || 'N/A'} / 5
+          <span style={{ fontWeight: 'bold' }}>Rating:</span> {RatingValue || 'N/A'} / 5
           </Typography>
           <div className="icon-container"> 
             {logoIcon && <IonIcon icon={logoIcon} />}
@@ -54,8 +54,13 @@ export default function CoffeeCard({ shopId }) {
             {wineIcon && <IonIcon icon={wineIcon} />}
           </div>
           <Typography variant="body2" color="text.secondary">
-            Address: {AddressLine1} {AddressLine2}, {AddressLine3} {PostCode}
+          <span style={{ fontWeight: 'bold' }}>Address</span> {AddressLine1} {AddressLine2}, {AddressLine3} {PostCode}
           </Typography>
+          {Review && (
+            <Typography variant="body2" color="text.secondary">
+              <span style={{ fontWeight: 'bold' }}>Review:</span> {Review}
+            </Typography>
+          )}
         </CardContent>
       </Card>
     </div>
