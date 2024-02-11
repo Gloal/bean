@@ -19,7 +19,7 @@ export default function CoffeeCard({ shopId}) {
         <div className="image-container">
         <img src={imageUrl} alt= {BusinessName} />
         </div>
-        <CardContent>
+        <CardContent className='card-content'>
           <Typography gutterBottom variant="h5" component="div">
             {BusinessName}
           </Typography>
