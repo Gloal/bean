@@ -88,7 +88,7 @@ return (
     <Jumbotron />
     <div className="coffee-card-grid">
       {restaurantData.map((restaurant) => (
-        <Card key={restaurant._id} shopData={restaurant} />
+        <Card key={restaurant._id} shopId={restaurant._id} />
       ))}
     </div>
     <Map />
@@ -98,4 +98,4 @@ return (
 );
 }
 
-export default App;
+export default App; 
