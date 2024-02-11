@@ -48,7 +48,7 @@ button {
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #ffcbf1;
+  border-color: #fceca6;
 }
 button:focus,
 button:focus-visible {
@@ -62,9 +62,9 @@ button:focus-visible {
     background-color:#210c02;
   }
   a:hover {
-    color: #ffcbf1;
+    color: #fceca6;
   }
   button {
-    background-color:#ffffff;
+    background-color:#210c02;
   }
 }
