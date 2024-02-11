@@ -62,7 +62,7 @@ const Jumbotron = () => {
                                 <h2>{shop.BusinessName}</h2>
                                 <p>{shop.AddressLine2}, {shop.PostCode}</p>
                                 <p>Rating: {shop.RatingValue}</p>
-                                {shop.imageUrl && <img src={shop.imageUrl} alt={shop.BusinessName} />}
+                                {shop.imageUrl && <img src={shop.imageUrl} alt={shop.BusinessName} className="modal-image" />}
                             </div>
                         ))}
                     </div>
