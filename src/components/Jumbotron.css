@@ -21,3 +21,29 @@
 
   }
 
+  .custom-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    border: 2px solid #000;
+    box-shadow: 0px 0px 24px rgba(0, 0, 0, 0.5);
+    padding: 16px;
+
+  }
+
+.form-control {
+  width: 15%;
+  margin-bottom: 20px;
+  height: 25px;
+  border-radius: 10px;
+}
+
+.change-button {
+  background-color: rgb(85, 51, 12);
+  color: white;
+}
