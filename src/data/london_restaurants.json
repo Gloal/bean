@@ -8,7 +8,7 @@
     "RatingValue": "5",
     "Geocode_Longitude": 0.133478,
     "Geocode_Latitude": 51.506094,
-    "imageUrl": "/assets/Images/black-sheep-coffee.jpg"
+    "imageUrl": "src/assets/Images/ness-cafe.jpg"
   }, 
   {
     "_id": "6399f72071c0238ae6f3cfa9",
@@ -18,7 +18,8 @@
     "RatingValue": "1",
     "Geocode_Longitude": -0.19754399359226,
     "Geocode_Latitude": 51.5284576416016,
-    "AddressLine3": ""
+    "AddressLine3": "", 
+    "imageUrl": "src/assets/Images/big-coffee.jpg"
   },
   {
     "_id": "6399f72171c0238ae6f3d285",
@@ -28,7 +29,8 @@
     "RatingValue": "5",
     "Geocode_Longitude": -0.252673,
     "Geocode_Latitude": 51.560079,
-    "AddressLine3": ""
+    "AddressLine3": "", 
+    "imageUrl": "src/assets/Images/costa-coffee-nw10.jpg"
   },
   {
     "_id": "6399f72871c0238ae6f446a7",
@@ -38,7 +40,8 @@
     "RatingValue": "5",
     "Geocode_Longitude": -0.079322,
     "Geocode_Latitude": 51.517245,
-    "AddressLine3": ""
+    "AddressLine3": "",
+    "imageUrl": "src/assets/Images/black-sheep-coffee.jpg"
   },
   {
     "_id": "6399f72871c0238ae6f44e8d",
@@ -48,7 +51,8 @@
     "RatingValue": "5",
     "Geocode_Longitude": -0.088628,
     "Geocode_Latitude": 51.511516,
-    "AddressLine3": ""
+    "AddressLine3": "",
+    "imageUrl": "src/assets/Images/l'express-coffee.jpg"
   },
   {
     "_id": "6399f72871c0238ae6f45487",
@@ -58,7 +62,8 @@
     "RatingValue": "5",
     "Geocode_Longitude": -0.087133,
     "Geocode_Latitude": 51.514172,
-    "AddressLine3": ""
+    "AddressLine3": "",
+    "imageUrl": "src/assets/Images/soho-coffee-co.jpg"
   },
   {
     "_id": "6399f72a71c0238ae6f46735",
@@ -68,7 +73,8 @@
     "PostCode": "W13 0TL",
     "RatingValue": "Exempt",
     "Geocode_Longitude": -0.32780200242996,
-    "Geocode_Latitude": 51.5098571777344
+    "Geocode_Latitude": 51.5098571777344,
+    "imageUrl": "src/assets/Images/kasima-coffee.jpg"
   },
   {
     "_id": "6399f72b71c0238ae6f47dd0",
@@ -78,7 +84,8 @@
     "RatingValue": "5",
     "Geocode_Longitude": -0.094502,
     "Geocode_Latitude": 51.631751,
-    "AddressLine3": ""
+    "AddressLine3": "",
+    "imageUrl": "src/assets/Images/coffee-break-n21.jpg"
   },
   {
     "_id": "6399f72c71c0238ae6f48ea7",
@@ -88,7 +95,8 @@
     "RatingValue": "4",
     "Geocode_Longitude": -0.1335033,
     "Geocode_Latitude": 51.6163468,
-    "AddressLine3": "LONDON"
+    "AddressLine3": "LONDON",
+    "imageUrl": "src/assets/Images/the-coffee-spot-n11.jpg"
   },
   {
     "_id": "6399f73071c0238ae6f4c60f",
@@ -97,7 +105,8 @@
     "AddressLine2": "London",
     "PostCode": "W6 9JT",
     "Geocode_Longitude": -0.233318,
-    "Geocode_Latitude": 51.492535
+    "Geocode_Latitude": 51.492535,
+    "imageUrl": "src/assets/Images/coffee-station-w6.jpg"
   },
   {
     "_id": "6399f73a71c0238ae6f56a34",
@@ -107,6 +116,7 @@
     "RatingValue": "5",
     "Geocode_Longitude": -0.204611,
     "Geocode_Latitude": 51.515552,
-    "AddressLine3": ""
+    "AddressLine3": "",
+    "imageUrl": "src/assets/Images/tea-coffee-plant-w11.jpg"
   } 
 ]
