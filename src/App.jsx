@@ -35,6 +35,8 @@ function App() {
     height: "200vh",
   });
 
+  
+
   /*
 async function getCoffeeShopsThroughWyre(){
 
