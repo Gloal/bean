@@ -8,7 +8,8 @@
     "RatingValue": "5",
     "Geocode_Longitude": 0.133478,
     "Geocode_Latitude": 51.506094,
-    "imageUrl": "src/assets/Images/ness-cafe.jpg"
+    "imageUrl": "src/assets/Images/ness-cafe.jpg",
+    "Review": "Warm welcome and refreshments at the cafe were just what we needed and then a few hours inside with our guide were perfect."
   }, 
   {
     "_id": "6399f72071c0238ae6f3cfa9",
