@@ -4,10 +4,10 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import coffeeShopsData from '../data/london_restaurants.json';
 import { IonIcon } from '@ionic/react';
-import { cafeOutline, wifiOutline } from 'ionicons/icons';
+import { cafeOutline, wifiOutline, womanOutline, manOutline } from 'ionicons/icons';
 
 const cafeLogos = {
-  "The Ness Cafe": [{ icon: cafeOutline }, { icon: wifiOutline }],
+  "The Ness Cafe": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
   "Giddy Up Coffee": [{ icon: cafeOutline }],
   "Costa Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }],
   "Black Sheep Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }],
