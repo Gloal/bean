@@ -11,13 +11,14 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import RestoreIcon from '@mui/icons-material/Restore'; 
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
+import { red } from '@mui/material/colors';
 
 export default function Footer() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box sx={{ width: 500 }}>
-      <BottomNavigation className="footer"
+    <Box className="footer" sx={{ width: 1260}}>
+      <BottomNavigation 
         showLabels
         value={value}
         onChange={(event, newValue) => {
