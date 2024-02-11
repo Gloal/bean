@@ -1,6 +1,6 @@
 import * as React from 'react';
 import './Navbar.css'
-import logo from './../assets/Images/logo1.png';
+import logo from './../assets/Images/logo3.png';
 import contactIcon from './../assets/Images/contact1.png';
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
@@ -15,6 +15,7 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
+import { Modal } from '@mui/material';
 
 
 const pages = ['Home','Favourites', 'Add Reviews'];
@@ -47,8 +48,8 @@ function NavBar() {
           <Typography className="header"
             variant="h6"
             noWrap
-            component="a"
-            href="#app-bar-with-responsive-menu"
+            component=""
+            href=""
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
@@ -108,20 +109,20 @@ function NavBar() {
           </Typography>
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
             {pages.map((page) => (
-              <Button className="navbar-button"
+              <Button 
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: '#ffcbf1', display: 'block' }}
+                sx={{ my: 2, color: '#ffffff', display: 'block' }}
               >
                 {page}
               </Button>
             ))}
           </Box>
 
-          <Box sx={{ flexGrow: 0 }}>
+          { /* <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Contact-Details">
               <IconButton onClick={handleOpenUserMenu} sx={{ p: 0 }}>
-                <Avatar alt="contact-icon" src={contactIcon}></Avatar>
+                <Avatar alt="contact-icon" src={contactIcon} link=""></Avatar>
               </IconButton>
             </Tooltip>
             <Menu 
@@ -141,12 +142,13 @@ function NavBar() {
               onClose={handleCloseUserMenu}
             >
               {settings.map((setting) => (
-                <MenuItem key={setting} onClick={handleCloseUserMenu}>
+                <MenuItem className="contact-menu" key={setting} onClick={handleCloseUserMenu}>
                   <Typography textAlign="center">{setting}</Typography>
                 </MenuItem>
               ))}
-            </Menu>
-          </Box>
+              </Menu> 
+
+              </Box> */}
         </Toolbar>
       { /*</Container> */ }
     </AppBar>
