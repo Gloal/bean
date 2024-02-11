@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './Footer.css'
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
@@ -15,8 +16,8 @@ export default function Footer() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box sx={{ width: 500 }}>
-      <BottomNavigation
+    <Box className="footer" sx={{ width: 500 }}>
+      <BottomNavigation 
         showLabels
         value={value}
         onChange={(event, newValue) => {
