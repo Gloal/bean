@@ -19,6 +19,7 @@
     height: 200px;
     overflow: hidden;
   }
+
   .image-container img {
     width: 100%;
     height: auto;
@@ -26,15 +27,20 @@
 
   @media (min-width: 1260px) {
     .coffee-card-grid {
-      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-      gap: 15px;
-      padding: 10px; 
+      grid-template-columns: repeat(4, 1fr);
+      /* gap: 15px;
+      padding: 10px;  */
+    }
+  }
+  @media (min-width: 1259px) {
+    .coffee-card-grid {
+      grid-template-columns: repeat(3, 1fr);
     }
   }
 
   @media (max-width: 960px) {
     .coffee-card-grid {
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-template-columns: repeat(2, 1fr);
     }
     .image-container {
       height: 150px;
@@ -53,7 +59,7 @@
 
   @media (max-width: 600px) {
     .coffee-card-grid {
-      grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+      grid-template-columns: repeat(1, 1fr);
     }
   }
 

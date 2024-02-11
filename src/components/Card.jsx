@@ -5,6 +5,7 @@ import Typography from '@mui/material/Typography';
 import coffeeShopsData from '../data/london_restaurants.json';
 import { IonIcon } from '@ionic/react';
 import { cafeOutline, wifiOutline, womanOutline, manOutline, starSharp } from 'ionicons/icons';
+// import './src/components/Card.css';
 
 const cafeLogos = {
   "The Ness Cafe": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
