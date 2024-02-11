@@ -11,13 +11,16 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import RestoreIcon from '@mui/icons-material/Restore'; 
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { red } from '@mui/material/colors';
+import { brown } from '@mui/material/colors';
+import { iconButtonClasses } from '@mui/material';
+
+const color = brown[900];
 
 export default function Footer() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box className="footer" sx={{ width: 1260}}>
+    <Box sx={{ width: 1260 }}> 
       <BottomNavigation 
         showLabels
         value={value}
@@ -25,7 +28,7 @@ export default function Footer() {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction label="Phone" icon={<LocalPhoneIcon />} />
+        <BottomNavigationAction  label="Phone" icon={<LocalPhoneIcon />} />
         <BottomNavigationAction label="Email" icon={<EmailIcon />} />
         <BottomNavigationAction label="Instagram" icon={<InstagramIcon />} />
         <BottomNavigationAction label="Facebook" icon={<FacebookIcon />} />
