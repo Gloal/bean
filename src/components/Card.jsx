@@ -4,7 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
 import coffeeShopsData from '../data/london_restaurants.json';
 import { IonIcon } from '@ionic/react';
-import { cafeOutline, wifiOutline, womanOutline, manOutline } from 'ionicons/icons';
+import { cafeOutline, wifiOutline, womanOutline, manOutline, starSharp } from 'ionicons/icons';
 
 const cafeLogos = {
   "The Ness Cafe": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
@@ -20,6 +20,19 @@ const cafeLogos = {
   "XOXO Patisserie": [{ icon: cafeOutline }],
   "The Tea and Coffee Plant": [{ icon: cafeOutline }]
 };
+
+// add functionality to render stars instead of star rating 4/5 
+
+const renderStars = (rating) => {
+  const stars = [];
+  const filledStars = Math.floor(rating); 
+
+  for(let i = 0; i < filledStars; i++) {
+    stars.push(<IonIcon key={i} icon={starSharp} />);
+  }
+
+  return stars;
+}
 
 export default function CoffeeCard({ shopId }) {
   const shopData = coffeeShopsData.find(shop => shop._id === shopId);
@@ -46,7 +59,7 @@ export default function CoffeeCard({ shopId }) {
             {BusinessName}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            <span style={{ fontWeight: 'bold' }}>Rating:</span> {RatingValue || 'N/A'} / 5
+            <span style={{ fontWeight: 'bold' }}>Rating:</span> {RatingValue ? renderStars(RatingValue) : 'N/A'} 
           </Typography>
           <div className="icon-container">
             {iconElements}
