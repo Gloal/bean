@@ -21,8 +21,6 @@ const cafeLogos = {
   "The Tea and Coffee Plant": [{ icon: cafeOutline }]
 };
 
-// add functionality to render stars instead of star rating 4/5 
-
 const renderStars = (rating) => {
   const stars = [];
   const filledStars = Math.floor(rating); 
