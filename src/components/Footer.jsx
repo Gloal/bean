@@ -11,6 +11,7 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import { orange } from '@mui/material/colors';
 import { brown } from '@mui/material/colors';
 import { Typography } from '@mui/material';
+import { Link } from '@mui/material';
 
 
 export default function Footer() {
@@ -26,10 +27,10 @@ export default function Footer() {
         }}
       >
         { /*<BottomNavigationAction icon={<LocalPhoneIcon sx={{ color: '#3e2723' href="" }} />} /> */ }
-        <BottomNavigationAction icon={<EmailIcon sx={{ color: '#3e2723' }}/>} />
-        <BottomNavigationAction icon={<InstagramIcon sx={{ color: '#3e2723' }}/>} />
-        <BottomNavigationAction icon={<FacebookIcon sx={{ color: '#3e2723' }}/>} />
-        <BottomNavigationAction icon={<GitHubIcon sx={{ color: '#3e2723' }}/>} />
+        <BottomNavigationAction component={Link} href="https://www.gmail.com" target="_blank" icon={<EmailIcon sx={{ color: '#3e2723'}}/> } />
+        <BottomNavigationAction component={Link} href="https://www.instagram.com" target="_blank"icon={<InstagramIcon sx={{ color: '#3e2723' }}/>} />
+        <BottomNavigationAction component={Link} href="https://www.facebook.com" target="_blank" icon={<FacebookIcon sx={{ color: '#3e2723' }}/>} />
+        <BottomNavigationAction component={Link} href="https://www.github.com" target="_blank"icon={<GitHubIcon sx={{ color: '#3e2723' }}/>} />
       </BottomNavigation>
       <Typography sx={{textAlign:'center', fontSize:10 }}>  All Rights Reserved @Bean Cafe Reviews Pvt. Ltd. </Typography>
     </Box>
