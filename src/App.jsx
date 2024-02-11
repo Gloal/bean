@@ -13,11 +13,13 @@ import londonRestaurantData from "./data/london_restaurants.json";
 import Footer from "./components/Footer.jsx";
 import axios from "axios";
 import Style from "./components/card.css";
-import Map, {Marker} from "react-map-gl";
+import Map, { Marker, Popup } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
-import cafes from "./data/london_cafes_reduced.json"
+import cafes from "./data/london_cafes_reduced.json";
 import { Button } from "@mui/base";
-import pin from './assets/Images/pin.svg'
+import pin from "./assets/Images/pin.svg";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
 
 function App() {
   const [restaurantData, setRestaurantData] = useState([]);
@@ -34,8 +36,6 @@ function App() {
     width: "100vw",
     height: "200vh",
   });
-
-  
 
   /*
 async function getCoffeeShopsThroughWyre(){
@@ -131,6 +131,9 @@ useEffect(()=>{
  }, [])
 
 */
+
+  const [selectedCafe, setSelectedCafe] = useState(null);
+
   const token =
     "pk.eyJ1IjoiZ2xvYWwiLCJhIjoiY2xzZWhta2F3MDN6MjJrb3VyYXhoOW9lZyJ9.2wbkCYCQgNFrl8EZj1NePA";
 
@@ -140,7 +143,7 @@ useEffect(()=>{
       <Jumbotron />
       <div className="coffee-card-grid">
         {restaurantData.map((restaurant) => (
-          <Card key={restaurant._id} shopData={restaurant} />
+          <Card key={restaurant._id} shopId={restaurant._id} />
         ))}
       </div>
 
@@ -149,19 +152,62 @@ useEffect(()=>{
           initialViewState={{
             longitude: -0.207,
             latitude: 51.5,
-            zoom: 12
+            zoom: 12,
           }}
           mapboxAccessToken={token}
-          style={{width: 1000, height:800}}
+          style={{ width: 1000, height: 800, position: "center" }}
           mapStyle="mapbox://styles/gloal/clsfe7wn0008d01qxh5p67hdn"
-          >
-          {...cafes.map(cafe => (
-            <Marker key={cafe._id} latitude={cafe.Geocode_Latitude} longitude={cafe.Geocode_Longitude}>
-                <img src={pin} width="20px" height="20px" background="none" alt="cafe"/>
+         
+        >
+          {...londonRestaurantData.map((cafe) => (
+            <Marker
+              key={cafe._id}
+              latitude={cafe.Geocode_Latitude}
+              longitude={cafe.Geocode_Longitude}
+            >
+              {/*
+              <Button background="none"border="none" cursor="pointer" onClick={(e)=>{
+                e.preventDefault();
+                console.log(cafe);
+                setSelectedCafe(cafe);
+              }}>
+              <img src={pin} width="20px" height="30px" background="none" alt="cafe-icon"/>
+
+              </Button>
+            */}
+              <img
+                src={pin}
+                width="25px"
+                height="30px"
+                background="none"
+                alt="cafe-icon"
+                cursor="pointer"
+                onClick={(e) => {
+                  e.preventDefault();
+                  setSelectedCafe(cafe);
+                  console.log(selectedCafe);
+                }}
+              />
             </Marker>
-            ))}
+          ))}
+
+          {selectedCafe ? (
+            <Popup
+            height="200px" width="200px"
+            align-items="center"
+              longitude={selectedCafe.Geocode_Longitude}
+              latitude={selectedCafe.Geocode_Latitude}
+              closeOnClick={false}
+              onClose={() => {
+                setSelectedCafe(null);
+              }}>
+              <Card key={selectedCafe._id} shopId={selectedCafe._id} />
+            </Popup>
+          ):null}
+
         </Map>
       </div>
+
       <Form />
       <Footer />
     </>
@@ -169,4 +215,3 @@ useEffect(()=>{
 }
 
 export default App;
- 
