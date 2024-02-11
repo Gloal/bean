@@ -11,29 +11,28 @@ import BottomNavigationAction from '@mui/material/BottomNavigationAction';
 import RestoreIcon from '@mui/icons-material/Restore'; 
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import LocationOnIcon from '@mui/icons-material/LocationOn';
-import { brown } from '@mui/material/colors';
+import { orange } from '@mui/material/colors';
 import { iconButtonClasses } from '@mui/material';
-
-const color = brown[900];
+import { brown } from '@mui/material/colors';
 
 export default function Footer() {
   const [value, setValue] = React.useState(0);
 
   return (
     <Box sx={{ width: 1260 }}> 
-      <BottomNavigation 
+      <BottomNavigation sx={{ bgcolor: '#ffcc80' }} 
         showLabels
         value={value}
         onChange={(event, newValue) => {
           setValue(newValue);
         }}
       >
-        <BottomNavigationAction  label="Phone" icon={<LocalPhoneIcon />} />
-        <BottomNavigationAction label="Email" icon={<EmailIcon />} />
-        <BottomNavigationAction label="Instagram" icon={<InstagramIcon />} />
-        <BottomNavigationAction label="Facebook" icon={<FacebookIcon />} />
-        <BottomNavigationAction label="GitHub" icon={<GitHubIcon />} />
-        <BottomNavigationAction label="Facebook" icon={<FacebookIcon />} />
+        <BottomNavigationAction icon={<LocalPhoneIcon sx={{ color: '#3e2723' }} />} />
+        <BottomNavigationAction icon={<EmailIcon sx={{ color: '#3e2723' }}/>} />
+        <BottomNavigationAction icon={<InstagramIcon sx={{ color: '#3e2723' }}/>} />
+        <BottomNavigationAction icon={<FacebookIcon sx={{ color: '#3e2723' }}/>} />
+        <BottomNavigationAction icon={<GitHubIcon sx={{ color: '#3e2723' }}/>} />
+        <BottomNavigationAction icon={<FacebookIcon sx={{ color: '#3e2723' }} />} />
       </BottomNavigation>
     </Box>
   );
