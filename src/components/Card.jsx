@@ -1,39 +1,52 @@
 import React from 'react';
 import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography'; 
-import coffeeShopsData from '../data/london_restaurants.json'; 
+import Typography from '@mui/material/Typography';
+import coffeeShopsData from '../data/london_restaurants.json';
 import { IonIcon } from '@ionic/react';
-import { wifiOutline, cafeOutline, wineOutline } from 'ionicons/icons';
+import { cafeOutline, wifiOutline, womanOutline, manOutline, starSharp } from 'ionicons/icons';
 
 const cafeLogos = {
-  "The Ness Cafe": cafeOutline, 
-  "Big Coffee": cafeOutline, 
-  "Costa Coffee": cafeOutline, 
-  "Black Sheep Coffee": cafeOutline, 
-  "L'express Coffee": cafeOutline, 
-  "Soho Coffee Co.": cafeOutline, 
-  "Kasima Coffee": cafeOutline, 
-  "Coffee Break": cafeOutline, 
-  "The Coffee Spot": cafeOutline, 
-  "Coffee Station": cafeOutline, 
-  "XOXO Patisserie": cafeOutline, 
-  "The Tea and Coffee Plant": cafeOutline 
+  "The Ness Cafe": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
+  "Giddy Up Coffee": [{ icon: cafeOutline }],
+  "Costa Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }],
+  "Black Sheep Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }],
+  "L'express Coffee": [{ icon: cafeOutline }],
+  "Soho Coffee Co.": [{ icon: cafeOutline }],
+  "Copper Coffee": [{ icon: cafeOutline }],
+  "Coffee Break": [{ icon: cafeOutline }],
+  "Carter Lane Coffee House": [{ icon: cafeOutline }],
+  "Coffee Station": [{ icon: cafeOutline }],
+  "XOXO Patisserie": [{ icon: cafeOutline }],
+  "The Tea and Coffee Plant": [{ icon: cafeOutline }]
 };
+
+// add functionality to render stars instead of star rating 4/5 
+
+const renderStars = (rating) => {
+  const stars = [];
+  const filledStars = Math.floor(rating); 
+
+  for(let i = 0; i < filledStars; i++) {
+    stars.push(<IonIcon key={i} icon={starSharp} />);
+  }
+
+  return stars;
+}
 
 export default function CoffeeCard({ shopId }) {
   const shopData = coffeeShopsData.find(shop => shop._id === shopId);
- 
+
   if (!shopData) {
-    return null; 
+    return null;
   }
 
-  const { BusinessName, RatingValue, AddressLine1, AddressLine2, AddressLine3, PostCode, imageUrl, Wifi, Wine, Review } = shopData;
+  const { BusinessName, RatingValue, AddressLine1, AddressLine2, AddressLine3, PostCode, imageUrl, Review } = shopData;
 
-  const wifiIcon = Wifi ? wifiOutline : null; 
-  const wineIcon = Wine ? wineOutline : null; 
-
-  const logoIcon = cafeLogos[BusinessName] || cafeOutline;
+  const icons = cafeLogos[BusinessName] || [];
+  const iconElements = icons.map((item, index) => (
+    <IonIcon key={index} icon={item.icon} />
+  ));
 
   return (
     <div className="coffee-card">
@@ -46,15 +59,13 @@ export default function CoffeeCard({ shopId }) {
             {BusinessName}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-          <span style={{ fontWeight: 'bold' }}>Rating:</span> {RatingValue || 'N/A'} / 5
+            <span style={{ fontWeight: 'bold' }}>Rating:</span> {RatingValue ? renderStars(RatingValue) : 'N/A'} 
           </Typography>
-          <div className="icon-container"> 
-            {logoIcon && <IonIcon icon={logoIcon} />}
-            {wifiIcon && <IonIcon icon={wifiIcon} />}
-            {wineIcon && <IonIcon icon={wineIcon} />}
+          <div className="icon-container">
+            {iconElements}
           </div>
           <Typography variant="body2" color="text.secondary">
-          <span style={{ fontWeight: 'bold' }}>Address</span> {AddressLine1} {AddressLine2}, {AddressLine3} {PostCode}
+            <span style={{ fontWeight: 'bold' }}>Address</span> {AddressLine1} {AddressLine2}, {AddressLine3} {PostCode}
           </Typography>
           {Review && (
             <Typography variant="body2" color="text.secondary">
