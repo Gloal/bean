@@ -9,14 +9,14 @@ import { cafeOutline, wifiOutline, womanOutline, manOutline, starSharp } from 'i
 const cafeLogos = {
   "The Ness Cafe": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
   "Giddy Up Coffee": [{ icon: cafeOutline }],
-  "Costa Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }],
-  "Black Sheep Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }],
+  "Costa Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
+  "Black Sheep Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
   "L'express Coffee": [{ icon: cafeOutline }],
-  "Soho Coffee Co.": [{ icon: cafeOutline }],
-  "Copper Coffee": [{ icon: cafeOutline }],
-  "Coffee Break": [{ icon: cafeOutline }],
-  "Carter Lane Coffee House": [{ icon: cafeOutline }],
-  "Coffee Station": [{ icon: cafeOutline }],
+  "Soho Coffee Co.": [{ icon: cafeOutline }, { icon: womanOutline }, { icon: manOutline }],
+  "Copper Coffee": [{ icon: cafeOutline }, { icon: womanOutline }, { icon: manOutline }],
+  "Coffee Break": [{ icon: cafeOutline }, { icon: wifiOutline } ],
+  "Carter Lane Coffee House": [{ icon: cafeOutline }, { icon: wifiOutline }],
+  "Coffee Station": [{ icon: cafeOutline }, { icon: wifiOutline }],
   "XOXO Patisserie": [{ icon: cafeOutline }],
   "The Tea and Coffee Plant": [{ icon: cafeOutline }]
 };

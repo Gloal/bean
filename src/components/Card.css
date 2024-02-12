@@ -5,22 +5,32 @@
 
   .coffee-card-grid {
     display: grid; 
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-template-columns: repeat(1, 1fr); 
     gap: 20px;
     padding: 20px; 
+    overflow-x: auto;
   }
 
   h5 {
     color: var(--dark-colour);
   }
 
+.card {
+  background-color: var(--light-color);
+  border-radius: 10px;
+  box-sizing: border-box;
+  /* box-shadow: ; */
+}
+
   .card-content {
+    max-width: 100%;
+    padding: 20px; 
     color: var(--dark-colour)
   }
 
   .image-container {
     width: 100%;
-    height: 200px;
+    height: 200px; 
     overflow: hidden;
   }
 
@@ -29,55 +39,47 @@
     height: auto;
   } 
 
-  @media (min-width: 1260px) {
+  .icon-container {
+    max-width: 100%;
+  }
+
+  @media (min-width: 1200px) {
     .coffee-card-grid {
       grid-template-columns: repeat(4, 1fr);
-      /* gap: 15px;
-      padding: 10px;  */
+      gap: 20px; 
     }
   }
-  @media (min-width: 1259px) {
+  @media (min-width: 993px) and (max-width: 1200px) {
     .coffee-card-grid {
       grid-template-columns: repeat(3, 1fr);
+      gap: 5px; 
+      padding: 5px;
+      overflow-x: hidden;
     }
+    .coffee-card {
+      max-width: 100%;
+    }
+
   }
 
-  @media (max-width: 960px) {
+  @media (min-width: 769px) and (max-width: 992px) {
     .coffee-card-grid {
       grid-template-columns: repeat(2, 1fr);
+      padding: 20px;
+      gap: 20px; 
     }
     .image-container {
       height: 150px;
     }
   }
 
-  /* @media (max-width: 768px) {
+  @media (min-width: 577px) and (max-width: 768px) {
     .coffee-card-grid {
-      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      grid-template-columns: repeat(2, 1fr);
+      gap: 10px;
+      padding: 10px; 
     }
 
-    .image-container {
-      height: 150px;
-    }
-  } */
-
-  @media (max-width: 600px) {
-    .coffee-card-grid {
-      grid-template-columns: repeat(1, 1fr);
-    }
-  }
-
-  @media (max-width: 480px) {
-
-    .coffee-card-grid {
-      grid-template-columns: repeat(1, minmax(0, 1fr)); 
-      gap: 0;
-      padding: 0; 
-    }
-/* 
-    .card-content {
-      font-size: 0.9em;
-    } */
   }
 
   @media (min-width: 368px) and (max-width: 496px) {
@@ -85,8 +87,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 20px;
-    padding: 20px; 
     }
     .coffee-card-grid > .coffee-card {
       width: calc(100% - 40px); 
