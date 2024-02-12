@@ -9,19 +9,6 @@
     -webkit-font-smoothing: antialiased;
   }
 
-  h1 {
-    font-size: 22px;
-    background: #fff;
-    height: 90px;
-
-    margin: 0;
-    font-weight: 400;
-    line-height: 20px;
-    padding: 10px 2px;
-    border-bottom: 1px solid #eee;
-
-  }
-
   Link {
     color: #e9ebd6;
     text-decoration: none;
