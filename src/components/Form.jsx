@@ -51,7 +51,7 @@ const AddReviewButton = styled(Button)(({ theme }) => ({
 
 return (
   <React.Fragment>
-    <AddReviewButton variant="contained" onClick={handleReviewOpen}>
+    <AddReviewButton id="addreview" variant="contained" onClick={handleReviewOpen}>
       Add Review
     </AddReviewButton>
 
