@@ -9,14 +9,14 @@ import { cafeOutline, wifiOutline, womanOutline, manOutline, starSharp } from 'i
 const cafeLogos = {
   "The Ness Cafe": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
   "Giddy Up Coffee": [{ icon: cafeOutline }],
-  "Costa Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }],
-  "Black Sheep Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }],
+  "Costa Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
+  "Black Sheep Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
   "L'express Coffee": [{ icon: cafeOutline }],
-  "Soho Coffee Co.": [{ icon: cafeOutline }],
-  "Copper Coffee": [{ icon: cafeOutline }],
-  "Coffee Break": [{ icon: cafeOutline }],
-  "Carter Lane Coffee House": [{ icon: cafeOutline }],
-  "Coffee Station": [{ icon: cafeOutline }],
+  "Soho Coffee Co.": [{ icon: cafeOutline }, { icon: womanOutline }, { icon: manOutline }],
+  "Copper Coffee": [{ icon: cafeOutline }, { icon: womanOutline }, { icon: manOutline }],
+  "Coffee Break": [{ icon: cafeOutline }, { icon: wifiOutline } ],
+  "Carter Lane Coffee House": [{ icon: cafeOutline }, { icon: wifiOutline }],
+  "Coffee Station": [{ icon: cafeOutline }, { icon: wifiOutline }],
   "XOXO Patisserie": [{ icon: cafeOutline }],
   "The Tea and Coffee Plant": [{ icon: cafeOutline }]
 };
@@ -39,12 +39,18 @@ export default function CoffeeCard({ shopId }) {
     return null;
   }
 
-  const { BusinessName, RatingValue, AddressLine1, AddressLine2, AddressLine3, PostCode, imageUrl, Review } = shopData;
+  const { BusinessName, RatingValue, AddressLine1, AddressLine2, AddressLine3, PostCode, imageUrl, Review, Website } = shopData;
 
   const icons = cafeLogos[BusinessName] || [];
   const iconElements = icons.map((item, index) => (
     <IonIcon key={index} icon={item.icon} />
   ));
+
+  const businessNameComponent = Website ? (
+    <a href={Website} target="_blank" rel="noopener noreferrer">{BusinessName}</a>
+  ) : (
+    <span>{BusinessName}</span>
+  ); 
 
   return (
     <div className="coffee-card">
@@ -54,7 +60,7 @@ export default function CoffeeCard({ shopId }) {
         </div>
         <CardContent className="card-content">
           <Typography gutterBottom variant="h5" component="div">
-            {BusinessName}
+            {businessNameComponent}
           </Typography>
           <Typography variant="body2" color="text.secondary">
             <span style={{ fontWeight: 'bold' }}>Rating:</span> {RatingValue ? renderStars(RatingValue) : 'N/A'} 
