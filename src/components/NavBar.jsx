@@ -16,6 +16,10 @@ import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { colors } from '@mui/material';
 import { Link as ScrollLink } from 'react-scroll';
+import HomeIcon from '@mui/icons-material/Home';
+import WhatshotIcon from '@mui/icons-material/Whatshot';
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import RateReviewIcon from '@mui/icons-material/RateReview';
 
 
 const pages = ['HOME', 'TRENDING', 'ADD REVIEW'];
@@ -65,15 +69,19 @@ function NavBar() {
           </Typography>
        
           <Button  color="inherit">
+          <HomeIcon className="navbar-icon"/> 
             <ScrollLink className="navbar-button" to="jumboid" smooth={true} duration={500}>HOME</ScrollLink>
           </Button>
           <Button color="inherit">
+          <WhatshotIcon className="navbar-icon"/> 
             <ScrollLink className="navbar-button"to="trending" smooth={true} duration={500}>TRENDING</ScrollLink>
           </Button>
           <Button  color="inherit">
+          <FavoriteBorderIcon className="navbar-icon"/> 
             <ScrollLink className="navbar-button" to="listings" smooth={true} duration={500}>FAVOURITES</ScrollLink>
           </Button>
           <Button color="inherit">
+          <RateReviewIcon className="navbar-icon"/> 
             <ScrollLink className="navbar-button" to="addreview" smooth={true} duration={500}>ADD REVIEW</ScrollLink>
           </Button> 
 

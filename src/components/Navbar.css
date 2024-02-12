@@ -14,5 +14,9 @@
 }
 .navbar-button {
     color:#210c02;
+    padding: 5px;
 
+}
+.navbar-icon {
+    margin-right: 5px;
 }
