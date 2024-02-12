@@ -15,11 +15,11 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { colors } from '@mui/material';
-
+import { Link as ScrollLink } from 'react-scroll';
 
 
 const pages = ['HOME', 'TRENDING', 'ADD REVIEW'];
-{/*const settings = ['Profile', 'Account', 'Dashboard', 'Logout']; */}
+const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -63,8 +63,21 @@ function NavBar() {
           >
             BEAN
           </Typography>
+       
+          <Button  color="inherit">
+            <ScrollLink className="navbar-button" to="jumboid" smooth={true} duration={500}>HOME</ScrollLink>
+          </Button>
+          <Button color="inherit">
+            <ScrollLink className="navbar-button"to="trending" smooth={true} duration={500}>TRENDING</ScrollLink>
+          </Button>
+          <Button  color="inherit">
+            <ScrollLink className="navbar-button" to="listings" smooth={true} duration={500}>FAVOURITES</ScrollLink>
+          </Button>
+          <Button color="inherit">
+            <ScrollLink className="navbar-button" to="addreview" smooth={true} duration={500}>ADD REVIEW</ScrollLink>
+          </Button> 
 
-          <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
+          {/* <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
             <IconButton
               size="large"
               aria-label="account of current user"
@@ -99,9 +112,10 @@ function NavBar() {
                 </MenuItem>
               ))}
             </Menu>
-          </Box>
+          </Box> */}
           {/*<AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} /> */}
-          <Typography
+
+          {/*<Typography
             variant="h5"
             noWrap
             component="a"

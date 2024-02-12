@@ -29,7 +29,7 @@ const Jumbotron = () => {
 
     return (
         <div>
-            <div className="jumbotron">
+            <div className="jumbotron" id="jumboid">
                 <img src={coffeeImage} alt="Coffee Shop" className="jumbotron-image" />
                 <div className="overlay-text">
                     <h1 className="display-4">Your Guide to Coffee Culture!</h1>

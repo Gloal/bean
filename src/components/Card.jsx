@@ -53,7 +53,7 @@ export default function CoffeeCard({ shopId }) {
   ); 
 
   return (
-    <div className="coffee-card">
+    <div className="coffee-card" id="trending">
       <Card sx={{ maxWidth: 345 }}>
         <div className="image-container">
           <img src={imageUrl} alt={BusinessName} />
