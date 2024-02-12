@@ -49,6 +49,9 @@
 
   .heading {
     margin: 0;
+    font-size:xx-large;
+    font-weight: 400;
+    color:#101010;
 
     background: #fff;
     border-bottom: 1px solid #eee;
