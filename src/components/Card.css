@@ -11,6 +11,10 @@
     overflow-x: auto;
   }
 
+  h5 {
+    color: var(--dark-colour);
+  }
+
 .card {
   background-color: var(--light-color);
   border-radius: 10px;
