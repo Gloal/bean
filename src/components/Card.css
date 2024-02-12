@@ -10,6 +10,10 @@
     padding: 20px; 
   }
 
+  h5 {
+    color: var(--dark-colour);
+  }
+
   .card-content {
     color: var(--dark-colour)
   }
