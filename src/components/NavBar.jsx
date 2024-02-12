@@ -22,8 +22,11 @@ import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 import RateReviewIcon from '@mui/icons-material/RateReview';
 
 
+
 const pages = ['HOME', 'TRENDING', 'ADD REVIEW'];
-const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
+{/*const settings = ['Profile', 'Account', 'Dashboard', 'Logout']; */}
+
+
 
 function NavBar() {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -58,7 +61,7 @@ function NavBar() {
             sx={{
               mr: 2,
               display: { xs: 'none', md: 'flex' },
-              fontFamily: 'monospace',
+              fontFamily:'cursive',
               fontWeight: 700,
               letterSpacing: '.3rem',
               color: 'inherit',
@@ -68,19 +71,19 @@ function NavBar() {
             BEAN
           </Typography>
        
-          <Button  color="inherit">
+          <Button  sx={{color:"inherit" , fontFamily:'cursive'}}>
           <HomeIcon className="navbar-icon"/> 
             <ScrollLink className="navbar-button" to="jumboid" smooth={true} duration={500}>HOME</ScrollLink>
           </Button>
-          <Button color="inherit">
+          <Button sx={{color:"inherit" , fontFamily:'cursive'}}>
           <WhatshotIcon className="navbar-icon"/> 
             <ScrollLink className="navbar-button"to="trending" smooth={true} duration={500}>TRENDING</ScrollLink>
           </Button>
-          <Button  color="inherit">
+          <Button sx={{color:"inherit" , fontFamily:'cursive'}}>
           <FavoriteBorderIcon className="navbar-icon"/> 
             <ScrollLink className="navbar-button" to="listings" smooth={true} duration={500}>FAVOURITES</ScrollLink>
           </Button>
-          <Button color="inherit">
+          <Button sx={{color:"inherit" , fontFamily:'cursive'}}>
           <RateReviewIcon className="navbar-icon"/> 
             <ScrollLink className="navbar-button" to="addreview" smooth={true} duration={500}>ADD REVIEW</ScrollLink>
           </Button> 
@@ -182,7 +185,6 @@ function NavBar() {
             </Menu> 
               </Box> */}
         </Toolbar>
-      {/*</Container> */}
     </AppBar>
   );
 }
