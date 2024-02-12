@@ -1,0 +1,103 @@
+
+  
+  .wrap {
+    display: flex;
+    color: #dbcdb2;
+    font: 400 15px/22px 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  h1 {
+    font-size: 22px;
+    background: #fff;
+    height: 90px;
+
+    margin: 0;
+    font-weight: 400;
+    line-height: 20px;
+    padding: 10px 2px;
+    border-bottom: 1px solid #eee;
+
+  }
+
+  Link {
+    color: #e9ebd6;
+    text-decoration: none;
+  }
+
+  Link:hover {
+    color: #101010;
+  }
+
+  /* split between map and sidebar - the sidebar 1/4, map  3/4 */
+  .sidebar {
+    width: 25%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    overflow: hidden;
+    border-right: 1px solid rgb(0 0 0 / 25%);
+  }
+
+  .map {
+    left: 25%;
+    width: 75%;
+    height: 80%;
+  }
+
+  .heading {
+    margin: 0;
+
+    background: #fff;
+    border-bottom: 1px solid #eee;
+    height: 60px;
+    line-height: 60px;
+    padding: 0 10px;
+  }
+
+  .listings {
+  height: 100%;
+  overflow: auto;
+  padding-bottom: 60px;
+}
+
+.listings .item {
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.listings .item:last-child { border-bottom: none; }
+
+.listings .item .title {
+  display: block;
+  color: #edeee3e1;
+  font-weight: 700;
+}
+
+.listings .item .title small { font-weight: 400; }
+
+.listings .item.active .title,
+.listings .item .title:hover { color: #eed171; }
+
+.listings .item.active {
+  background-color: #f8f8f8;
+}
+
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+  border-left: 0;
+  background: rgba(0 0 0 0.1);
+}
+
+::-webkit-scrollbar-track {
+  background: none;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00853e;
+  border-radius: 0;
+}
