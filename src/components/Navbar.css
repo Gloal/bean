@@ -16,3 +16,27 @@
 .navbar-icon {
     margin-right: 5px;
 }
+
+
+@media only screen and (max-width: 600px) {
+    .body{
+        display: flex;
+    }
+
+.toolbar {
+    display: flex;
+    font-size: small;
+    
+}
+.logo {
+    display:block;
+}     
+    .navbar-icon {
+        display:none;
+    }
+    .navbar-button {
+        display:block;
+    }
+}
+  
+  
