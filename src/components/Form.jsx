@@ -40,20 +40,31 @@ export default function AddReviewButton(addReview) {
 
 
 const AddReviewButton = styled(Button)(({ theme }) => ({
-  color: '#FFCBF1',
-  backgroundColor: '#210C02',
+  color: 'brown',
+  fontWeight: 'bold',
+  backgroundColor:'#FFECB3',
+  padding: '10px 50px',
   '&:hover': {
     backgroundColor: '#170801',
   },
 }));
 
+const CenteredButton = styled('div')({
+  display: 'flex',
+  justifyContent: 'center',
+  marginTop: '1rem',
+  marginBottom: '4rem',
+});
 
 
 return (
   <React.Fragment>
+  <CenteredButton>
+    <AddReviewButton variant="contained" onClick={handleReviewOpen}>
     <AddReviewButton id="addreview" variant="contained" onClick={handleReviewOpen}>
       Add Review
     </AddReviewButton>
+    </CenteredButton>
 
 
 
