@@ -60,7 +60,7 @@ const CenteredButton = styled('div')({
 return (
   <React.Fragment>
   <CenteredButton>
-    <AddReviewButton variant="contained" onClick={handleReviewOpen}>
+    <AddReviewButton variant="contained" onClick={handleReviewOpen}></AddReviewButton>
     <AddReviewButton id="addreview" variant="contained" onClick={handleReviewOpen}>
       Add Review
     </AddReviewButton>
