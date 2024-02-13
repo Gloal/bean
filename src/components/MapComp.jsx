@@ -56,7 +56,7 @@ const MapComp = ({ data, token }) => {
           {...viewState}
             onMove={onMove}
             mapboxAccessToken={token}
-            style={{ width: "75vw", height: "70vh" }}
+            style={{ width: "75vw", height: "145vh" }}
             mapStyle="mapbox://styles/gloal/clsfe7wn0008d01qxh5p67hdn"
           >
             {...data.map((cafe) => (
