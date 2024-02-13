@@ -1,24 +1,24 @@
- :root {
+:root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
   color-scheme: light dark;
-  color:#ffecb3;
-  background-color:#210c02;
-  --light-color: #FFECB3; 
-  --dark-colour: #210C02;
+  color: #ffecb3;
+  background-color: #210c02;
+  --light-color: #ffecb3;
+  --dark-colour: #210c02;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; 
+  -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
 
 a {
   font-weight: 500;
-  color:#210c02;
+  color: #210c02;
   text-decoration: inherit;
 }
 a:hover {
@@ -45,7 +45,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color:#210c02;
+  background-color: #210c02;
   cursor: pointer;
   transition: border-color 0.25s;
 }
@@ -60,24 +60,35 @@ button:focus-visible {
 #addreview {
   color: var(--dark-colour);
   background-color: var(--light-color);
-  border: 2px solid var(--dark-colour); 
+  border: 2px solid var(--dark-colour);
   display: block;
   padding: 10px 20px;
   margin: 0 auto;
-  text-align: center; 
+  text-align: center;
   font-weight: bolder;
+}
+
+.sidebar {
+  background-color: #210c02;
+  color: #ffecb3;
+  font-size: small;
+  
+}
+
+.heading {
+  background-color: #210c02;
+  color: #ffecb3;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     color: #ffecb3;
-    background-color:#210c02;
+    background-color: #210c02;
   }
   a:hover {
     color: #210c02;
   }
   button {
-    background-color:#210c02;
+    background-color: #210c02;
   }
 }
-

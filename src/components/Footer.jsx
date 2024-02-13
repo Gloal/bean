@@ -18,7 +18,7 @@ export default function Footer() {
   const [value, setValue] = React.useState(0);
 
   return (
-    <Box sx={{ width: 1260 }}> 
+    <Box sx={{ width: '100%' }}> 
       <BottomNavigation sx={{ bgcolor:'#ffecb3' }} 
         showLabels
         value={value}
