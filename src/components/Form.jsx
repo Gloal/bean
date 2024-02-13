@@ -61,6 +61,7 @@ return (
   <React.Fragment>
   <CenteredButton>
     <AddReviewButton variant="contained" onClick={handleReviewOpen}>
+    <AddReviewButton id="addreview" variant="contained" onClick={handleReviewOpen}>
       Add Review
     </AddReviewButton>
     </CenteredButton>

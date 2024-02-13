@@ -19,7 +19,7 @@ export default function Footer() {
 
   return (
     <Box sx={{ width: 1260 }}> 
-      <BottomNavigation sx={{ bgcolor: '#ffecb3' }} 
+      <BottomNavigation sx={{ bgcolor:'#ffecb3' }} 
         showLabels
         value={value}
         onChange={(event, newValue) => {
@@ -27,10 +27,10 @@ export default function Footer() {
         }}
       >
         { /*<BottomNavigationAction icon={<LocalPhoneIcon sx={{ color: '#3e2723' href="" }} />} /> */ }
-        <BottomNavigationAction component={Link} href="https://www.gmail.com" target="_blank" icon={<EmailIcon sx={{ color: '#3e2723'}}/> } />
-        <BottomNavigationAction component={Link} href="https://www.instagram.com" target="_blank"icon={<InstagramIcon sx={{ color: '#3e2723' }}/>} />
-        <BottomNavigationAction component={Link} href="https://www.facebook.com" target="_blank" icon={<FacebookIcon sx={{ color: '#3e2723' }}/>} />
-        <BottomNavigationAction component={Link} href="https://www.github.com" target="_blank"icon={<GitHubIcon sx={{ color: '#3e2723' }}/>} />
+        <BottomNavigationAction component={Link} href="https://www.gmail.com" target="_blank" icon={<EmailIcon sx={{ color: '#210c02'}}/> } />
+        <BottomNavigationAction component={Link} href="https://www.instagram.com" target="_blank"icon={<InstagramIcon sx={{ color: '#210c02' }}/>} />
+        <BottomNavigationAction component={Link} href="https://www.facebook.com" target="_blank" icon={<FacebookIcon sx={{ color: '#210c02' }}/>} />
+        <BottomNavigationAction component={Link} href="https://www.github.com" target="_blank"icon={<GitHubIcon sx={{ color: '#210c02' }}/>} />
       </BottomNavigation>
       <Typography sx={{textAlign:'center', fontSize:10 }}>  All Rights Reserved @Bean Cafe Reviews Pvt. Ltd. </Typography>
     </Box>
