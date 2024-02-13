@@ -57,7 +57,7 @@ const AddEditReviewForm = ({cafes}) => {
         <DialogTitle id="form-dialog-title">Add Review</DialogTitle>
         <form onSubmit={handleSubmit(submitHandler)}>
           <DialogContent>
-            <TextField {...register('BusinessName')} label="Cafe Name" fullWidth />
+            <TextField {...register('BusinessName')} label="Cafe Name" fullWidth           onChange={(e) => setSelectedCafe(e.target.value)} />
             <RadioGroup
           autoFocus
           row
@@ -68,6 +68,7 @@ const AddEditReviewForm = ({cafes}) => {
           type="string"
           fullWidth
           variant="standard"
+          onChange={(e) => setSelectedCafe(e.target.value)} 
           {...register('Rating')}
         > Rating
           <FormControlLabel value="1" control={<Radio />} label="1" />
@@ -76,9 +77,11 @@ const AddEditReviewForm = ({cafes}) => {
           <FormControlLabel value="4" control={<Radio />} label="4" />
           <FormControlLabel value="5" control={<Radio />} label="5" />
         </RadioGroup>
-        <TextField {...register('Review')} variant="standard" label="Review" multiline rows={4} fullWidth margin="dense" />
+        <TextField {...register('Review')} variant="standard" label="Review" multiline rows={4} fullWidth           onChange={(e) => setSelectedCafe(e.target.value)} 
+ margin="dense" />
 
-        <TextField {...register('YourName')} label="Your Name" fullWidth margin="dense" />
+        <TextField {...register('YourName')} label="Your Name" fullWidth margin="dense"            onChange={(e) => setSelectedCafe(e.target.value)} 
+ />
 
           </DialogContent>
           <DialogActions>
