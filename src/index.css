@@ -6,6 +6,8 @@
   color-scheme: light dark;
   color:#ffecb3;
   background-color:#210c02;
+  --light-color: #FFECB3; 
+  --dark-colour: #210C02;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -55,6 +57,16 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 }
 
+#addreview {
+  color: var(--dark-colour);
+  background-color: var(--light-color);
+  border: 2px solid var(--dark-colour); 
+  display: block;
+  padding: 10px 20px;
+  margin: 0 auto;
+  text-align: center; 
+  font-weight: bolder;
+}
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -68,3 +80,4 @@ button:focus-visible {
     background-color:#210c02;
   }
 }
+
