@@ -5,7 +5,7 @@ import React, { useState, useEffect } from "react";
 import Card from "./components/Card";
 /*import CardContainer from './components/CardContainer'; */
 import NavBar from "./components/NavBar";
-import Form from "./components/Form";
+import Form from "./components/AddEditForm";
 import Jumbotron from "./components/Jumbotron";
 import londonRestaurantData from "./data/london_restaurants.json";
 import Footer from "./components/Footer.jsx";
@@ -16,9 +16,19 @@ function App() {
   const [restaurantData, setRestaurantData] = useState([]);
   // const [reviews, setReview] = useState([])
 
+
   useEffect(() => {
-    setRestaurantData(londonRestaurantData);
+    const storedCafes = localStorage.getItem("cafes");
+    if(storedCafes){
+      setRestaurantData(JSON.parse(storedCafes));
+    }else{
+      setRestaurantData(londonRestaurantData);
+      localStorage.setItem('cafes', JSON.stringify(londonRestaurantData))
+    }
   }, []);
+
+
+ 
 
   return (
     <>
@@ -35,7 +45,7 @@ function App() {
         token="pk.eyJ1IjoiZ2xvYWwiLCJhIjoiY2xzaTJobWpmMHFwMTJpcG5kampmdHZwbCJ9.d10-z1S4GiGH25co9SnrKw"
       />
 
-      <Form />
+      <Form cafes={restaurantData}/>
       <Footer />
     </>
   );
