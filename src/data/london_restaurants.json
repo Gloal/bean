@@ -1,5 +1,57 @@
 [
   {
+    "_id": "6399f72871c0238ae6f45487",
+    "BusinessName": "Soho Coffee Co.",
+    "AddressLine2": "London",
+    "PostCode": "EC2R 8HP",
+    "RatingValue": "5",
+    "Geocode_Longitude": -0.087133,
+    "Geocode_Latitude": 51.514172,
+    "AddressLine3": "",
+    "imageUrl": "src/assets/Images/soho-coffee-co.jpg",
+    "Review": " I tend to be a bit of a coffee snob and mine was absolutely delicious! I also had a crossaint which was wonderful as well. It was fairly busy but we were lucky to snag a table and our order came out right away!",
+    "Website": "https://sohocoffee.com/stores/threadneedle-street/"
+  },
+  {
+    "_id": "6399f72871c0238ae6f44980",
+    "BusinessName": "Copper Coffee",
+    "AddressLine2": "London",
+    "PostCode": "E1 8AX",
+    "RatingValue": "3",
+    "Geocode_Longitude": -0.07253400236368,
+    "Geocode_Latitude": 51.5112075805664,
+    "AddressLine3": "",
+    "imageUrl":"src/assets/Images/copper-coffee-e1.jpg", 
+    "Review": "Super attentive staff and really friendly. I had a yummy hot chocolate, but wanted to get some work done and the wifi was pretty awful. As far as coffee shops go, it’s nice to find one in central that isn’t a chain, the interior feels a bit tacky but it’s a comfy place to sit",
+    "Website": "https://www.facebook.com/p/Copper-Coffee-100066731401217/"
+    },
+    {
+      "_id": "6399f72271c0238ae6f3e59c",
+      "BusinessName": "XOXO Patisserie",
+      "AddressLine2": "London",
+      "PostCode": "NW2 4RA",
+      "RatingValue": "4",
+      "Geocode_Longitude": -0.222133,
+      "Geocode_Latitude": 51.548237,
+      "AddressLine3": "",
+      "imageUrl": "src/assets/Images/xoxo-coffee-nw2.jpg",
+      "Review": "A very nicely decorated & spacious place. Lovely ambiance and vibrant atmosphere - nice and chilled out actually. Food/drinks were delicious with great presentation. Staff are kind, helpful and welcoming. Service was also on point. It would be a 5 if hot drinks were served actually hot (instead of warm).",
+      "Website": "https://xoxocoffee.co.uk/"
+  },
+  {
+    "_id": "6399f72871c0238ae6f446a7",
+    "BusinessName": "Black Sheep Coffee",
+    "AddressLine2": "London",
+    "PostCode": "EC2M 4TP",
+    "RatingValue": "5",
+    "Geocode_Longitude": -0.079322,
+    "Geocode_Latitude": 51.517245,
+    "AddressLine3": "",
+    "imageUrl": "src/assets/Images/black-sheep-coffee.jpg",
+    "Review": "Such amazing service, tasty coffee! Would highly recommend to anyone in the area - the bit around the station is. It exactly known for its good spots so grab a chair outside.",
+    "Website": "https://leavetheherdbehind.com/blogs/locations/bishopsgate"
+  },
+  {
     "_id": "6399f72071c0238ae6f3cbdd",
     "BusinessName": "The Ness Cafe",
     "AddressLine2": "London",
@@ -39,19 +91,6 @@
     "Website": "https://www.costa.co.uk/locations/store-locator/map"
   },
   {
-    "_id": "6399f72871c0238ae6f446a7",
-    "BusinessName": "Black Sheep Coffee",
-    "AddressLine2": "London",
-    "PostCode": "EC2M 4TP",
-    "RatingValue": "5",
-    "Geocode_Longitude": -0.079322,
-    "Geocode_Latitude": 51.517245,
-    "AddressLine3": "",
-    "imageUrl": "src/assets/Images/black-sheep-coffee.jpg",
-    "Review": "Such amazing service, tasty coffee! Would highly recommend to anyone in the area - the bit around the station is. It exactly known for its good spots so grab a chair outside.",
-    "Website": "https://leavetheherdbehind.com/blogs/locations/bishopsgate"
-  },
-  {
     "_id": "6399f72871c0238ae6f44e8d",
     "BusinessName": "L'express Coffee",
     "AddressLine2": "London",
@@ -64,32 +103,6 @@
     "Review": "Cheap and cheerful. They do coffee of course, and I noticed yesterday that they have Sicilian cannoli - I must try them as they are a favourite of mine and friends of mine, and not easy to find in London.",
     "Website": "https://lexpresscoffee.co.uk/"
   },
-  {
-    "_id": "6399f72871c0238ae6f45487",
-    "BusinessName": "Soho Coffee Co.",
-    "AddressLine2": "London",
-    "PostCode": "EC2R 8HP",
-    "RatingValue": "5",
-    "Geocode_Longitude": -0.087133,
-    "Geocode_Latitude": 51.514172,
-    "AddressLine3": "",
-    "imageUrl": "src/assets/Images/soho-coffee-co.jpg",
-    "Review": " I tend to be a bit of a coffee snob and mine was absolutely delicious! I also had a crossaint which was wonderful as well. It was fairly busy but we were lucky to snag a table and our order came out right away!",
-    "Website": "https://sohocoffee.com/stores/threadneedle-street/"
-  },
-  {
-    "_id": "6399f72871c0238ae6f44980",
-    "BusinessName": "Copper Coffee",
-    "AddressLine2": "London",
-    "PostCode": "E1 8AX",
-    "RatingValue": "3",
-    "Geocode_Longitude": -0.07253400236368,
-    "Geocode_Latitude": 51.5112075805664,
-    "AddressLine3": "",
-    "imageUrl":"src/assets/Images/copper-coffee-e1.jpg", 
-    "Review": "Super attentive staff and really friendly. I had a yummy hot chocolate, but wanted to get some work done and the wifi was pretty awful. As far as coffee shops go, it’s nice to find one in central that isn’t a chain, the interior feels a bit tacky but it’s a comfy place to sit",
-    "Website": "https://www.facebook.com/p/Copper-Coffee-100066731401217/"
-    },
   {
     "_id": "6399f72b71c0238ae6f47dd0",
     "BusinessName": "Coffee Break",
@@ -129,19 +142,6 @@
     "Website": "https://www.instagram.com/coffeestationhammersmith/?hl=en-gb"
 
   },
-  {
-    "_id": "6399f72271c0238ae6f3e59c",
-    "BusinessName": "XOXO Patisserie",
-    "AddressLine2": "London",
-    "PostCode": "NW2 4RA",
-    "RatingValue": "4",
-    "Geocode_Longitude": -0.222133,
-    "Geocode_Latitude": 51.548237,
-    "AddressLine3": "",
-    "imageUrl": "src/assets/Images/xoxo-coffee-nw2.jpg",
-    "Review": "A very nicely decorated & spacious place. Lovely ambiance and vibrant atmosphere - nice and chilled out actually. Food/drinks were delicious with great presentation. Staff are kind, helpful and welcoming. Service was also on point. It would be a 5 if hot drinks were served actually hot (instead of warm).",
-    "Website": "https://xoxocoffee.co.uk/"
-},
   {
     "_id": "6399f73a71c0238ae6f56a34",
     "BusinessName": "The Tea and Coffee Plant",
