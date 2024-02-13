@@ -56,7 +56,6 @@ const CenteredButton = styled('div')({
   marginBottom: '4rem',
 });
 
-
 return (
   <React.Fragment>
   <CenteredButton>

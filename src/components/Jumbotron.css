@@ -4,7 +4,7 @@
 
   .jumbotron-image {
     width: 100%;
-    height: auto;
+    height: 100vh;
   }
 
   .overlay-text {
@@ -82,8 +82,35 @@
   height: auto;
 }
 
+.search-bar.form-control {
+  background-color: #ffecb3 !important;
+  color:#210C02 !important;
+}
 
-@media screen and (max-width: 830px) {
+
+@media (min-width: 368px) and (max-width: 496px) {
+  .jumbotron {
+    width: 40%;
+    height:auto;
+    display:flex;
+  }
+
+  .overlay-text {
+    width: 90%;
+    font-size: 12px;
+  }
+  
+  .overlay-text .display-4 {
+    font-size: 12px;
+  }
+
+  .search-bar.form-control {
+    width: 40%;
+  }
+}
+
+
+/*@media screen and (max-width: 830px) {
   .custom-box {
     width: 70%;
     height: 100%; }
