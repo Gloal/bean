@@ -1,34 +1,54 @@
 import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 // import reactLogo from './assets/react.svg';
 // import viteLogo from '/vite.svg';
 // //import './App.css';
 import Card from "./components/Card";
 /*import CardContainer from './components/CardContainer'; */
 import NavBar from "./components/NavBar";
-import Form from "./components/AddEditForm";
+//import ReviewForm from "./components/AddEditForm";
 import Jumbotron from "./components/Jumbotron";
-import londonRestaurantData from "./data/london_restaurants.json";
+//import londonRestaurantData from "./data/london_restaurants.json";
 import Footer from "./components/Footer.jsx";
 import MapComp from "./components/MapComp.jsx";
-import cafes from "./data/london_cafes_reduced.json";
+import { styled } from "@mui/material/styles";
+import RateReviewIcon from '@mui/icons-material/RateReview';
+
+
+import Form from "./components/Form.jsx"
+//import cafes from "./data/london_cafes_reduced.json";
+import axios from "axios";
+import Button from "@mui/material/Button";
+
 
 function App() {
   const [restaurantData, setRestaurantData] = useState([]);
   // const [reviews, setReview] = useState([])
 
 
-  useEffect(() => {
-    const storedCafes = localStorage.getItem("cafes");
-    if(storedCafes){
-      setRestaurantData(JSON.parse(storedCafes));
-    }else{
-      setRestaurantData(londonRestaurantData);
-      localStorage.setItem('cafes', JSON.stringify(londonRestaurantData))
-    }
+  useEffect( () => {
+    //make GET api call here
+    axios.get('src/data/london_restaurants.json')
+    .then(res => {
+      console.log(res.data)
+      setRestaurantData(res.data)
+    })
+    .catch(err => console.error(err));
   }, []);
 
 
- 
+  const AddReviewButton = styled(Button)(({ theme }) => ({
+    position:"fixed", top: 0, right: 0, zIndex: 2000 ,
+    color: "#FFECB3",
+    fontWeight: "bold",
+    border: "2px solid",
+    backgroundColor: "#210c02",
+    fontFamily:'cursive',
+    padding: "10px",
+    "&:hover": {
+      backgroundColor: "#170801",
+    },
+  }));
 
   return (
     <>
@@ -44,8 +64,13 @@ function App() {
         data={restaurantData}
         token="pk.eyJ1IjoiZ2xvYWwiLCJhIjoiY2xzaTJobWpmMHFwMTJpcG5kampmdHZwbCJ9.d10-z1S4GiGH25co9SnrKw"
       />
+      <AddReviewButton variant='contained' >
+                      <RateReviewIcon className="navbar-icon"/> 
+                      ADD REVIEW</AddReviewButton>
 
-      <Form cafes={restaurantData}/>
+
+      <Form />
+
       <Footer />
     </>
   );
