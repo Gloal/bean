@@ -1,4 +1,4 @@
-# React + Vite
+# "Bean : Your Guide to Coffee Culture"
 
 
 ## Table of Contents:
@@ -42,8 +42,9 @@ If you have any questions or need assistance, feel free to reach out to the team
 
 
 - [Deployed application]()
-- [Git Repository]()
+- [Git Repository](https://github.com/Gloal/bean).
 
 
 ## Copyright
 
+All Rights Reserved @Bean Cafe Reviews Pvt. Ltd.
