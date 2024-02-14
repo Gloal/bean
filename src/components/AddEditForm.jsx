@@ -19,7 +19,6 @@ import { styled } from "@mui/material/styles";
 import RateReviewIcon from "@mui/icons-material/RateReview";
 import { IonIcon } from "@ionic/react";
 import { starSharp } from "ionicons/icons";
-
 const AddEditReviewForm = () => {
   const [cafes, setCafes] = useState([]);
   const [open, setOpen] = useState(false);
@@ -29,33 +28,29 @@ const AddEditReviewForm = () => {
     Rating: "",
     Review: "",
   });
-
   const { register, handleSubmit } = useForm();
-
   useEffect(() => {
-    const storedCafes = localStorage.getItem("cafes");
-    if (storedCafes) {
-      setCafes(JSON.parse(storedCafes));
-    } else {
-      setCafes(data);
-      localStorage.setItem("cafes", JSON.stringify(data));
-    }
+    fetch("/path/to/london_restaurants.json")
+      .then((response) => response.json())
+      .then((data) => {
+        setCafes(data);
+        localStorage.setItem("cafes", JSON.stringify(data));
+      })
+      .catch((error) => {
+        console.error("Error fetching cafes:", error);
+      });
   }, []);
-
   const handleReviewOpen = () => {
     setOpen(true);
   };
-
   const handleClose = () => {
     setOpen(false);
   };
-
   const submitHandler = (data) => {
     const { BusinessName, Rating, Review, YourName } = data;
     const existingCafeIndex = cafes.findIndex(
       (cafe) => cafe.BusinessName === BusinessName
     );
-
     if (existingCafeIndex !== -1) {
       const updatedCafes = [...cafes];
       updatedCafes[existingCafeIndex].Reviews.push({
@@ -85,7 +80,6 @@ const AddEditReviewForm = () => {
     }
     handleClose();
   };
-
   const AddReviewButton = styled(Button)(({ theme }) => ({
     position: "fixed",
     top: 0,
@@ -94,25 +88,21 @@ const AddEditReviewForm = () => {
     color: "#FFECB3",
     fontWeight: "bold",
     border: "2px solid",
-    backgroundColor: "#210c02",
+    backgroundColor: "#210C02",
     fontFamily: "cursive",
     padding: "10px",
     "&:hover": {
       backgroundColor: "#170801",
     },
   }));
-
   const renderStars = (rating) => {
     const stars = [];
     const filledStars = Math.floor(rating);
-
     for (let i = 0; i < filledStars; i++) {
       stars.push(<IonIcon key={i} icon={starSharp} />);
     }
-
     return stars;
   };
-
   const ReviewCard = ({ review }) => {
     return (
       <div className="coffee-card" id="trending" style={{ margin: "10px" }}>
@@ -138,14 +128,12 @@ const AddEditReviewForm = () => {
       </div>
     );
   };
-
   return (
     <React.Fragment>
       <AddReviewButton variant="contained" onClick={handleReviewOpen}>
         <RateReviewIcon className="navbar-icon" />
         Add Review
       </AddReviewButton>
-
       <Dialog
         open={open}
         onClose={handleClose}
@@ -227,7 +215,6 @@ const AddEditReviewForm = () => {
           </DialogActions>
         </form>
       </Dialog>
-
       {cafes.map((cafe) =>
         cafe.Reviews.map((review, index) => (
           <ReviewCard key={index} review={review} />
@@ -236,5 +223,6 @@ const AddEditReviewForm = () => {
     </React.Fragment>
   );
 };
-
 export default AddEditReviewForm;
+
+
