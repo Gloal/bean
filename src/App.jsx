@@ -19,7 +19,8 @@ function App() {
   const [restaurantData, setRestaurantData] = useState([data]);
   // const [reviews, setReview] = useState([])
 
-  
+
+
   return (
     <>
       <NavBar />
