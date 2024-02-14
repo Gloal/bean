@@ -15,39 +15,23 @@ import {
 } from "@mui/material";
 import { useForm } from "react-hook-form";
 import { generateUniqueId } from "../utils/formHelper";
-import data from "../data/london_restaurants.json";
 import { styled } from "@mui/material/styles";
 import RateReviewIcon from "@mui/icons-material/RateReview";
-// import { Card as MuiCard }from "@mui/material/Card";
-// import CardComponent from "@mui/material/Card";
-// import Typography from "@mui/material/Typography";
-
+import { IonIcon } from "@ionic/react";
+import { starSharp } from "ionicons/icons";
 
 const AddEditReviewForm = () => {
   const [cafes, setCafes] = useState([]);
   const [open, setOpen] = useState(false);
-  const [cafeSelection, setCafeSelection] = useState("");
-
   const [cafeToReview, setCafeToReview] = useState({
-    _id: "",
     BusinessName: "",
-    Reviews: [],
-    AddressLine2: "London",
-    PostCode: "E1 8AX",
-    RatingValue: "3",
-    Geocode_Longitude: -0.07253400236368,
-    Geocode_Latitude: 51.5112075805664,
-    AddressLine3: "",
-    imageUrl: "src/assets/Images/copper-coffee-e1.jpg",
+    YourName: "",
+    Rating: "",
     Review: "",
-    Website: "https://www.facebook.com/p/Copper-Coffee-100066731401217/",
-    YourName: "", // add this line
-    Rating: "", // add this line
   });
 
   const { register, handleSubmit } = useForm();
 
-  //get cafes from local storage
   useEffect(() => {
     const storedCafes = localStorage.getItem("cafes");
     if (storedCafes) {
@@ -58,66 +42,50 @@ const AddEditReviewForm = () => {
     }
   }, []);
 
-  //populate businessNames for sugestions
-  const cafeSuggestions = cafes.map((cafe) => cafe.BusinessName);
-
-  //open review form
   const handleReviewOpen = () => {
     setOpen(true);
   };
 
-  //close the form modal
   const handleClose = () => {
-    console.log("review closed");
     setOpen(false);
   };
 
-  //save new review
   const submitHandler = (data) => {
     const { BusinessName, Rating, Review, YourName } = data;
-    console.log(BusinessName, Rating, Review);
-  
     const existingCafeIndex = cafes.findIndex(
       (cafe) => cafe.BusinessName === BusinessName
     );
-    console.log("Received review form");
 
     if (existingCafeIndex !== -1) {
-      console.log(existingCafeIndex);
-      //update existing cafe
       const updatedCafes = [...cafes];
       updatedCafes[existingCafeIndex].Reviews.push({
-        rating: Rating,
-        review: Review,
-        reviewer: YourName,
+        RatingValue: parseInt(Rating),
+        Review: Review,
+        YourName: YourName,
       });
       updatedCafes[existingCafeIndex].NumOfReviews += 1;
-
       setCafes(updatedCafes);
-    localStorage.setItem("cafes", JSON.stringify(updatedCafes)); // Update local storage
-  } else {
-    //save new cafe
-    //get cafe data from mapbox
-    const newCafe = {
-      _id: generateUniqueId(),
-      BusinessName: BusinessName,
-      AddressLine2: "test place",
-      PostCode: "SE20 7HW",
-      RatingValue: Rating,
-      Geocode_Longitude: -0.056771,
-      Geocode_Latitude: 51.417127,
-      AddressLine3: "London",
-      Reviews: [{ rating: Rating, review: Review, reviewer: YourName }],
-      Rating: Rating,
-      NumOfReviews: 1,
-    };
+      localStorage.setItem("cafes", JSON.stringify(updatedCafes));
+    } else {
+      const newCafe = {
+        _id: generateUniqueId(),
+        BusinessName: BusinessName,
+        Reviews: [
+          {
+            RatingValue: parseInt(Rating),
+            Review: Review,
+            YourName: YourName,
+          },
+        ],
+        NumOfReviews: 1,
+      };
+      const updatedCafes = [...cafes, newCafe];
+      setCafes(updatedCafes);
+      localStorage.setItem("cafes", JSON.stringify(updatedCafes));
+    }
+    handleClose();
+  };
 
-    const updatedCafes = [...cafes, newCafe];
-    setCafes(updatedCafes);
-    localStorage.setItem("cafes", JSON.stringify(updatedCafes)); // Update local storage
-  }
-  handleClose();
-};
   const AddReviewButton = styled(Button)(({ theme }) => ({
     position: "fixed",
     top: 0,
@@ -134,53 +102,46 @@ const AddEditReviewForm = () => {
     },
   }));
 
-  const CenteredButton = styled("div")({
-    display: "flex",
-    justifyContent: "center",
-    marginTop: "1rem",
-    marginBottom: "4rem",
-  });
+  const renderStars = (rating) => {
+    const stars = [];
+    const filledStars = Math.floor(rating);
 
-  //trying to set the button color to something different but it changes the whole page brown
-  const ColorButton = styled(Button)(({ theme }) => ({
-    color: theme.palette.getContrastText(purple[500]),
-    backgroundColor: brown[500],
-    "&:hover": {
-      backgroundColor: brown[700],
-    },
-  }));
+    for (let i = 0; i < filledStars; i++) {
+      stars.push(<IonIcon key={i} icon={starSharp} />);
+    }
+
+    return stars;
+  };
 
   const ReviewCard = ({ review }) => {
     return (
-      <div className="coffee-card" id="trending">
+      <div className="coffee-card" id="trending" style={{ margin: "10px" }}>
         <Card sx={{ maxWidth: 345 }}>
           <CardContent className="card-content">
             <Typography gutterBottom variant="h5" component="div">
               {review.BusinessName}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span style={{ fontWeight: "bold" }}>Rating:</span> {review.rating}
+              <span style={{ fontWeight: "bold" }}>Rating:</span>{" "}
+              {review.RatingValue ? `${review.RatingValue}/5` : "N/A"}{" "}
+              {review.RatingValue ? renderStars(review.RatingValue) : null}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span style={{ fontWeight: "bold" }}>Review:</span> {review.review}
+              <span style={{ fontWeight: "bold" }}>Review:</span> {review.Review}
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              <span style={{ fontWeight: "bold" }}>Reviewer:</span> {review.reviewer}
+              <span style={{ fontWeight: "bold" }}>Reviewer:</span>{" "}
+              {review.YourName}
             </Typography>
           </CardContent>
         </Card>
       </div>
     );
   };
-  
 
   return (
     <React.Fragment>
-      <AddReviewButton
-        id="addreview"
-        variant="contained"
-        onClick={handleReviewOpen}
-      >
+      <AddReviewButton variant="contained" onClick={handleReviewOpen}>
         <RateReviewIcon className="navbar-icon" />
         Add Review
       </AddReviewButton>
@@ -189,12 +150,6 @@ const AddEditReviewForm = () => {
         open={open}
         onClose={handleClose}
         aria-labelledby="form-dialog-title"
-        sx={{
-          "& .MuiPaper-root": {
-            color: "#170801",
-            background: "#FFECB3",
-          },
-        }}
       >
         <DialogTitle id="form-dialog-title">Add Review</DialogTitle>
         <form onSubmit={handleSubmit(submitHandler)}>
@@ -205,33 +160,18 @@ const AddEditReviewForm = () => {
               fullWidth
               name="BusinessName"
               value={cafeToReview.BusinessName}
-              style={{ marginBottom: "1rem" }}
               onChange={(e) =>
                 setCafeToReview((prevState) => ({
                   ...prevState,
                   BusinessName: e.target.value,
                 }))
               }
-              InputProps={{
-                autoComplete: "new-password",
-                list: "cafeSuggestions",
-              }}
             />
-            <datalist id="cafe-suggestions">
-              {cafeSuggestions.map((cafe) => (
-                <option
-                  key={cafe}
-                  value={cafe}
-                  onClick={() => cafeSelection(cafe)}
-                />
-              ))}
-            </datalist>
             <TextField
               {...register("YourName")}
               label="Your Name"
               fullWidth
-              style={{ marginBottom: "2rem" }}
-              value={cafeToReview.YourName || ""}
+              value={cafeToReview.YourName}
               onChange={(e) =>
                 setCafeToReview((prevState) => ({
                   ...prevState,
@@ -240,25 +180,21 @@ const AddEditReviewForm = () => {
               }
             />
             <RadioGroup
-              autoFocus
               row
               required
               id="rating"
+              name="Rating"
               label="Rating"
               fullWidth
-              variant="standard"
               {...register("Rating")}
-              value={cafeToReview.Rating || ""}
-              style={{ marginLeft: "10px" }}
-              onChange={(e) => {
-                console.log("Selected rating:", e.target.value);
+              value={cafeToReview.Rating}
+              onChange={(e) =>
                 setCafeToReview((prevState) => ({
                   ...prevState,
                   Rating: e.target.value,
-                }));
-              }}
+                }))
+              }
             >
-              <Typography style={{ marginRight: "2rem" }}> Rating</Typography>
               <FormControlLabel value="1" control={<Radio />} label="1" />
               <FormControlLabel value="2" control={<Radio />} label="2" />
               <FormControlLabel value="3" control={<Radio />} label="3" />
@@ -272,9 +208,7 @@ const AddEditReviewForm = () => {
               multiline
               rows={2}
               fullWidth
-              margin="dense"
               value={cafeToReview.Review}
-              style={{ marginLeft: "10px" }}
               onChange={(e) =>
                 setCafeToReview((prevState) => ({
                   ...prevState,
@@ -294,13 +228,11 @@ const AddEditReviewForm = () => {
         </form>
       </Dialog>
 
-      {cafes
-        .slice(-1)
-        .map((cafe) =>
-          cafe.Reviews.map((review, index) => (
-            <ReviewCard key={index} review={review} />
-          ))
-        )}
+      {cafes.map((cafe) =>
+        cafe.Reviews.map((review, index) => (
+          <ReviewCard key={index} review={review} />
+        ))
+      )}
     </React.Fragment>
   );
 };
