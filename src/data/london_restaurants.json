@@ -9,7 +9,13 @@
     "Geocode_Latitude": 51.514172,
     "AddressLine3": "",
     "imageUrl": "src/assets/Images/soho-coffee-co.jpg",
-    "Review": " I tend to be a bit of a coffee snob and mine was absolutely delicious! I also had a crossaint which was wonderful as well. It was fairly busy but we were lucky to snag a table and our order came out right away!",
+    "Reviews": [
+      {
+        "review": " I tend to be a bit of a coffee snob and mine was absolutely delicious! I also had a crossaint which was wonderful as well. It was fairly busy but we were lucky to snag a table and our order came out right away!",
+        "YourName": " ",
+        "Rating": " "
+      }
+    ],
     "Website": "https://sohocoffee.com/stores/threadneedle-street/"
   },
   {
@@ -21,22 +27,30 @@
     "Geocode_Longitude": -0.07253400236368,
     "Geocode_Latitude": 51.5112075805664,
     "AddressLine3": "",
-    "imageUrl":"src/assets/Images/copper-coffee-e1.jpg", 
-    "Review": "Super attentive staff and really friendly. I had a yummy hot chocolate, but wanted to get some work done and the wifi was pretty awful. As far as coffee shops go, it’s nice to find one in central that isn’t a chain, the interior feels a bit tacky but it’s a comfy place to sit",
+    "imageUrl": "src/assets/Images/copper-coffee-e1.jpg",
+    "Reviews": [
+      {
+        "review": "Super attentive staff and really friendly. I had a yummy hot chocolate, but wanted to get some work done and the wifi was pretty awful. As far as coffee shops go, it’s nice to find one in central that isn’t a chain, the interior feels a bit tacky but it’s a comfy place to sit."
+      }
+    ],
     "Website": "https://www.facebook.com/p/Copper-Coffee-100066731401217/"
-    },
-    {
-      "_id": "6399f72271c0238ae6f3e59c",
-      "BusinessName": "XOXO Patisserie",
-      "AddressLine2": "London",
-      "PostCode": "NW2 4RA",
-      "RatingValue": "4",
-      "Geocode_Longitude": -0.222133,
-      "Geocode_Latitude": 51.548237,
-      "AddressLine3": "",
-      "imageUrl": "src/assets/Images/xoxo-coffee-nw2.jpg",
-      "Review": "A very nicely decorated & spacious place. Lovely ambiance and vibrant atmosphere - nice and chilled out actually. Food/drinks were delicious with great presentation. Staff are kind, helpful and welcoming. Service was also on point. It would be a 5 if hot drinks were served actually hot (instead of warm).",
-      "Website": "https://xoxocoffee.co.uk/"
+  },
+  {
+    "_id": "6399f72271c0238ae6f3e59c",
+    "BusinessName": "XOXO Patisserie",
+    "AddressLine2": "London",
+    "PostCode": "NW2 4RA",
+    "RatingValue": "4",
+    "Geocode_Longitude": -0.222133,
+    "Geocode_Latitude": 51.548237,
+    "AddressLine3": "",
+    "imageUrl": "src/assets/Images/xoxo-coffee-nw2.jpg",
+    "Reviews": [
+      {
+        "review": "A very nicely decorated & spacious place. Lovely ambiance and vibrant atmosphere - nice and chilled out actually. Food/drinks were delicious with great presentation. Staff are kind, helpful and welcoming. Service was also on point. It would be a 5 if hot drinks were served actually hot (instead of warm)."
+      }
+    ],
+    "Website": "https://xoxocoffee.co.uk/"
   },
   {
     "_id": "6399f72871c0238ae6f446a7",
@@ -48,7 +62,11 @@
     "Geocode_Latitude": 51.517245,
     "AddressLine3": "",
     "imageUrl": "src/assets/Images/black-sheep-coffee.jpg",
-    "Review": "Such amazing service, tasty coffee! Would highly recommend to anyone in the area - the bit around the station is. It exactly known for its good spots so grab a chair outside.",
+    "Reviews": [
+      {
+        "review": "Such amazing service, tasty coffee! Would highly recommend to anyone in the area - the bit around the station is. It exactly known for its good spots so grab a chair outside."
+      }
+    ],
     "Website": "https://leavetheherdbehind.com/blogs/locations/bishopsgate"
   },
   {
@@ -61,9 +79,13 @@
     "Geocode_Longitude": 0.133478,
     "Geocode_Latitude": 51.506094,
     "imageUrl": "src/assets/Images/ness-cafe.jpg",
-    "Review": "Warm welcome and refreshments at the cafe were just what we needed and then a few hours inside with our guide were perfect.",
+    "Reviews": [
+      {
+        "review": "Warm welcome and refreshments at the cafe were just what we needed and then a few hours inside with our guide were perfect."
+      }
+    ],
     "Website": "https://crossness.org.uk/visit/"
-  }, 
+  },
   {
     "_id": "6399f72871c0238ae6f44bdb",
     "BusinessName": "Giddy Up Coffee",
@@ -74,7 +96,11 @@
     "Geocode_Latitude": 51.517528,
     "AddressLine3": "",
     "imageUrl": "src/assets/Images/giddy-up-coffee.jpg",
-    "Review": "Lovely Coffee from a knowledgeable and friendly barista: You probably don't expect this level of quality and attention from a cart! Just go you won't be disappointed.",
+    "Reviews": [
+      {
+        "review": "Lovely Coffee from a knowledgeable and friendly barista: You probably don't expect this level of quality and attention from a cart! Just go you won't be disappointed."
+      }
+    ],
     "Website": "https://www.instagram.com/giddyupcoffee/?hl=en-gb "
   },
   {
@@ -85,9 +111,13 @@
     "RatingValue": "5",
     "Geocode_Longitude": -0.252673,
     "Geocode_Latitude": 51.560079,
-    "AddressLine3": "", 
+    "AddressLine3": "",
     "imageUrl": "src/assets/Images/costa-coffee-nw10.jpg",
-    "Review": "It is very comfortable and clean. The workers are willing to help the customers every day. The quality of products is very good and the price of products is good. I believe that the iced coffee is the best in this store.",
+    "Reviews": [
+      {
+        "review": "It is very comfortable and clean. The workers are willing to help the customers every day. The quality of products is very good and the price of products is good. I believe that the iced coffee is the best in this store."
+      }
+    ],
     "Website": "https://www.costa.co.uk/locations/store-locator/map"
   },
   {
@@ -100,7 +130,11 @@
     "Geocode_Latitude": 51.511516,
     "AddressLine3": "",
     "imageUrl": "src/assets/Images/l'express-coffee.jpg",
-    "Review": "Cheap and cheerful. They do coffee of course, and I noticed yesterday that they have Sicilian cannoli - I must try them as they are a favourite of mine and friends of mine, and not easy to find in London.",
+    "Reviews": [
+      {
+        "review": "Cheap and cheerful. They do coffee of course, and I noticed yesterday that they have Sicilian cannoli - I must try them as they are a favourite of mine and friends of mine, and not easy to find in London."
+      }
+    ],
     "Website": "https://lexpresscoffee.co.uk/"
   },
   {
@@ -113,7 +147,11 @@
     "Geocode_Latitude": 51.631751,
     "AddressLine3": "",
     "imageUrl": "src/assets/Images/coffee-break-n21.jpg",
-    "Review": "Popped in for breakfast, to discuss a business opportunity. Very warm, friendly and attentive staff, who made us feel immediately welcome. Food was good, coffee was good and the price was reasonable too. Plus, there is free parking to be found nearby. Worth a visit!",
+    "Reviews": [
+      {
+        "review": "Popped in for breakfast, to discuss a business opportunity. Very warm, friendly and attentive staff, who made us feel immediately welcome. Food was good, coffee was good and the price was reasonable too. Plus, there is free parking to be found nearby. Worth a visit!"
+      }
+    ],
     "Website": "https://www.facebook.com/coffeebreaklondon/"
   },
   {
@@ -126,7 +164,11 @@
     "Geocode_Latitude": 51.513319,
     "AddressLine3": "",
     "imageUrl": "src/assets/Images/carter-lane.jpg",
-    "Review": "Super silky smooth Latte from independent coffee shop: Terrific and unusually silky smooth latte from an independent coffee house . A bit of a find as it is hidden down a backstreet on the edge of the City",
+    "Reviews": [
+      {
+        "review": "Super silky smooth Latte from independent coffee shop: Terrific and unusually silky smooth latte from an independent coffee house . A bit of a find as it is hidden down a backstreet on the edge of the City"
+      }
+    ],
     "Website": "https://www.carterlane-coffee.co.uk/"
   },
   {
@@ -138,9 +180,12 @@
     "Geocode_Longitude": -0.233318,
     "Geocode_Latitude": 51.492535,
     "imageUrl": "src/assets/Images/coffee-station-w6.jpg",
-    "Review": "Went for brunch, fabulous fresh food cooked perfectly! Our second visit whilst in Hammersmith and again did not disappoint, English breakfast arrived sizzling on cast iron plate, everything cooked to perfection and eggs Royal beautiful! Coffee nice and strong. My only criticism is that the seating is uncomfortable.",
+    "Reviews": [
+      {
+        "review": "Went for brunch, fabulous fresh food cooked perfectly! Our second visit whilst in Hammersmith and again did not disappoint, English breakfast arrived sizzling on cast iron plate, everything cooked to perfection and eggs Royal beautiful! Coffee nice and strong. My only criticism is that the seating is uncomfortable."
+      }
+    ],
     "Website": "https://www.instagram.com/coffeestationhammersmith/?hl=en-gb"
-
   },
   {
     "_id": "6399f73a71c0238ae6f56a34",
@@ -152,7 +197,11 @@
     "Geocode_Latitude": 51.515552,
     "AddressLine3": "",
     "imageUrl": "src/assets/Images/tea-coffee-plant-w11.jpg",
-    "Review": "I buy the coffee online. It never fails to impress. I like the espresso No 2 beans which they use in the shop, also the Italian roast and the continental Decaf. People need to know this shop opened in 1985 long before the Gentrification and barista culture infested the area. This is as close as you'll get to a community coffee shop.",
+    "Reviews": [
+      {
+        "review": "I buy the coffee online. It never fails to impress. I like the espresso No 2 beans which they use in the shop, also the Italian roast and the continental Decaf. People need to know this shop opened in 1985 long before the Gentrification and barista culture infested the area. This is as close as you'll get to a community coffee shop."
+      }
+    ],
     "Website": "https://www.coffee.uk.com/"
-  } 
+  }
 ]

@@ -1,45 +1,84 @@
-import React from 'react';
-import Card from '@mui/material/Card';
-import CardContent from '@mui/material/CardContent';
-import Typography from '@mui/material/Typography';
-import coffeeShopsData from '../data/london_restaurants.json';
-import { IonIcon } from '@ionic/react';
-import { cafeOutline, wifiOutline, womanOutline, manOutline, starSharp } from 'ionicons/icons';
+import React from "react";
+import Card from "@mui/material/Card";
+import CardContent from "@mui/material/CardContent";
+import Typography from "@mui/material/Typography";
+import coffeeShopsData from "../data/london_restaurants.json";
+import { IonIcon } from "@ionic/react";
+import {
+  cafeOutline,
+  wifiOutline,
+  womanOutline,
+  manOutline,
+  starSharp,
+} from "ionicons/icons";
 
 const cafeLogos = {
-  "The Ness Cafe": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
+  "The Ness Cafe": [
+    { icon: cafeOutline },
+    { icon: wifiOutline },
+    { icon: womanOutline },
+    { icon: manOutline },
+  ],
   "Giddy Up Coffee": [{ icon: cafeOutline }],
-  "Costa Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
-  "Black Sheep Coffee": [{ icon: cafeOutline }, { icon: wifiOutline }, { icon: womanOutline }, { icon: manOutline }],
+  "Costa Coffee": [
+    { icon: cafeOutline },
+    { icon: wifiOutline },
+    { icon: womanOutline },
+    { icon: manOutline },
+  ],
+  "Black Sheep Coffee": [
+    { icon: cafeOutline },
+    { icon: wifiOutline },
+    { icon: womanOutline },
+    { icon: manOutline },
+  ],
   "L'express Coffee": [{ icon: cafeOutline }],
-  "Soho Coffee Co.": [{ icon: cafeOutline }, { icon: womanOutline }, { icon: manOutline }],
-  "Copper Coffee": [{ icon: cafeOutline }, { icon: womanOutline }, { icon: manOutline }],
-  "Coffee Break": [{ icon: cafeOutline }, { icon: wifiOutline } ],
+  "Soho Coffee Co.": [
+    { icon: cafeOutline },
+    { icon: womanOutline },
+    { icon: manOutline },
+  ],
+  "Copper Coffee": [
+    { icon: cafeOutline },
+    { icon: womanOutline },
+    { icon: manOutline },
+  ],
+  "Coffee Break": [{ icon: cafeOutline }, { icon: wifiOutline }],
   "Carter Lane Coffee House": [{ icon: cafeOutline }, { icon: wifiOutline }],
   "Coffee Station": [{ icon: cafeOutline }, { icon: wifiOutline }],
   "XOXO Patisserie": [{ icon: cafeOutline }],
-  "The Tea and Coffee Plant": [{ icon: cafeOutline }]
+  "The Tea and Coffee Plant": [{ icon: cafeOutline }],
 };
 
 const renderStars = (rating) => {
   const stars = [];
-  const filledStars = Math.floor(rating); 
+  const filledStars = Math.floor(rating);
 
-  for(let i = 0; i < filledStars; i++) {
+  for (let i = 0; i < filledStars; i++) {
     stars.push(<IonIcon key={i} icon={starSharp} />);
   }
 
   return stars;
-}
+};
 
 export default function CoffeeCard({ shopId }) {
-  const shopData = coffeeShopsData.find(shop => shop._id === shopId);
+  const shopData = coffeeShopsData.find((shop) => shop._id === shopId);
 
   if (!shopData) {
     return null;
   }
 
-  const { BusinessName, RatingValue, AddressLine1, AddressLine2, AddressLine3, PostCode, imageUrl, Review, Website } = shopData;
+  const {
+    BusinessName,
+    RatingValue,
+    AddressLine1,
+    AddressLine2,
+    AddressLine3,
+    PostCode,
+    imageUrl,
+    Review,
+    Website,
+  } = shopData;
 
   const icons = cafeLogos[BusinessName] || [];
   const iconElements = icons.map((item, index) => (
@@ -47,10 +86,12 @@ export default function CoffeeCard({ shopId }) {
   ));
 
   const businessNameComponent = Website ? (
-    <a href={Website} target="_blank" rel="noopener noreferrer">{BusinessName}</a>
+    <a href={Website} target="_blank" rel="noopener noreferrer">
+      {BusinessName}
+    </a>
   ) : (
     <span>{BusinessName}</span>
-  ); 
+  );
 
   return (
     <div className="coffee-card" id="trending">
@@ -63,19 +104,19 @@ export default function CoffeeCard({ shopId }) {
             {businessNameComponent}
           </Typography>
           <Typography variant="body2" color="text.secondary">
-            <span style={{ fontWeight: 'bold' }}>Rating:</span> {RatingValue ? renderStars(RatingValue) : 'N/A'} 
+            <span style={{ fontWeight: "bold" }}>Rating:</span>{" "}
+            {RatingValue ? renderStars(RatingValue) : "N/A"}
           </Typography>
-          <div className="icon-container">
-            {iconElements}
-          </div>
+          <div className="icon-container">{iconElements}</div>
           <Typography variant="body2" color="text.secondary">
-            <span style={{ fontWeight: 'bold' }}>Address</span> {AddressLine1} {AddressLine2}, {AddressLine3} {PostCode}
+            <span style={{ fontWeight: "bold" }}>Address</span> {AddressLine1}{" "}
+            {AddressLine2}, {AddressLine3} {PostCode}
           </Typography>
-          {Review && (
-            <Typography variant="body2" color="text.secondary">
-              <span style={{ fontWeight: 'bold' }}>Review:</span> {Review}
-            </Typography>
-          )}
+          {shopData.Reviews && shopData.Reviews.map((review, index) => (
+    <Typography key={index} variant="body2" color="text.secondary">
+      <span style={{ fontWeight: 'bold' }}>Review {review.reviewer}:</span> {review.review}
+    </Typography>
+  ))}
         </CardContent>
       </Card>
     </div>
