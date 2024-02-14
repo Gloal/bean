@@ -30,6 +30,7 @@ const AddEditReviewForm = () => {
 
   const { register, handleSubmit } = useForm();
 
+  //get cafes from local storage
   useEffect(() => {
     fetch("/path/to/london_restaurants.json")
       .then((response) => response.json())
@@ -42,14 +43,20 @@ const AddEditReviewForm = () => {
       });
   }, []);
 
+  //open review form 
   const handleReviewOpen = () => {
     setOpen(true);
   };
 
+  //populate businessNames for sugestions
+  const cafeSuggestions = cafes.map((cafe) => cafe.BusinessName);
+
+  // close the form modal
   const handleClose = () => {
     setOpen(false);
   };
 
+  // save new review 
   const submitHandler = (data) => {
     const { BusinessName, Rating, Review, YourName } = data;
     const existingCafeIndex = cafes.findIndex(
@@ -67,6 +74,8 @@ const AddEditReviewForm = () => {
       setCafes(updatedCafes);
       localStorage.setItem("cafes", JSON.stringify(updatedCafes));
     } else {
+      // save new cafe
+      // get cafe data from mapbox
       const newCafe = {
         _id: generateUniqueId(),
         BusinessName: BusinessName,
