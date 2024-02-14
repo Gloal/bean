@@ -13,59 +13,77 @@ import {
 import { useForm } from "react-hook-form";
 import { generateUniqueId } from "../utils/formHelper";
 import data from "../data/london_restaurants.json";
+import { styled } from "@mui/material/styles";
+
 import { cafeSharp } from "ionicons/icons";
+import RateReviewIcon from "@mui/icons-material/RateReview";
 
 const AddEditReviewForm = () => {
-  const { cafes, setCafes } = useState(data);
-  const { register, handleSubmit } = useForm();
+  const [cafes, setCafes] = useState([]);
   const [open, setOpen] = useState(false);
+  const [cafeSelection, setCafeSelection] = useState("");
 
+  const [cafeToReview, setCafeToReview] = useState({
+    _id: "",
+    BusinessName: "",
+    Reviews: [],
+    AddressLine2: "London",
+    PostCode: "E1 8AX",
+    RatingValue: "3",
+    Geocode_Longitude: -0.07253400236368,
+    Geocode_Latitude: 51.5112075805664,
+    AddressLine3: "",
+    imageUrl: "src/assets/Images/copper-coffee-e1.jpg",
+    Review:"",
+    Website: "https://www.facebook.com/p/Copper-Coffee-100066731401217/",
+  });
 
-//get cafes from local storage
+  const { register, handleSubmit } = useForm();
+
+  //get cafes from local storage
   useEffect(() => {
     const storedCafes = localStorage.getItem("cafes");
     if (storedCafes) {
-      setRestaurantData(JSON.parse(storedCafes));
+      setCafes(JSON.parse(storedCafes));
     } else {
-      setRestaurantData(londonRestaurantData);
-      localStorage.setItem("cafes", JSON.stringify(londonRestaurantData));
+      setCafes(data);
+      localStorage.setItem("cafes", JSON.stringify(data));
     }
   }, []);
 
-  //close review from
+  //populate businessNames for sugestions
+  const cafeSuggestions = cafes.map((cafe) => cafe.BusinessName);
+
+   //open review form
   const handleReviewOpen = () => {
     setOpen(true);
   };
 
+    //close the form modal
+    const handleClose = () => {
+      console.log("review closed");
+      setOpen(false);
+    };  
 
   //save new review
   const submitHandler = (data) => {
     const { BusinessName, Rating, Review, YourName } = data;
 
-    const existingCafe = cafes.find((cafe) => cafe.name === BusinessName);
+    const existingCafeIndex = cafes.findIndex((cafe) => cafe.BusinessName === BusinessName);
     console.log("Received review form");
 
-    if (existingCafe) {
-      //update old cafe
-      const updatedCafes = cafes.map((cafe) =>
-        cafe.BusinessName === BusinessName
-          ? {
-              ...cafe,
-              Reviews: [
-                ...cafe.Reviews,
-                {
-                  rating: Rating,
-                  review: Review,
-                  numberOfreviews: numberOfreviews + 1,
-                  reviewer: YourName,
-                },
-              ],
-            }
-          : cafe
-      );
-      setCafes(updatedCafes);
-      localStorage.setItem("cafes", JSON.stringify(londonRestaurantData));
+    if (existingCafeIndex !== -1) {
+      //update existing cafe
+      const updatedCafes = [...cafes];
+      updatedCafes[existingCafeIndex].Reviews.push({                  
+                rating: Rating,
+                review: Review,
+                reviewer: YourName,});
+      updatedCafes[existingCafeIndex].NumOfReviews  = 1;         
 
+  
+      setCafes(updatedCafes);
+      localStorage.setItem("cafes", JSON.stringify(updatedCafes));
     } else {
       //save new cafe
       //get cafe data from mapbox
@@ -79,27 +97,27 @@ const AddEditReviewForm = () => {
         Geocode_Longitude: -0.056771,
         Geocode_Latitude: 51.417127,
         AddressLine3: "London",
-        Reviews: [{ review: Review, reviewer: YourName }],
+        Reviews: [{ rating: Rating, review: Review, reviewer: YourName }],
         Rating: Rating,
         numberOfreviews: 1,
       };
-      setCafes(...cafes, newCafe);
-      localStorage.setItem("cafes", JSON.stringify(cafes));
-
+      setCafes([...cafes, newCafe]);
+      localStorage.setItem("cafes", JSON.stringify([...cafes, cafes]));
+      handleClose();
     }
   };
 
-  //close the form modal
-  const handleClose = () => {
-    console.log("review closed");
-    setOpen(false);
-  };
-
   const AddReviewButton = styled(Button)(({ theme }) => ({
-    color: "brown",
+    position: "fixed",
+    top: 0,
+    right: 0,
+    zIndex: 2000,
+    color: "#FFECB3",
     fontWeight: "bold",
-    backgroundColor: "#FFECB3",
-    padding: "10px 50px",
+    border: "2px solid",
+    backgroundColor: "#210c02",
+    fontFamily: "cursive",
+    padding: "10px",
     "&:hover": {
       backgroundColor: "#170801",
     },
@@ -114,15 +132,13 @@ const AddEditReviewForm = () => {
 
   return (
     <React.Fragment>
-      <CenteredButton>
-        <AddReviewButton
-          id="addreview"
-          variant="contained"
-          onClick={handleReviewOpen}
-        >
-          Add Review
-        </AddReviewButton>
-      </CenteredButton>
+      <AddReviewButton
+        id="addreview"
+        variant="contained"
+        onClick={handleReviewOpen}
+      >
+        Add Review <RateReviewIcon className="navbar-icon" />
+      </AddReviewButton>
 
       <Dialog
         open={open}
@@ -136,21 +152,44 @@ const AddEditReviewForm = () => {
               {...register("BusinessName")}
               label="Cafe Name"
               fullWidth
-              onChange={(e) => setSelectedCafe(e.target.value)}
+              name="BusinessName"
+              value={cafeToReview.BusinessName}
+              onChange={(e) => 
+                setCafeToReview((prevState) => ({
+                  ...prevState,
+                  BusinessName: e.target.value,
+                }))}
+              InputProps={{
+                autocomplete: "new-password",
+                list: "cafeSuggestions",
+              }}
             />
+            <datalist id="cafe-suggestions">
+              {cafeSuggestions.map((cafe) => (
+                <option
+                  key={cafe}
+                  value={cafe}
+                  onClick={() => cafeSelection(cafe)}
+                />
+              ))}
+            </datalist>
             <RadioGroup
               autoFocus
               row
               required
               margin-top="9rem"
               id="rating"
-              name="rating"
+              label="Rating"
               type="string"
               fullWidth
               variant="standard"
-              onChange={(e) => setSelectedCafe(e.target.value)}
               {...register("Rating")}
-            >
+              value={cafeToReview.Rating}
+              onChange={(e) => 
+                setCafeToReview((prevState) => ({
+                  ...prevState,
+                  Rating: e.target.value,
+                }))}            >
               {" "}
               Rating
               <FormControlLabel value="1" control={<Radio />} label="1" />
@@ -164,19 +203,27 @@ const AddEditReviewForm = () => {
               variant="standard"
               label="Review"
               multiline
-              rows={4}
+              rows={2}
               fullWidth
-              onChange={(e) => setSelectedCafe(e.target.value)}
               margin="dense"
+              value={cafeToReview.Review}
+              onChange={(e) => 
+                setCafeToReview((prevState) => ({
+                  ...prevState,
+                  Review: e.target.value,
+                }))}
             />
-
             <TextField
               {...register("YourName")}
               label="Your Name"
               fullWidth
               margin="dense"
-              onChange={(e) => setSelectedCafe(e.target.value)}
-            />
+              value={cafeToReview.YourName}
+              onChange={(e) => 
+                setCafeToReview((prevState) => ({
+                  ...prevState,
+                  YourName: e.target.value,
+                }))}            />
           </DialogContent>
           <DialogActions>
             <Button onClick={handleClose} color="primary">

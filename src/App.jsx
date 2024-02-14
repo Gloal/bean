@@ -6,7 +6,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Card from "./components/Card";
 /*import CardContainer from './components/CardContainer'; */
 import NavBar from "./components/NavBar";
-//import ReviewForm from "./components/AddEditForm";
+import ReviewForm from "./components/AddEditForm";
 import Jumbotron from "./components/Jumbotron";
 //import londonRestaurantData from "./data/london_restaurants.json";
 import Footer from "./components/Footer.jsx";
@@ -37,19 +37,6 @@ function App() {
   }, []);
 
 
-  const AddReviewButton = styled(Button)(({ theme }) => ({
-    position:"fixed", top: 0, right: 0, zIndex: 2000 ,
-    color: "#FFECB3",
-    fontWeight: "bold",
-    border: "2px solid",
-    backgroundColor: "#210c02",
-    fontFamily:'cursive',
-    padding: "10px",
-    "&:hover": {
-      backgroundColor: "#170801",
-    },
-  }));
-
   return (
     <>
       <NavBar />
@@ -64,12 +51,19 @@ function App() {
         data={restaurantData}
         token="pk.eyJ1IjoiZ2xvYWwiLCJhIjoiY2xzaTJobWpmMHFwMTJpcG5kampmdHZwbCJ9.d10-z1S4GiGH25co9SnrKw"
       />
+
+
+      <ReviewForm />
+
+{/*
       <AddReviewButton variant='contained' >
                       <RateReviewIcon className="navbar-icon"/> 
                       ADD REVIEW</AddReviewButton>
 
+                      
 
       <Form />
+        */}
 
       <Footer />
     </>
