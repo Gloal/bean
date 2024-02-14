@@ -12,7 +12,9 @@ import RadioGroup from "@mui/material/RadioGroup";
 import FormControlLabel from "@mui/material/FormControlLabel";
 
 export default function AddReviewButton(addReview) {
-  const [open, setOpen] = React.useState(false); //open dialg when button is clicked
+  const [open, setOpen] = React.useState(false); 
+  
+  //open dialog when button is clicked
   const handleReviewOpen = () => {
     setOpen(true);
   }; 

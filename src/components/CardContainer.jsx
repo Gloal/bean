@@ -1,5 +1,5 @@
 import React from 'react';
-import Card from './Card'
+import Card from './Card.jsx'
 
 export default function CardContainer ({cafes}){
     return (      <div className="coffee-card-grid">

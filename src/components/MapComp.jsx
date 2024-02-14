@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Map, { Marker, Popup } from "react-map-gl";
 import "mapbox-gl/dist/mapbox-gl.css";
 import pin from "../assets/Images/pin.svg";
-import Card from "./Card";
+import Card from "./Card.jsx";
 import "../styles/MapComp.css";
 import { Link } from "@mui/material";
 

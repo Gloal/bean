@@ -1,25 +1,18 @@
 import React, { useState, useEffect } from "react";
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import reactLogo from './assets/react.svg';
-// import viteLogo from '/vite.svg';
-// //import './App.css';
-import Card from "./components/Card";
-/*import CardContainer from './components/CardContainer'; */
-import NavBar from "./components/NavBar";
-import ReviewForm from "./components/AddEditForm";
-import Jumbotron from "./components/Jumbotron";
-//import londonRestaurantData from "./data/london_restaurants.json";
-import Footer from "./components/Footer.jsx";
-import MapComp from "./components/MapComp.jsx";
 import { styled } from "@mui/material/styles";
 import RateReviewIcon from '@mui/icons-material/RateReview';
-import RenderReviewCard from "./components/RenderReviewCard.jsx";
-
-import Form from "./components/Form.jsx"
-//import cafes from "./data/london_cafes_reduced.json";
 import axios from "axios";
 import Button from "@mui/material/Button";
 
+import RenderReviewCard from "./components/RenderReviewCard.jsx";
+import Form from "./components/Form.jsx"
+import Card from "./components/Card.jsx";
+import NavBar from "./components/NavBar.jsx";
+import ReviewForm from "./components/AddEditForm.jsx";
+import Jumbotron from "./components/Jumbotron.jsx";
+import Footer from "./components/Footer.jsx";
+import MapComp from "./components/MapComp.jsx";
 
 function App() {
   const [restaurantData, setRestaurantData] = useState([]);

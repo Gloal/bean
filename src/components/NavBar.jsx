@@ -19,7 +19,6 @@ import { Link as ScrollLink } from 'react-scroll';
 import HomeIcon from '@mui/icons-material/Home';
 import WhatshotIcon from '@mui/icons-material/Whatshot';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-/*import RateReviewIcon from '@mui/icons-material/RateReview'; */
 
 
 
