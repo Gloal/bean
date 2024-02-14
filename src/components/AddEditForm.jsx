@@ -17,6 +17,7 @@ import { useForm } from "react-hook-form";
 import { generateUniqueId } from "../utils/formHelper";
 import { styled } from "@mui/material/styles";
 import RateReviewIcon from "@mui/icons-material/RateReview";
+import data from "../data/london_restaurants.json"
 const AddEditReviewForm = () => {
   const [cafes, setCafes] = useState([]);
   const [open, setOpen] = useState(false);
@@ -27,17 +28,12 @@ const AddEditReviewForm = () => {
     Review: "",
   });
   const { register, handleSubmit } = useForm();
+
   //get cafes from local storage
   useEffect(() => {
-    fetch("/path/to/london_restaurants.json")
-      .then((response) => response.json())
-      .then((data) => {
         setCafes(data);
         localStorage.setItem("cafes", JSON.stringify(data));
-      })
-      .catch((error) => {
-        console.error("Error fetching cafes:", error);
-      });
+  
   }, []);
   //open review form
   const handleReviewOpen = () => {
