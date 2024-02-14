@@ -33,13 +33,15 @@ const AddEditReviewForm = () => {
   const { register, handleSubmit } = useForm();
 
   useEffect(() => {
-    const storedCafes = localStorage.getItem("cafes");
-    if (storedCafes) {
-      setCafes(JSON.parse(storedCafes));
-    } else {
-      setCafes(data);
-      localStorage.setItem("cafes", JSON.stringify(data));
-    }
+    fetch("/path/to/london_restaurants.json")
+      .then((response) => response.json())
+      .then((data) => {
+        setCafes(data);
+        localStorage.setItem("cafes", JSON.stringify(data));
+      })
+      .catch((error) => {
+        console.error("Error fetching cafes:", error);
+      });
   }, []);
 
   const handleReviewOpen = () => {
