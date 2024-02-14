@@ -1,3 +1,4 @@
+// importing components and modules 
 import React from "react";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
@@ -12,6 +13,7 @@ import {
   starSharp,
 } from "ionicons/icons";
 
+// object mapping coffee shop 
 const cafeLogos = {
   "The Ness Cafe": [
     { icon: cafeOutline },
@@ -50,6 +52,7 @@ const cafeLogos = {
   "The Tea and Coffee Plant": [{ icon: cafeOutline }],
 };
 
+// rendering star rating 
 const renderStars = (rating) => {
   const stars = [];
   const filledStars = Math.floor(rating);
@@ -61,13 +64,17 @@ const renderStars = (rating) => {
   return stars;
 };
 
+
+// react component for displaying coffee shop details 
 export default function CoffeeCard({ shopId }) {
   const shopData = coffeeShopsData.find((shop) => shop._id === shopId);
 
   if (!shopData) {
     return null;
-  }
+  } // if data not found return null 
 
+
+  // strucutre of shop data
   const {
     BusinessName,
     RatingValue,
@@ -80,11 +87,13 @@ export default function CoffeeCard({ shopId }) {
     Website,
   } = shopData;
 
+  // get icons from library 
   const icons = cafeLogos[BusinessName] || [];
   const iconElements = icons.map((item, index) => (
     <IonIcon key={index} icon={item.icon} />
   ));
 
+// rendering for business name link to website 
   const businessNameComponent = Website ? (
     <a href={Website} target="_blank" rel="noopener noreferrer">
       {BusinessName}
@@ -93,6 +102,7 @@ export default function CoffeeCard({ shopId }) {
     <span>{BusinessName}</span>
   );
 
+  // return jsx for coffee card component 
   return (
     <div className="coffee-card" id="trending">
       <Card sx={{ maxWidth: 345 }}>

@@ -1,5 +1,4 @@
 import * as React from 'react';
-import './Footer.css'
 import LocalPhoneIcon from '@mui/icons-material/LocalPhone';
 import EmailIcon from '@mui/icons-material/Email';
 import FacebookIcon from '@mui/icons-material/Facebook';
