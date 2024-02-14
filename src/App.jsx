@@ -13,23 +13,13 @@ import ReviewForm from "./components/AddEditForm.jsx";
 import Jumbotron from "./components/Jumbotron.jsx";
 import Footer from "./components/Footer.jsx";
 import MapComp from "./components/MapComp.jsx";
+import data from "./data/london_restaurants.json"
 
 function App() {
-  const [restaurantData, setRestaurantData] = useState([]);
+  const [restaurantData, setRestaurantData] = useState([data]);
   // const [reviews, setReview] = useState([])
 
-
-  useEffect( () => {
-    //make GET api call here
-    axios.get('./data/london_restaurants.json')
-    .then(res => {
-      console.log(res.data)
-      setRestaurantData(res.data)
-    })
-    .catch(err => console.error(err));
-  }, []);
-
-
+  
   return (
     <>
       <NavBar />
