@@ -17,7 +17,6 @@ import { useForm } from "react-hook-form";
 import { generateUniqueId } from "../utils/formHelper";
 import { styled } from "@mui/material/styles";
 import RateReviewIcon from "@mui/icons-material/RateReview";
-
 const AddEditReviewForm = () => {
   const [cafes, setCafes] = useState([]);
   const [open, setOpen] = useState(false);
@@ -27,9 +26,7 @@ const AddEditReviewForm = () => {
     Rating: "",
     Review: "",
   });
-
   const { register, handleSubmit } = useForm();
-
   //get cafes from local storage
   useEffect(() => {
     fetch("/path/to/london_restaurants.json")
@@ -42,27 +39,22 @@ const AddEditReviewForm = () => {
         console.error("Error fetching cafes:", error);
       });
   }, []);
-
-  //open review form 
+  //open review form
   const handleReviewOpen = () => {
     setOpen(true);
   };
-
   //populate businessNames for sugestions
   const cafeSuggestions = cafes.map((cafe) => cafe.BusinessName);
-
   // close the form modal
   const handleClose = () => {
     setOpen(false);
   };
-
-  // save new review 
+  // save new review
   const submitHandler = (data) => {
     const { BusinessName, Rating, Review, YourName } = data;
     const existingCafeIndex = cafes.findIndex(
       (cafe) => cafe.BusinessName === BusinessName
     );
-
     if (existingCafeIndex !== -1) {
       const updatedCafes = [...cafes];
       updatedCafes[existingCafeIndex].Reviews.push({
@@ -75,7 +67,7 @@ const AddEditReviewForm = () => {
       localStorage.setItem("cafes", JSON.stringify(updatedCafes));
     } else {
       // save new cafe
-      // get cafe data 
+      // get cafe data
       const newCafe = {
         _id: generateUniqueId(),
         BusinessName: BusinessName,
@@ -94,7 +86,6 @@ const AddEditReviewForm = () => {
     }
     handleClose();
   };
-
   const AddReviewButton = styled(Button)(({ theme }) => ({
     position: "fixed",
     top: 0,
@@ -103,14 +94,13 @@ const AddEditReviewForm = () => {
     color: "#FFECB3",
     fontWeight: "bold",
     border: "2px solid",
-    backgroundColor: "#210c02",
+    backgroundColor: "#210C02",
     fontFamily: "cursive",
     padding: "10px",
     "&:hover": {
       backgroundColor: "#170801",
     },
   }));
-
   const ReviewCard = ({ cafeName, review }) => {
     return (
       <div className="coffee-card" id="trending" style={{ margin: "10px" }}>
@@ -130,15 +120,13 @@ const AddEditReviewForm = () => {
         </Card>
       </div>
     );
-  };  
-
+  };
   return (
     <React.Fragment>
       <AddReviewButton variant="contained" onClick={handleReviewOpen}>
         <RateReviewIcon className="navbar-icon" />
         Add Review
       </AddReviewButton>
-
       <Dialog
         open={open}
         onClose={handleClose}
@@ -220,7 +208,6 @@ const AddEditReviewForm = () => {
           </DialogActions>
         </form>
       </Dialog>
-
       {cafes.map((cafe) =>
         cafe.Reviews.map((review, index) => (
           <ReviewCard key={index} cafeName={cafe.BusinessName} review={review} />
@@ -229,5 +216,4 @@ const AddEditReviewForm = () => {
     </React.Fragment>
   );
 };
-
 export default AddEditReviewForm;
