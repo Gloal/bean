@@ -21,7 +21,7 @@ function App() {
 
   useEffect( () => {
     //make GET api call here
-    axios.get('src/data/london_restaurants.json')
+    axios.get('./data/london_restaurants.json')
     .then(res => {
       console.log(res.data)
       setRestaurantData(res.data)
