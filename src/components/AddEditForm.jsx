@@ -18,6 +18,10 @@ import { generateUniqueId } from "../utils/formHelper";
 import data from "../data/london_restaurants.json";
 import { styled } from "@mui/material/styles";
 import RateReviewIcon from "@mui/icons-material/RateReview";
+// import { Card as MuiCard }from "@mui/material/Card";
+// import CardComponent from "@mui/material/Card";
+// import Typography from "@mui/material/Typography";
+
 
 const AddEditReviewForm = () => {
   const [cafes, setCafes] = useState([]);
@@ -148,23 +152,27 @@ const AddEditReviewForm = () => {
 
   const ReviewCard = ({ review }) => {
     return (
-      <Card
-        sx={{
-          backgroundColor: "#FFF3E0",
-          color: "#4E342E",
-          marginBottom: "1rem",
-        }}
-      >
-        <CardContent>
-          <Typography variant="h5" component="div">
-            {review.BusinessName}
-          </Typography>
-          <Typography variant="body2">Rating: {review.rating}</Typography>
-          <Typography variant="body2">Review: {review.review}</Typography>
-        </CardContent>
-      </Card>
+      <div className="coffee-card" id="trending">
+        <Card sx={{ maxWidth: 345 }}>
+          <CardContent className="card-content">
+            <Typography gutterBottom variant="h5" component="div">
+              {review.BusinessName}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              <span style={{ fontWeight: "bold" }}>Rating:</span> {review.rating}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              <span style={{ fontWeight: "bold" }}>Review:</span> {review.review}
+            </Typography>
+            <Typography variant="body2" color="text.secondary">
+              <span style={{ fontWeight: "bold" }}>Reviewer:</span> {review.reviewer}
+            </Typography>
+          </CardContent>
+        </Card>
+      </div>
     );
   };
+  
 
   return (
     <React.Fragment>
