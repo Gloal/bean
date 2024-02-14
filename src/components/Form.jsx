@@ -23,7 +23,6 @@ export default function AddReviewButton(addReview) {
   };
 
   const onSubmit = (event) => {
-    const onSubmit = (event) => {
       event.preventDefault();
       const formData = new FormData(event.currentTarget);
       const formJson = Object.fromEntries(formData.entries());
@@ -37,8 +36,8 @@ export default function AddReviewButton(addReview) {
       console.log(updatedReviews)
       localStorage.setItem('reviews', JSON.stringify(updatedReviews));  
       handleClose();
-    }
-  };
+    };
+    
   const AddReviewButton = styled(Button)(({ theme }) => ({
     position:"fixed", top: 0, right: 0, zIndex: 2000 ,
     color: "#FFECB3",
