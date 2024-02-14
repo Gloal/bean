@@ -75,7 +75,7 @@ const AddEditReviewForm = () => {
       localStorage.setItem("cafes", JSON.stringify(updatedCafes));
     } else {
       // save new cafe
-      // get cafe data from mapbox
+      // get cafe data 
       const newCafe = {
         _id: generateUniqueId(),
         BusinessName: BusinessName,

@@ -13,7 +13,7 @@ import Footer from "./components/Footer.jsx";
 import MapComp from "./components/MapComp.jsx";
 import { styled } from "@mui/material/styles";
 import RateReviewIcon from '@mui/icons-material/RateReview';
-
+import RenderReviewCard from "./components/RenderReviewCard.jsx";
 
 import Form from "./components/Form.jsx"
 //import cafes from "./data/london_cafes_reduced.json";
