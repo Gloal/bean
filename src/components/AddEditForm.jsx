@@ -17,9 +17,6 @@ import { useForm } from "react-hook-form";
 import { generateUniqueId } from "../utils/formHelper";
 import { styled } from "@mui/material/styles";
 import RateReviewIcon from "@mui/icons-material/RateReview";
-import { IonIcon } from "@ionic/react";
-import { starSharp } from "ionicons/icons";
-
 const AddEditReviewForm = () => {
   const [cafes, setCafes] = useState([]);
   const [open, setOpen] = useState(false);
@@ -30,9 +27,7 @@ const AddEditReviewForm = () => {
     Review: "",
   });
   const { register, handleSubmit } = useForm();
-
   //get cafes from local storage
-  
   useEffect(() => {
     fetch("/path/to/london_restaurants.json")
       .then((response) => response.json())
@@ -44,30 +39,17 @@ const AddEditReviewForm = () => {
         console.error("Error fetching cafes:", error);
       });
   }, []);
-  
+  //open review form
   const handleReviewOpen = () => {
     setOpen(true);
   };
-  const handleClose = () => {
-    setOpen(false);
-  };
-
-
-  //open review form 
-  const handleReviewOpen = () => {
-    setOpen(true);
-  };
-
   //populate businessNames for sugestions
   const cafeSuggestions = cafes.map((cafe) => cafe.BusinessName);
-
   // close the form modal
   const handleClose = () => {
     setOpen(false);
   };
-
-  // save new review 
-
+  // save new review
   const submitHandler = (data) => {
     const { BusinessName, Rating, Review, YourName } = data;
     const existingCafeIndex = cafes.findIndex(
@@ -85,7 +67,7 @@ const AddEditReviewForm = () => {
       localStorage.setItem("cafes", JSON.stringify(updatedCafes));
     } else {
       // save new cafe
-      // get cafe data 
+      // get cafe data
       const newCafe = {
         _id: generateUniqueId(),
         BusinessName: BusinessName,
@@ -119,20 +101,7 @@ const AddEditReviewForm = () => {
       backgroundColor: "#170801",
     },
   }));
-
-  const renderStars = (rating) => {
-    const stars = [];
-    const filledStars = Math.floor(rating);
-    for (let i = 0; i < filledStars; i++) {
-      stars.push(<IonIcon key={i} icon={starSharp} />);
-    }
-    return stars;
-  };
-  const ReviewCard = ({ review }) => {
-
-
   const ReviewCard = ({ cafeName, review }) => {
-
     return (
       <div className="coffee-card" id="trending" style={{ margin: "10px" }}>
         <Card sx={{ maxWidth: 345 }}>
@@ -152,9 +121,6 @@ const AddEditReviewForm = () => {
       </div>
     );
   };
-
-  };  
-
   return (
     <React.Fragment>
       <AddReviewButton variant="contained" onClick={handleReviewOpen}>
@@ -251,5 +217,10 @@ const AddEditReviewForm = () => {
   );
 };
 export default AddEditReviewForm;
+
+
+
+
+
 
 
