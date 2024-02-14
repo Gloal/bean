@@ -16,9 +16,12 @@ import MapComp from "./components/MapComp.jsx";
 import data from "./data/london_restaurants.json"
 
 function App() {
-  const [restaurantData, setRestaurantData] = useState([data]);
+  const [restaurantData, setRestaurantData] = useState();
   // const [reviews, setReview] = useState([])
 
+  useEffect(() => {
+    setRestaurantData(londonRestaurantData);
+  }, []);
 
 
   return (
