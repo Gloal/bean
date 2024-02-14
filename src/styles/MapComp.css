@@ -91,3 +91,9 @@
   background: #00853e;
   border-radius: 0;
 }
+
+@media (min-width: 368px) and (max-width: 496px) {
+.heading{
+  display:none;
+}
+}

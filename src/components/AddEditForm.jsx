@@ -19,6 +19,7 @@ import { styled } from "@mui/material/styles";
 import RateReviewIcon from "@mui/icons-material/RateReview";
 import { IonIcon } from "@ionic/react";
 import { starSharp } from "ionicons/icons";
+
 const AddEditReviewForm = () => {
   const [cafes, setCafes] = useState([]);
   const [open, setOpen] = useState(false);
@@ -29,6 +30,9 @@ const AddEditReviewForm = () => {
     Review: "",
   });
   const { register, handleSubmit } = useForm();
+
+  //get cafes from local storage
+  
   useEffect(() => {
     fetch("/path/to/london_restaurants.json")
       .then((response) => response.json())
@@ -40,12 +44,30 @@ const AddEditReviewForm = () => {
         console.error("Error fetching cafes:", error);
       });
   }, []);
+  
   const handleReviewOpen = () => {
     setOpen(true);
   };
   const handleClose = () => {
     setOpen(false);
   };
+
+
+  //open review form 
+  const handleReviewOpen = () => {
+    setOpen(true);
+  };
+
+  //populate businessNames for sugestions
+  const cafeSuggestions = cafes.map((cafe) => cafe.BusinessName);
+
+  // close the form modal
+  const handleClose = () => {
+    setOpen(false);
+  };
+
+  // save new review 
+
   const submitHandler = (data) => {
     const { BusinessName, Rating, Review, YourName } = data;
     const existingCafeIndex = cafes.findIndex(
@@ -62,6 +84,8 @@ const AddEditReviewForm = () => {
       setCafes(updatedCafes);
       localStorage.setItem("cafes", JSON.stringify(updatedCafes));
     } else {
+      // save new cafe
+      // get cafe data 
       const newCafe = {
         _id: generateUniqueId(),
         BusinessName: BusinessName,
@@ -95,6 +119,7 @@ const AddEditReviewForm = () => {
       backgroundColor: "#170801",
     },
   }));
+
   const renderStars = (rating) => {
     const stars = [];
     const filledStars = Math.floor(rating);
@@ -104,17 +129,16 @@ const AddEditReviewForm = () => {
     return stars;
   };
   const ReviewCard = ({ review }) => {
+
+
+  const ReviewCard = ({ cafeName, review }) => {
+
     return (
       <div className="coffee-card" id="trending" style={{ margin: "10px" }}>
         <Card sx={{ maxWidth: 345 }}>
           <CardContent className="card-content">
             <Typography gutterBottom variant="h5" component="div">
-              {review.BusinessName}
-            </Typography>
-            <Typography variant="body2" color="text.secondary">
-              <span style={{ fontWeight: "bold" }}>Rating:</span>{" "}
-              {review.RatingValue ? `${review.RatingValue}/5` : "N/A"}{" "}
-              {review.RatingValue ? renderStars(review.RatingValue) : null}
+              Cafe Name: {cafeName}
             </Typography>
             <Typography variant="body2" color="text.secondary">
               <span style={{ fontWeight: "bold" }}>Review:</span> {review.Review}
@@ -128,6 +152,9 @@ const AddEditReviewForm = () => {
       </div>
     );
   };
+
+  };  
+
   return (
     <React.Fragment>
       <AddReviewButton variant="contained" onClick={handleReviewOpen}>
@@ -217,7 +244,7 @@ const AddEditReviewForm = () => {
       </Dialog>
       {cafes.map((cafe) =>
         cafe.Reviews.map((review, index) => (
-          <ReviewCard key={index} review={review} />
+          <ReviewCard key={index} cafeName={cafe.BusinessName} review={review} />
         ))
       )}
     </React.Fragment>
