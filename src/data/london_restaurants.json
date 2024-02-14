@@ -8,7 +8,7 @@
     "Geocode_Longitude": -0.087133,
     "Geocode_Latitude": 51.514172,
     "AddressLine3": "",
-    "imageUrl": "src/assets/Images/soho-coffee-co.jpg",
+    "imageUrl": "../assets/Images/soho-coffee-co.jpg",
     "Reviews": [
       {
         "review": " I tend to be a bit of a coffee snob and mine was absolutely delicious! I also had a crossaint which was wonderful as well. It was fairly busy but we were lucky to snag a table and our order came out right away!",
