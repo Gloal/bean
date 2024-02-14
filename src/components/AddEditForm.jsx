@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from "react";
+import london_restaurants from "../data/london_restaurants.json";
+
+
 import {
   Dialog,
   DialogTitle,
@@ -29,15 +32,15 @@ const AddEditReviewForm = () => {
   const { register, handleSubmit } = useForm();
   //get cafes from local storage
   useEffect(() => {
-    fetch("/path/to/london_restaurants.json")
-      .then((response) => response.json())
-      .then((data) => {
-        setCafes(data);
-        localStorage.setItem("cafes", JSON.stringify(data));
-      })
-      .catch((error) => {
-        console.error("Error fetching cafes:", error);
-      });
+    // fetch("/path/to/london_restaurants.json")
+    //   .then((response) => response.json())
+    //   .then((data) => {
+        setCafes(london_restaurants);
+        localStorage.setItem("cafes", JSON.stringify(london_restaurants));
+      // })
+      // .catch((error) => {
+      //   console.error("Error fetching cafes:", error);
+      // });
   }, []);
   //open review form
   const handleReviewOpen = () => {
