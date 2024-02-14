@@ -76,7 +76,7 @@ If you have any questions or need assistance, feel free to reach out to the team
 > [!URL]
 
 
-- [Deployed application](https://65cd18d422d96517089762e8--iridescent-travesseiro-830f06.netlify.app/) : Netlify.
+- [Deployed application](https://iridescent-travesseiro-830f06.netlify.app/) : Netlify.
 
 - [Git Repository](https://github.com/Gloal/bean): Git Hub Repo.
 
