@@ -26,8 +26,11 @@
 
 1. To get started with this project, you can clone the repository to your local machine.
 2. Navigate to the project directory
-3. Install the required software components - npm install, npm run dev.
-4. Start the application
+3. Install the required software components by running:
+   `npm install`
+4. To start the aplication, run:
+    `npm run dev`
+6. Start the application
 
 ![Example Screenshot 1](./src/assets/Images/Repo%20pic.png)
 
@@ -76,7 +79,7 @@ If you have any questions or need assistance, feel free to reach out to the team
 > [!URL]
 
 
-- [Deployed application](https://65cd18d422d96517089762e8--iridescent-travesseiro-830f06.netlify.app/) : Netlify.
+- [Deployed application](https://iridescent-travesseiro-830f06.netlify.app/) : Netlify.
 
 - [Git Repository](https://github.com/Gloal/bean): Git Hub Repo.
 
