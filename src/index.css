@@ -183,6 +183,7 @@ color: white;
 .modal-image {
 max-width: 100%;
 height: auto;
+margin-left: 95px;
 }
 
 .search-bar.form-control {
@@ -236,6 +237,11 @@ color:#210C02 !important;
     margin-top: -7px;
     height: 20px;
     width: 17%;
+  }
+  .modal-image {
+    max-width: 100%;
+    height: auto;
+    margin-left: 25px;
   }
 
 }

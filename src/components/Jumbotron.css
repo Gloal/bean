@@ -87,6 +87,7 @@
 .modal-image {
   max-width: 100%;
   height: auto;
+  margin-left: 95px;
 }
 
 .search-bar.form-control {
@@ -140,6 +141,11 @@
       margin-top: -7px;
       height: 20px;
       width: 17%;
+    }
+    .modal-image {
+      max-width: 100%;
+      height: auto;
+      margin-left: 25px;
     }
 
   }

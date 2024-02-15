@@ -84,7 +84,10 @@ const Jumbotron = () => {
                     className="modal-image"
                   />
                 )}
-                <p>Review: {shop.Review}</p>
+                <h3>Reviews:</h3>
+                {shop.Reviews.map((review, index) => (
+                  <p key={index}>- {review.review}</p>
+                ))}
               </div>
             ))}
           </div>
