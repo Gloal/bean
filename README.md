@@ -78,6 +78,7 @@ If you have any questions or need assistance, feel free to reach out to the team
 
 > [!URL]
 
+- [Presentation Slides](https://docs.google.com/presentation/d/14HtHcj6-XKVFYAiSvI1SVCje2aD3ezeeuaq3iXYG9iM/edit?usp=sharing): Presentation Slides
 
 - [Deployed application](https://iridescent-travesseiro-830f06.netlify.app/) : Netlify.
 
